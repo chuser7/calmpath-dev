@@ -166,16 +166,16 @@ renderResults();
 
 function matchesFilter(place) {
 
-const parkingText = place.environment.parking.toLowerCase();
-const noiseText = place.environment.noise.toLowerCase();
+const parkingValue = (place.parkingLevel || "").toLowerCase();
+const noiseValue = (place.noiseLevel || "").toLowerCase();
 
 const parkingMatch =
 activeFilters.parking.length === 0 ||
-activeFilters.parking.some(f => parkingText.includes(f));
+activeFilters.parking.some(f => parkingValue.includes(f));
 
 const noiseMatch =
 activeFilters.noise.length === 0 ||
-activeFilters.noise.some(f => noiseText.includes(f));
+activeFilters.noise.some(f => noiseValue.includes(f));
 
 return parkingMatch && noiseMatch;
 }
