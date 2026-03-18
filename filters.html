@@ -326,15 +326,19 @@ function buildLocationFilters() {
 
 const container = document.getElementById("locationFilters");
 
-const locationSet = new Set();
+const locationCount = {};
 
 places.forEach(place => {
-locationSet.add(getLocationValue(place));
+const loc = getLocationValue(place);
+locationCount[loc] = (locationCount[loc] || 0) + 1;
 });
 
-const sorted = Array.from(locationSet).sort();
+// Sort by most common locations
+const sorted = Object.entries(locationCount)
+.sort((a, b) => b[1] - a[1])
+.map(entry => entry[0]);
 
-container.innerHTML = sorted.slice(0, 10).map(loc => `
+container.innerHTML = sorted.slice(0, 12).map(loc => `
 <button class="filter-btn" onclick="toggleFilter('location','${loc.toLowerCase()}',this)">
 ${loc}
 </button>
