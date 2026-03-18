@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CalmPath</title>
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2E1R2DVVXQ"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-2E1R2DVVXQ');
+</script>
+
+<style>
+body {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+background: #f6f7f9;
+color: #111;
+margin: 0;
+padding: 16px;
+}
+
+h1 {
+font-size: 1.8rem;
+margin-bottom: 4px;
+}
+
+h2 {
+font-size: 1.3rem;
+margin: 8px 0;
+}
+
+h3 {
+font-size: 1rem;
+margin-top: 20px;
+margin-bottom: 8px;
+}
+
+p {
+line-height: 1.4;
+margin: 6px 0;
+}
+
+.location {
+font-size: 0.9rem;
+color: #666;
+margin-top: -4px;
+margin-bottom: 12px;
+}
+
+input {
+width: 100%;
+padding: 12px;
+font-size: 1rem;
+margin: 16px 0;
+border-radius: 8px;
+border: 1px solid #ddd;
+}
+
+.card {
+background: #f6f7f9;
+border-radius: 12px;
+padding: 20px;
+margin-top: 20px;
+border: 1px solid #e3e6eb;
+box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+.label {
+font-size: 0.75rem;
+color: #666;
+margin-bottom: 6px;
+}
+
+.snapshot {
+margin: 12px 0 8px 0;
+}
+
+.snapshot-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 12px;
+margin-top: 12px;
+}
+
+.snapshot-item {
+background: white;
+border-radius: 10px;
+padding: 14px;
+border: 1px solid #e6e6e6;
+transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.snapshot-item:active {
+transform: scale(0.98);
+box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.snapshot-label {
+font-size: 0.7rem;
+font-weight: 600;
+color: #555;
+margin-bottom: 4px;
+}
+
+.snapshot-value {
+font-size: 0.85rem;
+font-weight: 500;
+}
+
+ul {
+padding-left: 18px;
+}
+
+.search-container {
+position: relative;
+}
+
+#suggestions {
+position: absolute;
+width: 100%;
+border: 1px solid #ddd;
+border-radius: 8px;
+max-height: 260px;
+overflow-y: auto;
+background: white;
+margin-top: 6px;
+box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+z-index: 1000;
+}
+
+.suggestion-item {
+padding: 12px 14px;
+cursor: pointer;
+font-size: 15px;
+}
+
+.suggestion-item:hover {
+background: #f7f7f7;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>CalmPath</h1>
+
+<p>
+<strong>Know what you're walking into before trying somewhere new.</strong><br>
+See parking, noise, restrooms, and layout. No reviews, no ratings. Just what to expect before you go.
+</p>
+
+<p style="margin-top:10px;font-weight:600;">
+600+ restaurants, bars, & cafes across Cincinnati, OH & Northern Kentucky
+</p>
+
+<div class="search-container">
+
+<input
+id="search"
+placeholder="Search a place (ex: Rhinegeist Brewery)"
+oninput="searchPlace()"
+/>
+
+<div id="suggestions"></div>
+
+</div>
+
+<div id="result"></div>
+
+<script src="places.js"></script>
+
+</body>
+</html>
