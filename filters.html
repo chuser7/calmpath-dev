@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Explore | CalmPath</title>
+
+<style>
+body {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+background: #f6f7f9;
+color: #111;
+margin: 0;
+padding: 16px;
+}
+
+h1 {
+font-size: 1.5rem;
+margin-bottom: 12px;
+}
+
+.back {
+font-size: 0.9rem;
+color: #555;
+margin-bottom: 12px;
+display: inline-block;
+cursor: pointer;
+}
+
+.filter-group {
+margin-bottom: 16px;
+}
+
+.filter-label {
+font-size: 0.85rem;
+font-weight: 600;
+margin-bottom: 8px;
+}
+
+.filter-options {
+display: flex;
+flex-wrap: wrap;
+gap: 8px;
+}
+
+.filter-btn {
+background: white;
+border: 1px solid #ddd;
+border-radius: 999px;
+padding: 8px 12px;
+font-size: 0.8rem;
+cursor: pointer;
+}
+
+.filter-btn.active {
+background: #111;
+color: white;
+border-color: #111;
+}
+
+.results-count {
+font-size: 0.8rem;
+color: #666;
+margin: 12px 0;
+}
+
+.card {
+background: #f6f7f9;
+border-radius: 12px;
+padding: 20px;
+margin-top: 16px;
+border: 1px solid #e3e6eb;
+}
+
+.snapshot-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+margin-top: 10px;
+}
+
+.snapshot-item {
+background: white;
+border-radius: 10px;
+padding: 12px;
+border: 1px solid #e6e6e6;
+}
+
+.snapshot-label {
+font-size: 0.7rem;
+font-weight: 600;
+color: #555;
+margin-bottom: 4px;
+}
+
+.snapshot-value {
+font-size: 0.8rem;
+}
+
+.location {
+font-size: 0.85rem;
+color: #666;
+margin-bottom: 8px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="back" onclick="goBack()">← Back</div>
+
+<h1>Find a place</h1>
+
+<!-- Parking -->
+<div class="filter-group">
+<div class="filter-label">Parking</div>
+<div class="filter-options">
+<button class="filter-btn" onclick="toggleFilter('parking','easy',this)">Easy</button>
+<button class="filter-btn" onclick="toggleFilter('parking','lot',this)">Lot</button>
+<button class="filter-btn" onclick="toggleFilter('parking','street',this)">Street</button>
+<button class="filter-btn" onclick="toggleFilter('parking','limited',this)">Limited</button>
+</div>
+</div>
+
+<!-- Noise -->
+<div class="filter-group">
+<div class="filter-label">Noise</div>
+<div class="filter-options">
+<button class="filter-btn" onclick="toggleFilter('noise','quiet',this)">Quiet</button>
+<button class="filter-btn" onclick="toggleFilter('noise','moderate',this)">Moderate</button>
+<button class="filter-btn" onclick="toggleFilter('noise','loud',this)">Loud</button>
+</div>
+</div>
+
+<div class="results-count" id="resultsCount"></div>
+
+<div id="results"></div>
+
+<script src="places.js"></script>
+
+<script>
+
+let activeFilters = {
+parking: [],
+noise: []
+};
+
+function goBack() {
+window.location.href = "index.html";
+}
+
+function toggleFilter(type, value, el) {
+
+const index = activeFilters[type].indexOf(value);
+
+if (index > -1) {
+activeFilters[type].splice(index, 1);
+el.classList.remove("active");
+} else {
+activeFilters[type].push(value);
+el.classList.add("active");
+}
+
+renderResults();
+}
+
+function matchesFilter(place) {
+
+const parkingText = place.environment.parking.toLowerCase();
+const noiseText = place.environment.noise.toLowerCase();
+
+const parkingMatch =
+activeFilters.parking.length === 0 ||
+activeFilters.parking.some(f => parkingText.includes(f));
+
+const noiseMatch =
+activeFilters.noise.length === 0 ||
+activeFilters.noise.some(f => noiseText.includes(f));
+
+return parkingMatch && noiseMatch;
+}
+
+function renderResults() {
+
+const container = document.getElementById("results");
+
+const filtered = places.filter(matchesFilter);
+
+document.getElementById("resultsCount").innerText =
+filtered.length + " places";
+
+container.innerHTML = filtered.map(place => `
+
+<div class="card">
+
+<h2>${place.name}</h2>
+
+<div class="location">
+${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}
+</div>
+
+<div class="snapshot-grid">
+
+<div class="snapshot-item">
+<div class="snapshot-label">Parking</div>
+<div class="snapshot-value">${place.environment.parking}</div>
+</div>
+
+<div class="snapshot-item">
+<div class="snapshot-label">Noise</div>
+<div class="snapshot-value">${place.environment.noise}</div>
+</div>
+
+</div>
+
+</div>
+
+`).join("");
+
+}
+
+renderResults();
+
+</script>
+
+</body>
+</html>
