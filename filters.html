@@ -23,7 +23,6 @@ margin-bottom: 12px;
 font-size: 0.9rem;
 color: #555;
 margin-bottom: 12px;
-display: inline-block;
 cursor: pointer;
 }
 
@@ -67,9 +66,10 @@ margin: 12px 0;
 .card {
 background: #f6f7f9;
 border-radius: 12px;
-padding: 20px;
-margin-top: 16px;
+padding: 16px;
+margin-top: 12px;
 border: 1px solid #e3e6eb;
+cursor: pointer;
 }
 
 .snapshot-grid {
@@ -107,22 +107,27 @@ margin-bottom: 8px;
 
 <body>
 
-<div class="back" onclick="goBack()">← Back</div>
+<div class="back" onclick="goHome()">← Back to home</div>
 
 <h1>Find a place</h1>
 
-<!-- Parking -->
+<!-- LOCATION -->
+<div class="filter-group">
+<div class="filter-label">Location</div>
+<div class="filter-options" id="locationFilters"></div>
+</div>
+
+<!-- PARKING -->
 <div class="filter-group">
 <div class="filter-label">Parking</div>
 <div class="filter-options">
 <button class="filter-btn" onclick="toggleFilter('parking','easy',this)">Easy</button>
-<button class="filter-btn" onclick="toggleFilter('parking','lot',this)">Lot</button>
-<button class="filter-btn" onclick="toggleFilter('parking','street',this)">Street</button>
-<button class="filter-btn" onclick="toggleFilter('parking','limited',this)">Limited</button>
+<button class="filter-btn" onclick="toggleFilter('parking','moderate',this)">Moderate</button>
+<button class="filter-btn" onclick="toggleFilter('parking','hard',this)">Hard</button>
 </div>
 </div>
 
-<!-- Noise -->
+<!-- NOISE -->
 <div class="filter-group">
 <div class="filter-label">Noise</div>
 <div class="filter-options">
@@ -140,16 +145,35 @@ margin-bottom: 8px;
 
 <script>
 
+/* =========================
+   STATE
+========================= */
+
 let activeFilters = {
 parking: [],
-noise: []
+noise: [],
+location: []
 };
 
-function goBack() {
-window.location.href = "index.html";
+let currentResults = [];
+
+/* =========================
+   HELPERS
+========================= */
+
+function getLocationValue(place) {
+return (place.neighborhood && place.neighborhood.trim() !== "")
+? place.neighborhood
+: place.city;
 }
 
+/* =========================
+   FILTER TOGGLE
+========================= */
+
 function toggleFilter(type, value, el) {
+
+value = value.toLowerCase();
 
 const index = activeFilters[type].indexOf(value);
 
@@ -164,10 +188,15 @@ el.classList.add("active");
 renderResults();
 }
 
+/* =========================
+   MATCH LOGIC
+========================= */
+
 function matchesFilter(place) {
 
 const parkingValue = (place.parkingLevel || "").toLowerCase();
 const noiseValue = (place.noiseLevel || "").toLowerCase();
+const locationValue = getLocationValue(place).toLowerCase();
 
 const parkingMatch =
 activeFilters.parking.length === 0 ||
@@ -177,21 +206,29 @@ const noiseMatch =
 activeFilters.noise.length === 0 ||
 activeFilters.noise.some(f => noiseValue.includes(f));
 
-return parkingMatch && noiseMatch;
+const locationMatch =
+activeFilters.location.length === 0 ||
+activeFilters.location.some(f => locationValue.includes(f));
+
+return parkingMatch && noiseMatch && locationMatch;
 }
+
+/* =========================
+   RENDER RESULTS
+========================= */
 
 function renderResults() {
 
 const container = document.getElementById("results");
 
-const filtered = places.filter(matchesFilter);
+currentResults = places.filter(matchesFilter);
 
 document.getElementById("resultsCount").innerText =
-filtered.length + " places";
+currentResults.length + " places";
 
-container.innerHTML = filtered.map(place => `
+container.innerHTML = currentResults.map((place, index) => `
 
-<div class="card">
+<div class="card" onclick="openProfile(${index})">
 
 <h2>${place.name}</h2>
 
@@ -219,6 +256,105 @@ ${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.
 
 }
 
+/* =========================
+   OPEN FULL PROFILE
+========================= */
+
+function openProfile(index) {
+
+const place = currentResults[index];
+
+const container = document.getElementById("results");
+
+const patternsHTML =
+place.insights && place.insights.length
+? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
+: "<p>No observed patterns yet.</p>";
+
+container.innerHTML = `
+
+<div class="back" onclick="renderResults()">← Back to results</div>
+
+<div class="card">
+
+<h2>${place.name}</h2>
+
+<div class="location">
+${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}
+</div>
+
+<div class="snapshot-grid">
+
+<div class="snapshot-item">
+<div class="snapshot-label">Parking</div>
+<div class="snapshot-value">${place.environment.parking}</div>
+</div>
+
+<div class="snapshot-item">
+<div class="snapshot-label">Noise</div>
+<div class="snapshot-value">${place.environment.noise}</div>
+</div>
+
+<div class="snapshot-item">
+<div class="snapshot-label">Restrooms</div>
+<div class="snapshot-value">${place.environment.restrooms.capacity}</div>
+</div>
+
+<div class="snapshot-item">
+<div class="snapshot-label">Exits</div>
+<div class="snapshot-value">${place.environment.exits}</div>
+</div>
+
+</div>
+
+<h3>What to expect</h3>
+<p>${place.whatToExpect}</p>
+
+<h3>Observed patterns</h3>
+${patternsHTML}
+
+</div>
+`;
+
+}
+
+/* =========================
+   BUILD LOCATION FILTERS
+========================= */
+
+function buildLocationFilters() {
+
+const container = document.getElementById("locationFilters");
+
+const locationSet = new Set();
+
+places.forEach(place => {
+locationSet.add(getLocationValue(place));
+});
+
+const sorted = Array.from(locationSet).sort();
+
+container.innerHTML = sorted.slice(0, 10).map(loc => `
+<button class="filter-btn" onclick="toggleFilter('location','${loc.toLowerCase()}',this)">
+${loc}
+</button>
+`).join("");
+
+}
+
+/* =========================
+   NAV
+========================= */
+
+function goHome() {
+window.location.href = "index.html";
+}
+
+/* =========================
+   INIT
+========================= */
+
+buildLocationFilters();
 renderResults();
 
 </script>
