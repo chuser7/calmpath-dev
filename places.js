@@ -18752,6 +18752,7 @@ function showRandomPlace() {
       <div class="label">Featured CalmPath Profile</div>
 
       <h2>${randomPlace.name}</h2>
+
       <div style="font-size:0.9rem;color:#666;margin-bottom:12px;">
         <p>${randomPlace.neighborhood ? randomPlace.neighborhood + " • " : ""}${randomPlace.city}, ${randomPlace.state}</p>
       </div>
@@ -18782,6 +18783,56 @@ function showRandomPlace() {
         </div>
       </div>
 
+      <!-- ✅ VERIFICATION (same as profile) -->
+      <div class="verification">
+
+        <p class="verification-question">Was this accurate?</p>
+
+        <div class="verification-actions">
+          <button class="verify-btn" data-action="up">👍 Yes, this matches</button>
+          <button class="verify-btn" data-action="down">👎 Not quite</button>
+        </div>
+
+        <div class="verification-confirmation hidden">
+          Thanks for confirming
+        </div>
+
+        <div class="verification-correction hidden">
+
+          <div class="correction-group" data-field="parking">
+            <p>Parking:</p>
+            <button data-value="Easy">Easy</button>
+            <button data-value="Moderate">Moderate</button>
+            <button data-value="Difficult">Difficult</button>
+          </div>
+
+          <div class="correction-group" data-field="noise">
+            <p>Noise:</p>
+            <button data-value="Quiet">Quiet</button>
+            <button data-value="Moderate">Moderate</button>
+            <button data-value="Loud">Loud</button>
+          </div>
+
+          <div class="correction-group" data-field="restrooms">
+            <p>Restrooms:</p>
+            <button data-value="Easy">Easy</button>
+            <button data-value="Moderate">Moderate</button>
+            <button data-value="Limited">Limited</button>
+          </div>
+
+          <div class="correction-group" data-field="exits">
+            <p>Exits:</p>
+            <button data-value="Easy">Easy</button>
+            <button data-value="Moderate">Moderate</button>
+            <button data-value="Tight">Tight</button>
+          </div>
+
+          <button class="submit-correction">Submit update</button>
+
+        </div>
+
+      </div>
+
       <h3>What to expect</h3>
       <p>${randomPlace.whatToExpect}</p>
 
@@ -18790,6 +18841,9 @@ function showRandomPlace() {
 
     </div>
   `;
+
+  // ✅ IMPORTANT: attach handlers
+  attachVerificationHandlers(randomPlace);
 }
 
 function selectPlace(placeName) {
