@@ -18733,6 +18733,7 @@ function normalize(text) {
     .replace(/[^a-z0-9\s]/g, "")
     .trim();
 }
+
 function showRandomPlace() {
 
   const resultDiv = document.getElementById("result");
@@ -18790,13 +18791,13 @@ function showRandomPlace() {
     </div>
   `;
 }
-   function selectPlace(placeName) {
+
+function selectPlace(placeName) {
 
   const place = places.find(p => p.name === placeName);
 
   document.getElementById("suggestions").innerHTML = "";
 
-  // Track venue selected from dropdown
   if (typeof gtag !== "undefined" && place) {
     gtag('event', 'venue_selected', {
       venue_name: place.name || "",
@@ -18806,7 +18807,6 @@ function showRandomPlace() {
   }
 
   renderPlace(place);
-
 }
 
 function searchPlace() {
@@ -18849,7 +18849,6 @@ function searchPlace() {
     </div>
   `).join("");
 
-  // Track searches
   if (typeof gtag !== "undefined") {
     gtag('event', 'search_performed', {
       search_term: inputRaw || "",
@@ -18858,25 +18857,20 @@ function searchPlace() {
   }
 
   if (matches.length === 0) {
-
     resultDiv.innerHTML = `
       <p style="margin-top:16px;">
         We don’t have a CalmPath profile for that place yet.
       </p>
     `;
-
     return;
   }
-
 }
 
 function renderPlace(place) {
 
   const resultDiv = document.getElementById("result");
-
   resultDiv.innerHTML = "";
 
-  // Track profile view
   if (typeof gtag !== "undefined" && place) {
     gtag('event', 'profile_view', {
       venue_name: place.name || "",
@@ -18927,10 +18921,10 @@ function renderPlace(place) {
         </div>
       </div>
 
-      <!-- ✅ VERIFICATION UI -->
-      <div class="verification" data-place="${place.name}">
+      <!-- VERIFICATION -->
+      <div class="verification">
 
-        <p class="verification-question">Was this accurate?</p>
+        <p>Was this accurate?</p>
 
         <div class="verification-actions">
           <button class="verify-btn" data-action="up">👍 Yes, this matches</button>
@@ -18972,6 +18966,7 @@ function renderPlace(place) {
           </div>
 
           <button class="submit-correction">Submit update</button>
+
         </div>
 
       </div>
@@ -18986,6 +18981,92 @@ function renderPlace(place) {
   `;
 
   attachVerificationHandlers(place);
+}
+
+function attachVerificationHandlers(place) {
+
+  const verification = document.querySelector(".verification");
+  if (!verification) return;
+
+  const buttons = verification.querySelectorAll(".verify-btn");
+  const confirmation = verification.querySelector(".verification-confirmation");
+  const correction = verification.querySelector(".verification-correction");
+
+  let selectedCorrections = {};
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+
+      if (verification.classList.contains("handled")) return;
+      verification.classList.add("handled");
+
+      const action = btn.dataset.action;
+
+      if (action === "up") {
+
+        verification.querySelector(".verification-actions").style.display = "none";
+        confirmation.classList.remove("hidden");
+
+        if (typeof gtag !== "undefined") {
+          gtag("event", "place_verified", {
+            place_name: place.name || ""
+          });
+        }
+
+      } else {
+
+        verification.querySelector(".verification-actions").style.display = "none";
+        correction.classList.remove("hidden");
+
+        if (typeof gtag !== "undefined") {
+          gtag("event", "place_correction_started", {
+            place_name: place.name || ""
+          });
+        }
+      }
+    });
+  });
+
+  const groups = verification.querySelectorAll(".correction-group");
+
+  groups.forEach(group => {
+    const field = group.dataset.field;
+    const options = group.querySelectorAll("button");
+
+    options.forEach(option => {
+      option.addEventListener("click", () => {
+        options.forEach(btn => btn.classList.remove("selected"));
+        option.classList.add("selected");
+        selectedCorrections[field] = option.dataset.value;
+      });
+    });
+  });
+
+  const submitBtn = verification.querySelector(".submit-correction");
+
+  submitBtn.addEventListener("click", () => {
+
+    const required = ["parking", "noise", "restrooms", "exits"];
+
+    for (let key of required) {
+      if (!selectedCorrections[key]) {
+        alert("Please select all fields");
+        return;
+      }
+    }
+
+    if (typeof gtag !== "undefined") {
+      gtag("event", "place_correction_submitted", {
+        place_name: place.name || "",
+        parking: selectedCorrections.parking,
+        noise: selectedCorrections.noise,
+        restrooms: selectedCorrections.restrooms,
+        exits: selectedCorrections.exits
+      });
+    }
+
+    correction.innerHTML = `<p>Thanks for the update</p>`;
+  });
 }
 
 /* =========================
