@@ -46,6 +46,7 @@ body {
 /* Verified badge */
 
 .verified-badge {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -56,7 +57,7 @@ body {
   background-color: #f1f5f3;
   color: #2f6f4f;
   border: 1px solid #d6e4dc;
-  cursor: default;
+  cursor: pointer;
 }
 
 .verified-badge .check {
@@ -65,9 +66,9 @@ body {
 
 .verified-tooltip {
   position: absolute;
-  bottom: -34px;
+  top: 100%;
   left: 50%;
-  transform: translate(-50%, 4px);
+  transform: translate(-50%, 6px);
 
   background: #111;
   color: #fff;
