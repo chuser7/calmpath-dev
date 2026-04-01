@@ -19068,26 +19068,25 @@ function toggleVerifiedTooltip(event) {
   const badge = event.currentTarget;
   const tooltip = badge.querySelector(".verified-tooltip");
 
+  // close any other open tooltips
   document.querySelectorAll(".verified-tooltip.show").forEach(t => {
     if (t !== tooltip) t.classList.remove("show");
   });
 
-  tooltip.classList.toggle("show");
+  // show this one
+  tooltip.classList.add("show");
+
+  // auto-hide after 2 seconds
+  setTimeout(() => {
+    tooltip.classList.remove("show");
+  }, 2000);
 }
 
 document.addEventListener("click", () => {
   document.querySelectorAll(".verified-tooltip.show").forEach(t => {
     t.classList.remove("show");
   });
-   
-tooltip.classList.add("show");
-   
-     // 👇 auto-hide after 2 seconds
-  setTimeout(() => {
-    tooltip.classList.remove("show");
-  }, 2000);
-}
-}
+});
 
 function attachVerificationHandlers(place) {
 
