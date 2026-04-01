@@ -19079,6 +19079,14 @@ document.addEventListener("click", () => {
   document.querySelectorAll(".verified-tooltip.show").forEach(t => {
     t.classList.remove("show");
   });
+   
+tooltip.classList.add("show");
+   
+     // 👇 auto-hide after 2 seconds
+  setTimeout(() => {
+    tooltip.classList.remove("show");
+  }, 2000);
+}
 });
 
 function attachVerificationHandlers(place) {
