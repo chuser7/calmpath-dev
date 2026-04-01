@@ -18962,11 +18962,11 @@ function renderPlace(place) {
         <div class="place-name">
           ${place.name}
           ${isVerified ? `
-           <span class="verified-badge" onclick="toggleVerifiedTooltip(event)">
-  <span class="check">✔</span>
-  Verified
-  <span class="verified-tooltip">Confirmed by CalmPath users</span>
-</span>
+            <span class="verified-badge" onclick="toggleVerifiedTooltip(event)">
+              <span class="check">✔</span>
+              Verified
+              <span class="verified-tooltip">Confirmed by CalmPath users</span>
+            </span>
           ` : ``}
         </div>
         <div class="place-location">
@@ -19061,6 +19061,25 @@ function renderPlace(place) {
 
   attachVerificationHandlers(place);
 }
+
+function toggleVerifiedTooltip(event) {
+  event.stopPropagation();
+
+  const badge = event.currentTarget;
+  const tooltip = badge.querySelector(".verified-tooltip");
+
+  document.querySelectorAll(".verified-tooltip.show").forEach(t => {
+    if (t !== tooltip) t.classList.remove("show");
+  });
+
+  tooltip.classList.toggle("show");
+}
+
+document.addEventListener("click", () => {
+  document.querySelectorAll(".verified-tooltip.show").forEach(t => {
+    t.classList.remove("show");
+  });
+});
 
 function attachVerificationHandlers(place) {
 
