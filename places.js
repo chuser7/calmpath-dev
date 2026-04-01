@@ -18962,10 +18962,11 @@ function renderPlace(place) {
         <div class="place-name">
           ${place.name}
           ${isVerified ? `
-            <span class="verified-badge" title="Confirmed by CalmPath users">
-              <span class="check">✔</span>
-              Verified
-            </span>
+           <span class="verified-badge" onclick="toggleVerifiedTooltip(event)">
+  <span class="check">✔</span>
+  Verified
+  <span class="verified-tooltip">Confirmed by CalmPath users</span>
+</span>
           ` : ``}
         </div>
         <div class="place-location">
