@@ -19087,7 +19087,7 @@ tooltip.classList.add("show");
     tooltip.classList.remove("show");
   }, 2000);
 }
-});
+}
 
 function attachVerificationHandlers(place) {
 
