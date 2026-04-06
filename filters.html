@@ -217,6 +217,7 @@ return parkingMatch && noiseMatch && locationMatch;
    RENDER RESULTS
 ========================= */
 
+<script>
 function renderResults() {
 
 const container = document.getElementById("results");
@@ -226,11 +227,27 @@ currentResults = places.filter(matchesFilter);
 document.getElementById("resultsCount").innerText =
 currentResults.length + " places";
 
-container.innerHTML = currentResults.map((place, index) => `
+container.innerHTML = currentResults.map((place, index) => {
+
+const isVerified = place.verified === true;
+
+return `
 
 <div class="card" onclick="openProfile(${index})">
 
-<h2>${place.name}</h2>
+<h2>
+const isVerified = place.verified === true;
+
+<h2>
+  ${place.name}
+  ${isVerified ? `
+    <span class="verified-badge" onclick="toggleVerifiedTooltip(event)">
+      <span class="check">✔</span>
+      Verified
+      <span class="verified-tooltip">Confirmed by CalmPath users</span>
+    </span>
+  ` : ``}
+</h2>
 
 <div class="location">
 ${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}
@@ -252,9 +269,11 @@ ${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.
 
 </div>
 
-`).join("");
+`;
+}).join("");
 
 }
+</script>
 
 /* =========================
    OPEN FULL PROFILE
@@ -318,6 +337,32 @@ ${patternsHTML}
 
 }
 
+function toggleVerifiedTooltip(event) {
+  event.stopPropagation();
+
+  const badge = event.currentTarget;
+  const tooltip = badge.querySelector(".verified-tooltip");
+
+  document.querySelectorAll(".verified-tooltip.show").forEach(t => {
+    if (t !== tooltip) t.classList.remove("show");
+  });
+
+  tooltip.classList.add("show");
+
+  setTimeout(() => {
+    tooltip.classList.remove("show");
+  }, 2000);
+}
+
+   if (!window._verifiedTooltipListenerAdded) {
+  document.addEventListener("click", () => {
+    document.querySelectorAll(".verified-tooltip.show").forEach(t => {
+      t.classList.remove("show");
+    });
+  });
+  window._verifiedTooltipListenerAdded = true;
+}
+   
 /* =========================
    BUILD LOCATION FILTERS
 ========================= */
