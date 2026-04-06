@@ -229,9 +229,10 @@ currentResults.length + " places";
 
 container.innerHTML = currentResults.map((place, index) => {
 
-const isVerified = place.verified === true;
+currentResults.map((place, index) => {
+  const isVerified = place.verified === true;
 
-return
+  return `
 
 <div class="card" onclick="openProfile(${index})">
 
