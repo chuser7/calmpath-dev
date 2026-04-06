@@ -281,60 +281,96 @@ ${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.
 
 function openProfile(index) {
 
-const place = currentResults[index];
+  const place = currentResults[index];
+  const isVerified = place.verified === true; // ✅ OUTSIDE template
 
-const container = document.getElementById("results");
+  if (typeof gtag !== "undefined") {
+    gtag('event', 'result_click', {
+      venue_name: place.name || "",
+      neighborhood: place.neighborhood || "",
+      city: place.city || ""
+    });
+  }
 
-const patternsHTML =
-place.insights && place.insights.length
-? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
-: "<p>No observed patterns yet.</p>";
+  const container = document.getElementById("results");
 
-container.innerHTML = `
+  const patternsHTML =
+    place.insights && place.insights.length
+      ? `<ul>${place.insights.map(i => `<li>${i}</li>`).join("")}</ul>`
+      : "<p>No observed patterns yet.</p>";
 
-<div class="back" onclick="renderResults()">← Back to results</div>
+  container.innerHTML = `
 
-<div class="card">
+    <div class="back" onclick="renderResults()">← Back to results</div>
 
-<h2>${place.name}</h2>
+    <div class="card">
 
-<div class="location">
-${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}
-</div>
+      <h2>
+        ${place.name}
+        ${isVerified ? `
+          <span class="verified-badge" onclick="toggleVerifiedTooltip(event)">
+            <span class="check">✔</span>
+            Verified
+            <span class="verified-tooltip">Confirmed by CalmPath users</span>
+          </span>
+        ` : ``}
+      </h2>
 
-<div class="snapshot-grid">
+      <div class="location">
+        ${place.neighborhood ? place.neighborhood + " • " : ""}${place.city}, ${place.state}
+      </div>
 
-<div class="snapshot-item">
-<div class="snapshot-label">Parking</div>
-<div class="snapshot-value">${place.environment.parking}</div>
-</div>
+      <div class="snapshot-grid">
 
-<div class="snapshot-item">
-<div class="snapshot-label">Noise</div>
-<div class="snapshot-value">${place.environment.noise}</div>
-</div>
+        <div class="snapshot-item">
+          <div class="snapshot-label">Parking</div>
+          <div class="snapshot-value">${place.environment.parking}</div>
+        </div>
 
-<div class="snapshot-item">
-<div class="snapshot-label">Restrooms</div>
-<div class="snapshot-value">${place.environment.restrooms.capacity}</div>
-</div>
+        <div class="snapshot-item">
+          <div class="snapshot-label">Noise</div>
+          <div class="snapshot-value">${place.environment.noise}</div>
+        </div>
 
-<div class="snapshot-item">
-<div class="snapshot-label">Exits</div>
-<div class="snapshot-value">${place.environment.exits}</div>
-</div>
+        <div class="snapshot-item">
+          <div class="snapshot-label">Restrooms</div>
+          <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
+        </div>
 
-</div>
+        <div class="snapshot-item">
+          <div class="snapshot-label">Exits</div>
+          <div class="snapshot-value">${place.environment.exits}</div>
+        </div>
 
-<h3>What to expect</h3>
-<p>${place.whatToExpect}</p>
+      </div>
 
-<h3>Observed patterns</h3>
-${patternsHTML}
+      <div class="verification">
+        <p class="verification-question">Was this accurate?</p>
 
-</div>
-`;
+        <div class="verification-actions">
+          <button class="verify-btn" data-action="up">👍 Yes, this matches</button>
+          <button class="verify-btn" data-action="down">👎 Not quite</button>
+        </div>
 
+        <div class="verification-confirmation hidden">
+          Thanks for confirming
+        </div>
+
+        <div class="verification-correction hidden">
+          <!-- keep your existing correction UI -->
+        </div>
+      </div>
+
+      <h3>What to expect</h3>
+      <p>${place.whatToExpect}</p>
+
+      <h3>Observed patterns</h3>
+      ${patternsHTML}
+
+    </div>
+  `;
+
+  attachVerificationHandlers(place);
 }
 
 function toggleVerifiedTooltip(event) {
