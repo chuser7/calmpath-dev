@@ -15,22 +15,111 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual restaurant with a bar-centric layout and active social atmosphere. Louder and more crowded during peak meal times and game nights.",
+"Casual restaurant with a bar-forward layout and table seating throughout with steady foot traffic.",
 
 environment: {
-parking: "Street + nearby garages; tight during events.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
 capacity: "Limited capacity",
-waits: "Possible during peak times",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate to Loud when busy.",
-exits: "Street-level; easy step outside."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
 "Bar area tends to be louder than dining tables.",
 "Crowds increase significantly on game days."
+]
+},
+
+{
+name: "University Eatz & Arcade",
+city: "Cincinnati",
+neighborhood: "Norwood",
+state: "OH",
+type: "full",
+
+verified: true,
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
+
+whatToExpect:
+"Restaurant and arcade with table seating, bar seating, and gaming areas throughout the space.",
+
+environment: {
+parking: "Shared lot with nearby businesses.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
+},
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
+},
+
+insights: [
+"Noise increases near arcade areas."
+]
+},
+   
+{
+name: "Corner Dumpling House - Montgomery",
+city: "Cincinnati",
+neighborhood: "Montgomery",
+state: "OH",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Low",
+
+whatToExpect:
+"Casual restaurant with table seating and counter ordering in a clean, open dining space.",
+
+environment: {
+parking: "Large dedicated parking lot available.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
+},
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
+},
+
+insights: [
+"Takeout orders are common.",
+]
+},
+
+{
+name: "The Davidson",
+city: "Cincinnati",
+neighborhood: "Downtown",
+state: "OH",
+type: "full",
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Restaurant with bar seating and dining tables connected directly to an outdoor plaza.",
+
+environment: {
+parking: "Street parking nearby; limited during peak hours.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
+},
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
+},
+
+insights: [
+"Events on Fountain Square increase noise and crowd levels."
 ]
 },
 
@@ -41,27 +130,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Casual pizza restaurant with a colorful interior, bar seating, and a large dining area known for specialty pizzas, sandwiches, and a wide beer selection.",
+"Spacious restaurant with a bar section and multiple dining areas for groups and families.",
 
 environment: {
-parking: "Large parking lot available directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy dinner hours and weekends.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours and weekends bring the most activity.",
-"Groups and families are common.",
-"Bar area can be livelier in the evenings."
+"Bar area is louder in the evenings."
 ]
 },
 
@@ -72,27 +159,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Large Chinese buffet restaurant offering a wide selection of dishes including sushi, seafood, and traditional buffet items with a spacious dining area.",
+"Large buffet-style restaurant with multiple seating sections and continuous guest movement.",
 
 environment: {
-parking: "Large shared parking lot at the surrounding shopping center.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity typical of buffet-style service.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch and dinner hours bring steady traffic.",
-"Buffet line movement increases during peak times.",
-"Families and larger groups are common."
+"Buffet lines become busier during peak hours."
 ]
 },
 
@@ -103,26 +188,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Japanese and sushi restaurant with table seating and a casual dining atmosphere serving sushi, hibachi-style dishes, and traditional entrees.",
+"Sushi and hibachi restaurant with table seating and a steady dine-in flow.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining conversation.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours bring steady crowds.",
-"Families and small groups are common.",
 "Lunch visits are typically quicker."
 ]
 },
@@ -134,305 +217,280 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Low",
 
 whatToExpect:
-"Small, casual Mexican taqueria along Stevenson Road known for authentic street-style tacos and a relaxed, no-frills setup. The layout is informal and may feel different from a typical sit-down restaurant, with no clear host stand when entering.",
+"Small taqueria with limited seating and a simple counter-service setup.",
 
 environment: {
-parking: "Parking lot located directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Unknown",
-waits: "Unknown",
-location: "Not clearly visible—confirm on arrival if needed"
+capacity: "unknown",
+waits: "unknown",
+location: "unknown"
 },
-noise: "Low to Moderate with kitchen activity and casual conversation.",
-exits: "Front entrance opens directly to the parking lot with a small interior dining area."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"No traditional host stand—ordering may be at the counter or after seating.",
-"Staff may be primarily in the kitchen area when you walk in.",
-"Calling ahead for takeout can be easier than ordering in person."
+"No traditional host stand; ordering may occur at the counter.",
+"Staff may not be visible immediately when entering."
 ]
 },
 
 {
 name: "Jade Buffet",
 city: "Cincinnati",
-neighborhood: "North Cincy",
+neighborhood: "Springdale",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Chinese buffet restaurant offering a wide variety of dishes with a large dining area and self-serve buffet setup.",
+"Buffet restaurant with a large dining area and consistent guest traffic.",
 
 environment: {
-parking: "Large shared parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity typical of buffet service.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch and dinner hours bring steady crowds.",
-"Buffet lines move continuously during peak times.",
-"Families and groups are common."
+"Buffet lines move continuously during peak times."
 ]
-},   
+},
 
 {
 name: "RJ Four Mile Pig",
 city: "Newtown",
-neighborhood: "East Cincy",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local barbecue restaurant serving smoked meats and sandwiches with counter service and casual seating.",
+"Local barbecue spot with counter ordering and a small indoor seating area.",
 
 environment: {
-parking: "Parking lot available directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours bring steady crowds.",
-"Takeout orders are common.",
-"Parking is usually easy."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "Newtown Village Tavern Pizza",
 city: "Newtown",
-neighborhood: "East Cincy",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood pizza tavern with bar seating, dining tables, and a relaxed local atmosphere.",
+"Neighborhood tavern with a mix of bar seating and dining tables in a compact layout.",
 
 environment: {
-parking: "Street parking and nearby small lots available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining and bar activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours tend to be busiest.",
-"Local residents visit regularly.",
-"Weekend evenings bring steady crowds."
-]
+insights: []
 },
 
 {
 name: "Fifty West Brewing Company - Burger Bar",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Wooster Pike",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Popular brewery restaurant known for burgers, craft beer, and outdoor seating areas with a lively atmosphere.",
+"Brewery-style restaurant with a large seating area, bar section, and frequent group gatherings.",
 
 environment: {
-parking: "Large parking lot available outside the brewery.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy evenings",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and weekends.",
-exits: "Main entrance opens directly to the parking lot and outdoor seating areas."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings and weekends bring the largest crowds.",
-"Outdoor seating is popular in warm weather.",
-"Groups often gather for drinks and food."
+"Outdoor seating is used frequently in warm weather."
 ]
 },
 
 {
 name: "Scramblers",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Wooster Pike",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating and a family-friendly dining atmosphere.",
+"Breakfast and brunch restaurant with table seating and a steady flow of diners.",
 
 environment: {
-parking: "Parking lot available outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy brunch hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate with steady brunch conversation and activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are typically the busiest.",
-"Weekend brunch hours bring larger crowds.",
-"Families and groups are common."
-]
+insights: []
 },
 
 {
 name: "Village Coffee Shop",
 city: "Newtown",
-neighborhood: "East Cincy",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Small neighborhood café serving breakfast, lunch, and coffee with casual seating and a relaxed atmosphere.",
+"Small café with limited seating and a steady stream of walk-in customers.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Breakfast visits are common.",
-"Afternoons are usually quieter."
+"Afternoons are typically quieter."
 ]
-},   
+},
 
 {
 name: "Grove Park Grille",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Anderson Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant and bar with casual seating and a relaxed dining atmosphere serving American-style comfort food.",
+"Neighborhood restaurant with bar seating and dining tables in a casual layout.",
 
 environment: {
-parking: "Parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Local residents visit regularly.",
-"Weekend evenings bring steady crowds."
-]
+insights: []
 },
 
 {
 name: "Salem Gardens",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Anderson Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Casual neighborhood bar and grill with bar seating, dining tables, and a relaxed social atmosphere.",
+"Bar and grill with a mix of bar seating and tables in an active social setting.",
 
 environment: {
-parking: "Parking lot available outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings tend to be the busiest.",
-"Local regulars are common.",
-"Sports events increase activity."
+"Sports events increase crowd noise."
 ]
 },
 
 {
 name: "Mio's Pizza - Mt Washington",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Mt. Washington",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood pizza restaurant with casual seating and a family-friendly dining environment.",
+"Pizza restaurant with casual table seating and a consistent mix of dine-in and takeout orders.",
 
 environment: {
-parking: "Parking lot available outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining conversation.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours bring steady traffic.",
-"Families and groups are common.",
 "Takeout orders are frequent."
 ]
 },
@@ -440,184 +498,171 @@ insights: [
 {
 name: "Angilo's Pizza",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Anderson Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Local pizza restaurant offering counter service and casual seating with steady takeout traffic.",
+"Pizza spot with counter ordering and a small dining area with steady takeout activity.",
 
 environment: {
-parking: "Small parking lot and nearby street parking available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical restaurant conversation.",
-exits: "Front entrance opens directly to the sidewalk or parking area."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch visits are typically quick.",
-"Dinner hours bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "The Bridge of Mt Washington",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Mt. Washington",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood restaurant and bar with dining tables, bar seating, and televisions creating a casual social atmosphere.",
+"Restaurant and bar with table seating, a bar area, and TVs throughout.",
 
 environment: {
-parking: "Street parking and nearby small lots available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings bring the most activity.",
-"Sports events increase crowd noise.",
-"Local regulars are common."
+"Sports events increase crowd noise."
 ]
 },
 
 {
 name: "Big Ash Brewing",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Mt. Washington",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large craft brewery and restaurant with indoor seating, bar space, and outdoor patio areas.",
+"Large brewery with indoor seating, bar space, and an open layout for groups.",
 
 environment: {
-parking: "Large parking lot available directly outside the brewery.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the brewery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and events.",
-exits: "Main entrance opens directly to the parking lot and patio areas."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings and weekends bring the largest crowds.",
-"Outdoor seating is popular in warm weather.",
-"Groups often gather for drinks and food."
+"Outdoor seating is used frequently in warm weather."
 ]
 },
 
 {
 name: "Gyrolicious Grill",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Anderson Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Mediterranean-style restaurant serving gyros, wraps, and casual meals with counter ordering and seating.",
+"Casual restaurant with counter ordering and a small seating area for quick meals.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical dining conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits are often quick.",
-"Takeout orders are common.",
-"Dinner hours bring steady traffic."
+"Lunch visits are often quick."
 ]
 },
 
 {
 name: "Sutton Bar & Grill",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Mt. Washington",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with casual seating and a relaxed social atmosphere.",
+"Bar and grill with a mix of bar seating and tables in a social setting.",
 
 environment: {
-parking: "Parking lot available outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings tend to be the busiest.",
-"Local regulars are common.",
-"Weekend nights bring larger crowds."
-]
+insights: []
 },
 
 {
 name: "Mercer Social House",
-city: "Cincinnati",
-neighborhood: "East Cincy",
+city: "Newtown",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant and café offering coffee, brunch items, and casual meals with a welcoming dining space.",
+"Café-style restaurant with table seating and a steady mix of coffee and meal service.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady café and dining conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings and brunch hours bring steady traffic.",
 "Visitors often stay for casual meetings.",
 "Afternoons tend to be quieter."
 ]
@@ -625,248 +670,228 @@ insights: [
 
 {
 name: "Main Street Cafe",
-city: "Cincinnati",
-neighborhood: "East Cincy",
+city: "Newtown",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood café serving breakfast, lunch, and coffee with casual seating and a relaxed atmosphere.",
+"Neighborhood café with table seating and a steady flow of breakfast and lunch customers.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Breakfast visits are common.",
 "Afternoons are usually calmer."
 ]
-},   
+},
 
 {
-name: "Pig Candy BBQ",
+name: "Pig Candy BBQ - Kellogg Ave",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Anderson Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Barbecue restaurant with casual seating and counter service known for smoked meats and sandwiches. Lunch and dinner hours typically bring steady crowds.",
+"Barbecue spot with counter service and a casual dining area for dine-in and takeout.",
 
 environment: {
-parking: "Small parking lot and nearby street parking available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours bring steady traffic.",
-"Takeout orders are common.",
-"Evenings can be busier on weekends."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "BrewRiver Creole Kitchen",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Creole-inspired restaurant along the Ohio River with indoor seating and riverfront views. Dinner hours and weekends typically bring the most activity.",
+"Restaurant with indoor seating and a dining area along the riverfront.",
 
 environment: {
-parking: "Parking lot available near the restaurant along the riverfront.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with dining conversation and occasional bar activity.",
-exits: "Main entrance opens to the riverfront parking area."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours are typically busiest.",
-"Riverfront views attract weekend visitors.",
-"Groups often gather for dinner."
+"Riverfront location draws more visitors on weekends."
 ]
 },
 
 {
 name: "Local Post East End Eatery",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant and bar in the East End with casual seating and a relaxed local atmosphere.",
+"Neighborhood restaurant with bar seating and dining tables in a casual setting.",
 
 environment: {
-parking: "Street parking available along surrounding neighborhood streets.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining and bar conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours tend to be busiest.",
-"Local residents visit regularly.",
-"Weekends bring steady crowds."
-]
+insights: []
 },
 
 {
 name: "Hitching Post - Kellogg",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual neighborhood restaurant along Kellogg Avenue with table seating and a relaxed dining atmosphere.",
+"Casual restaurant with table seating and a steady flow of diners.",
 
 environment: {
-parking: "Parking lot available directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring steady traffic.",
-"Local visitors are common.",
-"Parking is usually easy."
-]
+insights: []
 },
 
 {
 name: "Swampwater Grill",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Riverfront bar and grill with outdoor seating, live music events, and a casual atmosphere.",
+"Bar and grill with indoor seating and outdoor areas that host live music and events.",
 
 environment: {
-parking: "Parking lot available near the venue.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during events",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during live music or busy evenings.",
-exits: "Main entrance opens toward the parking lot and outdoor seating area."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Live music events bring larger crowds.",
-"Outdoor seating is popular in warm weather.",
-"Evenings are typically busiest."
+"Live music events increase crowd size and noise."
 ]
 },
 
 {
 name: "Streetside Brewery",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood craft brewery with taproom seating, outdoor patio space, and rotating food trucks.",
+"Brewery with indoor seating, a taproom layout, and space for groups to gather.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the brewery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with conversation and music.",
-exits: "Main entrance opens directly to the sidewalk and patio area."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings and weekends bring the most activity.",
-"Food trucks are often present.",
-"Groups gather for drinks and socializing."
+"Food trucks are often present."
 ]
 },
 
 {
 name: "Bandito Food Park + Cantina",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Food truck park and cantina with outdoor seating and rotating food vendors in a lively social setting.",
+"Outdoor food park with multiple vendors and shared seating areas for groups.",
 
 environment: {
-parking: "Parking lot and nearby street parking available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy periods",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High with outdoor dining and music.",
-exits: "Multiple entrances from surrounding parking and seating areas."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Evenings and weekends bring the largest crowds.",
-"Outdoor seating is the primary dining area.",
 "Food vendors rotate periodically."
 ]
 },
@@ -874,61 +899,56 @@ insights: [
 {
 name: "The Turf Club",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Linwood",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Longstanding neighborhood restaurant known for burgers and casual dining with indoor seating and bar space.",
+"Established restaurant with bar seating and dining tables in a compact layout.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity.",
-exits: "Main entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring steady crowds.",
-"Local regulars are common.",
-"Weekend evenings are typically busier."
-]
+insights: []
 },
 
 {
-name: "Eli's BBQ",
+name: "Eli's BBQ - Riverside",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Popular barbecue restaurant with counter ordering, casual seating, and outdoor dining space along the river.",
+"Popular barbecue spot with counter ordering, casual seating, and outdoor dining space.",
 
 environment: {
-parking: "Parking lot and nearby street parking available.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy lunch and dinner periods.",
-exits: "Main entrance opens toward the outdoor seating and parking area."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours bring the largest crowds.",
-"Outdoor seating is popular in warm weather.",
+"Outdoor seating is used frequently in warm weather.",
 "Takeout orders are common."
 ]
 },
@@ -936,33 +956,31 @@ insights: [
 {
 name: "The Hi-Mark",
 city: "Cincinnati",
-neighborhood: "East Cincy",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating, tables, and televisions creating a casual social atmosphere.",
+"Neighborhood bar and grill with a mix of bar seating and tables with TVs throughout.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings bring the most activity.",
-"Sports events increase crowd noise.",
-"Local regulars are common."
+"Sports events increase crowd noise."
 ]
-},   
+},
 
 {
 name: "Ghost Baby",
@@ -971,88 +989,83 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "moderate_high",
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Underground cocktail lounge and music venue located in a multi-level historic tunnel space in Over-the-Rhine. Evenings typically bring steady crowds for live music performances and cocktails.",
+"Multi-level cocktail lounge and music venue with seating across different levels.",
 
 environment: {
-parking: "Street parking and nearby garages available throughout the Over-the-Rhine area.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy performances",
-location: "Located inside the venue on lower levels"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Lower level"
 },
-noise: "Moderate to High during live music performances and busy evenings.",
-exits: "Entrance located at street level with stairs and elevator access leading to the underground venue."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Reservations are common for live music nights.",
-"Evenings and weekends bring the largest crowds.",
-"Visitors often arrive before performances begin."
+"Live music performances increase noise and crowd levels.",
+"Reservations are common for performances."
 ]
-},   
+},
 
 {
 name: "Collective Espresso",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Specialty coffee shop known for high-quality espresso drinks with a modern café space and casual seating. Mornings and early afternoons typically bring steady crowds.",
+"Modern coffee shop with casual seating and a steady flow of customers.",
 
 environment: {
-parking: "Street parking available along nearby city streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Visitors often stay to work or meet friends.",
-"Afternoons are usually calmer."
+"Visitors often stay to work or meet."
 ]
 },
 
 {
 name: "Proud Hound Coffee",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and café offering espresso drinks and brunch-style dishes with a bright dining space and casual seating.",
+"Coffee shop with table seating and a mix of espresso service and brunch-style dining.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady brunch and coffee activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Weekend brunch hours are typically busiest.",
-"Mornings bring steady coffee traffic.",
 "Groups often gather for brunch."
 ]
 },
@@ -1060,31 +1073,29 @@ insights: [
 {
 name: "Sidewinder Coffee",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Northside",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood coffee shop with casual seating and a relaxed café environment serving espresso drinks and light bites.",
+"Neighborhood coffee shop with casual seating and a relaxed setup for short visits or work.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings are typically the busiest.",
-"Visitors often stay for studying or work.",
-"Afternoons tend to be quieter."
+"Visitors often stay to work or study."
 ]
 },
 
@@ -1097,27 +1108,25 @@ type: "full",
 
 verified: true,
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood coffee shop with casual seating and a relaxed atmosphere serving espresso drinks and light café items.",
+"Local coffee shop with seating for reading, working, and casual conversation.",
 
 environment: {
-parking: "Street parking available along surrounding Covington streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to bring the most visitors.",
-"Visitors often stay for coffee or casual work.",
-"Afternoons are usually calmer."
+"Visitors often stay to read or work."
 ]
 },
 
@@ -1128,57 +1137,53 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Independent bookstore and coffee shop with seating for reading, studying, and casual conversation. Visitors often browse books while enjoying coffee.",
+"Bookstore and café with seating for reading, studying, and light conversation.",
 
 environment: {
-parking: "Street parking available along nearby Covington streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low with quiet conversation and reading.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Visitors often stay to read or study.",
-"Mornings bring steady coffee traffic.",
-"Afternoons tend to be relaxed."
+"Visitors often stay to read or study."
 ]
 },
 
 {
 name: "Mom 'n 'em Coffee & Wine",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Madisonville",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and café offering espresso drinks, pastries, and light meals with a bright, modern interior and casual seating.",
+"Café with table seating offering coffee, pastries, and light meals.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady café conversation and dining activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings bring steady coffee traffic.",
-"Lunch hours attract small groups.",
 "Visitors often stay for casual meetings."
 ]
 },
@@ -1190,29 +1195,27 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Specialty coffee roastery and café known for espresso drinks and pour-over coffee with a relaxed seating area.",
+"Specialty coffee shop with a focus on espresso drinks and a relaxed seating area.",
 
 environment: {
-parking: "Street parking available along surrounding Newport streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Visitors often stay to work or study.",
-"Coffee enthusiasts often stop by for specialty drinks."
+"Visitors often stay to work or study."
 ]
-},   
+}, 
 
 {
 name: "Redtree Coffee and Art",
@@ -1221,26 +1224,24 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop and art space with casual seating and rotating artwork on display. Mornings and afternoons typically bring steady traffic for coffee and light meals.",
+"Coffee shop with casual seating and rotating artwork displayed throughout the space.",
 
 environment: {
-parking: "Street parking available along surrounding neighborhood streets.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Visitors often stay for coffee or casual work.",
 "Artwork displays rotate periodically."
 ]
 },
@@ -1252,26 +1253,24 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood café serving coffee, breakfast items, and casual lunch options with table seating and a relaxed dining atmosphere.",
+"Neighborhood café with table seating serving breakfast and lunch items.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings are typically busiest.",
-"Lunch hours bring steady visitors.",
 "Many guests stay for casual meetings or work."
 ]
 },
@@ -1283,29 +1282,27 @@ neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Popular Cincinnati coffee roaster and café with indoor seating and a steady flow of customers throughout the day.",
+"Coffee shop with indoor seating and a steady flow of customers throughout the day.",
 
 environment: {
-parking: "Street parking available nearby with some nearby public lots depending on location.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady coffee shop activity and conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to bring the largest crowds.",
-"Coffee and pastry visits are common.",
 "Visitors often stay to work or study."
 ]
-},   
+},
 
 {
 name: "The Upside Brew",
@@ -1314,29 +1311,27 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop and café in Clifton with a relaxed atmosphere, counter ordering, and casual seating for coffee, pastries, and light meals. Mornings and early afternoons typically bring steady traffic from nearby residents and students.",
+"Coffee shop with counter ordering and casual seating for coffee and light meals.",
 
 environment: {
-parking: "Street parking available along surrounding Clifton streets with nearby small lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation and background music.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be the busiest.",
-"Visitors often stay for coffee or studying.",
-"Afternoons are usually calmer."
+"Visitors often stay to study."
 ]
-},   
+},
 
 {
 name: "Taft Theatre",
@@ -1345,30 +1340,28 @@ neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Historic seated theater in downtown Cincinnati hosting concerts, comedy shows, and touring performances. Events typically bring steady crowds arriving shortly before showtime.",
+"Seated theater venue hosting concerts and performances with large audiences.",
 
 environment: {
-parking: "Downtown garages and street parking nearby with short walks to the theater.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Moderate waits possible during intermission",
-location: "Inside the theater lobby areas"
+capacity: "Multiple stalls",
+waits: "Likely",
+location: "Inside main area"
 },
-noise: "Moderate to High depending on the type of performance.",
-exits: "Multiple exits leading directly to surrounding downtown streets."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Many visitors arrive shortly before showtime.",
-"Intermission tends to be the busiest time for restrooms.",
-"Events usually end with crowds exiting at the same time.",
-"Nearby downtown garages are commonly used."
+"Intermission is the busiest time for restrooms.",
+"Crowds exit at the same time after events."
 ]
-},  
+},
 
 {
 name: "Ludlow Garage",
@@ -1377,28 +1370,25 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Intimate concert venue and restaurant space in Clifton hosting live music performances with table seating and a relaxed listening atmosphere.",
+"Concert venue with table seating and a focus on live music performances.",
 
 environment: {
-parking: "Street parking and nearby lots along Ludlow Avenue.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate during performances with amplified music and audience conversation.",
-exits: "Main entrance leading directly to Ludlow Avenue."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Shows often feature seated listening-style audiences.",
-"Arriving early helps secure preferred seating.",
-"Visitors frequently explore nearby Clifton restaurants and bars.",
-"Smaller crowds compared to large concert venues."
+"Arriving early helps secure preferred seating."
 ]
 },
 
@@ -1409,28 +1399,25 @@ neighborhood: "Northside",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and live music venue in Northside known for frequent local bands and casual gatherings. Evenings often bring steady crowds and a lively bar atmosphere.",
+"Neighborhood bar with live music and a mix of standing and seated areas.",
 
 environment: {
-parking: "Street parking available along surrounding Northside streets.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during live music performances and busy evenings.",
-exits: "Main entrance opens directly to the street."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Live music events are common throughout the week.",
-"Weekends tend to be the busiest nights.",
-"Neighborhood regulars and local music fans are common.",
-"Nearby Northside restaurants and bars are often visited before or after shows."
+"Live music events are frequent."
 ]
 },
 
@@ -1441,31 +1428,28 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Historic theater and event venue in Over-the-Rhine hosting concerts, performances, and special events. Events typically bring steady crowds gathering inside the restored theater space.",
+"Theater venue hosting concerts and events with open floor space and seating areas.",
 
 environment: {
-parking: "Street parking and nearby garages in the Over-the-Rhine area.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy events",
-location: "Inside the theater"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High depending on the performance or event.",
-exits: "Main entrance and exits leading directly to surrounding OTR streets."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Many visitors arrive shortly before events begin.",
-"Nearby OTR restaurants and bars are common pre-show stops.",
-"Events vary widely from concerts to community events.",
-"Crowds typically exit together after shows."
+"Crowds typically exit together after events."
 ]
 },
-   
+
 {
 name: "Andrew J. Brady Music Center",
 city: "Cincinnati",
@@ -1473,28 +1457,26 @@ neighborhood: "The Banks",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "high",
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Large indoor concert venue near The Banks hosting touring artists and live performances. Events bring large crowds with security screening at the entrance and busy concourses before shows and during intermissions.",
+"Large concert venue with standing and seated areas hosting major live performances.",
 
 environment: {
-parking: "Multiple garages and surface lots around The Banks and downtown. Many visitors park nearby and walk several blocks to the venue.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Moderate waits possible between sets or before shows",
-location: "Located inside the venue"
+capacity: "Multiple stalls",
+waits: "Likely",
+location: "Inside main area"
 },
-noise: "High during concerts with amplified music and crowd cheering.",
-exits: "Multiple entrances and exits leading directly to surrounding streets and nearby parking garages."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Arriving early helps avoid entry lines before popular shows.",
-"Restroom lines tend to increase between sets.",
-"Many visitors combine concerts with nearby restaurants and bars at The Banks.",
-"Large crowds typically exit at the same time after shows."
+"Restroom lines increase between sets.",
+"Large crowds exit at the same time after shows."
 ]
 },
 
@@ -1505,28 +1487,26 @@ neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Historic indoor music venue near the University of Cincinnati hosting live concerts and touring bands. Shows typically draw standing-room crowds with an energetic atmosphere throughout the performance.",
+"Music venue with standing-room crowds and live performances throughout the space.",
 
 environment: {
-parking: "Street parking and nearby lots in the surrounding Corryville area.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Moderate waits possible during busy shows",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High during performances with amplified music and crowd activity.",
-exits: "Main entrance and additional exits leading to nearby streets."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
 "Most shows are standing-room events.",
-"Lines may form outside before doors open.",
-"College students and younger crowds are common depending on the show.",
-"Leaving after concerts usually moves quickly."
+"Lines may form before entry."
 ]
 },
    
@@ -1537,28 +1517,26 @@ neighborhood: "The Banks",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "high",
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Large open-air NFL stadium along the Ohio River and home of the Cincinnati Bengals. Game days bring very large crowds with security screening at entry gates, busy concourses, and high energy throughout the venue. Activity begins building well before kickoff as fans gather around The Banks and nearby tailgating areas.",
+"Large open-air stadium with multiple seating levels and high-capacity event crowds.",
 
 environment: {
-parking: "Multiple garages and surface lots around downtown and The Banks area. Many fans park several blocks away or use garages with a short walk to the stadium.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Large restroom banks throughout the concourses",
-waits: "Long waits common during halftime and between quarters",
-location: "Located on all main concourse levels"
+capacity: "Multiple stalls",
+waits: "Likely",
+location: "Inside main area"
 },
-noise: "High during games with crowd cheering, stadium audio, and music throughout the venue.",
-exits: "Multiple stadium gates and exits. Large crowds leave at once after games which can slow movement around surrounding streets and bridges."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Gates typically open well before kickoff and early arrival helps avoid longer entry lines.",
-"Halftime is usually the busiest time for restrooms and concession areas.",
-"Many visitors walk to and from nearby areas like The Banks, downtown garages, or Northern Kentucky bridges.",
-"Traffic leaving the area can take time immediately after games."
+"Halftime brings the longest restroom lines.",
+"Large crowds exit at the same time after events."
 ]
 },
 
@@ -1569,28 +1547,27 @@ neighborhood: "The Banks",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "moderate_high",
+verified: true,
+
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Outdoor Major League Baseball stadium along the Ohio River and home of the Cincinnati Reds. Game days bring large crowds moving through The Banks area with multiple entry gates and busy concourses. Activity usually builds before first pitch as fans gather at nearby restaurants, bars, and riverfront areas.",
+"Outdoor baseball stadium with multiple seating sections and steady crowd movement during games.",
 
 environment: {
-parking: "Several garages and surface lots around The Banks and downtown. Many visitors park a few blocks away and walk to the stadium.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Large restroom banks located throughout the concourses",
-waits: "Moderate waits possible during inning breaks and between innings",
-location: "Located on multiple concourse levels around the stadium"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High depending on crowd size, with stadium announcements, music, and cheering during games.",
-exits: "Multiple stadium gates and exits connecting to The Banks riverfront area and downtown streets. Crowds typically move steadily out after games."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Arrival before first pitch is common as fans spend time in The Banks area nearby.",
-"Inning breaks often bring restroom and concession lines.",
-"Weekend and rivalry games tend to draw the largest crowds.",
-"Walking routes along the riverfront and nearby garages are commonly used."
+"Inning breaks increase restroom and concession lines."
 ]
 },
 
@@ -1601,28 +1578,26 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "high",
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Modern open-air soccer stadium in Cincinnati's West End and home of FC Cincinnati. Match days bring energetic crowds with supporter sections, chanting, and a lively atmosphere throughout the venue. Activity builds before kickoff as fans gather around nearby streets and plazas.",
+"Soccer stadium with open seating areas and active supporter sections during matches.",
 
 environment: {
-parking: "Parking garages and lots located around the stadium and surrounding neighborhoods. Many visitors park in nearby garages or downtown and walk to the stadium.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Large restroom banks located around the stadium concourses",
-waits: "Moderate waits possible at halftime",
-location: "Located throughout the stadium concourse areas"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High during matches with chanting supporter sections, stadium music, and crowd reactions throughout the game.",
-exits: "Multiple stadium gates around the venue with crowds dispersing into surrounding streets and nearby parking garages."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Supporter sections create a loud and energetic atmosphere throughout the match.",
-"Halftime tends to bring the longest restroom and concession lines.",
-"Many fans arrive early to gather around the stadium plaza areas.",
-"Walking routes from nearby garages are common after matches."
+"Supporter sections create consistent crowd noise throughout matches.",
+"Halftime increases restroom wait times."
 ]
 },
 
@@ -1633,59 +1608,28 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate_difficult",
-noiseLevel: "moderate_high",
+verified: true,
+
+parkingLevel: "Difficult",
+noiseLevel: "High",
 
 whatToExpect:
-"Historic public market in Over-the-Rhine with dozens of food vendors, produce stands, and small restaurants inside a large open market building and surrounding outdoor stalls. Activity varies by time of day but weekends and midday visits often bring large crowds moving between vendors and seating areas.",
+"Public market with multiple vendor stalls and indoor and outdoor walkways.",
 
 environment: {
-parking: "Street parking and nearby paid lots or garages in the Over-the-Rhine area. Many visitors park several blocks away and walk to the market.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy weekend periods",
-location: "Located inside the main market building"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High depending on crowd size, with vendor activity, conversations, and music from nearby streets.",
-exits: "Multiple entrances and exits along surrounding streets with open walkways connecting indoor and outdoor vendor areas."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Weekend mornings and early afternoons tend to be the busiest times.",
-"Visitors often move between multiple food vendors before finding seating.",
-"Outdoor seating and nearby public spaces are commonly used during busy periods.",
-"Weekday visits are usually calmer with more space to walk through the market."
-]
-},
-   
-{
-name: "Half Day Cafe",
-city: "Cincinnati",
-neighborhood: "Wyoming",
-state: "OH",
-type: "full",
-
-parkingLevel: "lot",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Breakfast and lunch restaurant with table seating along Springfield Pike in the Wyoming business district. Typically busiest during morning and late morning hours with calmer afternoons.",
-
-environment: {
-parking: "Dedicated parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Morning hours bring steady breakfast traffic.",
-"Late morning brunch periods often fill quickly.",
-"Afternoons usually feel calmer."
+"Visitors move between multiple vendors before finding seating.",
+"Weekdays are typically less crowded."
 ]
 },
 
@@ -1696,28 +1640,24 @@ neighborhood: "Wyoming",
 state: "OH",
 type: "full",
 
-parkingLevel: "street",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with table seating and patio areas near the Wyoming village center. Typically calmer earlier in the evening with steady dinner traffic later.",
+"Restaurant and bar with table seating and a mix of indoor and patio dining.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel relaxed.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -1727,90 +1667,53 @@ neighborhood: "Wyoming",
 state: "OH",
 type: "full",
 
-parkingLevel: "street",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop with indoor seating and a relaxed café atmosphere in the Wyoming village district. Typically busiest during morning and midday hours.",
+"Coffee shop with indoor seating and a steady flow of customers throughout the day.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the cafe"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Morning hours bring steady coffee traffic.",
-"Afternoons attract remote workers and students.",
-"Evenings usually feel quieter."
+"Afternoons attract remote workers and students."
 ]
 },
 
 {
-name: "The Birch",
+name: "The Birch - Terrace Park",
 city: "Cincinnati",
-neighborhood: "Wyoming",
+neighborhood: "Terrace Park",
 state: "OH",
 type: "full",
 
-parkingLevel: "street",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and a modern dining room near the Wyoming village center. Typically calmer earlier in the evening with steady dinner reservations later.",
+"Restaurant with table seating and a modern dining room setup.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early dinner hours often feel calmer.",
-"Dinner service attracts couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Boswell's Alley",
-city: "Cincinnati",
-neighborhood: "Deer Park",
-state: "OH",
-type: "full",
-
-parkingLevel: "lot",
-noiseLevel: "moderate_high",
-
-whatToExpect:
-"Neighborhood bar with bar seating and casual dining tables along the Deer Park restaurant corridor. Typically quieter earlier in the day with increased evening activity.",
-
-environment: {
-parking: "Dedicated parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -1820,185 +1723,136 @@ neighborhood: "Deer Park",
 state: "OH",
 type: "full",
 
-parkingLevel: "lot",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Low",
 
 whatToExpect:
-"Fast-casual restaurant with counter ordering and limited seating along the Deer Park dining corridor. Typically steady during lunch hours with moderate dinner activity.",
+"Fast-casual restaurant with counter ordering and limited seating for quick visits.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Most visits involve quick dine-in meals or carryout.",
-"Weekend evenings bring steady traffic."
-]
+insights: []
 },
 
 {
 name: "Los Potrillos Mexican Restaurant",
 city: "Cincinnati",
-neighborhood: "Deer Park",
+neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
-parkingLevel: "lot",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with booth seating and table dining along the Deer Park restaurant corridor. Typically steady during dinner hours with consistent lunch visits.",
+"Mexican restaurant with booth seating and table dining in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours attract families and groups.",
-"Weekend evenings usually bring steady activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Arrechissimo Restaurant",
-city: "Cincinnati",
-neighborhood: "Deer Park",
-state: "OH",
-type: "full",
-
-parkingLevel: "street",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Restaurant with table seating and a casual dining atmosphere along the Deer Park business district. Typically steady during dinner hours with quieter periods earlier in the day.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
 name: "Blue Goose Sports Cafe",
 city: "Cincinnati",
-neighborhood: "Deer Park",
+neighborhood: "Sharonville",
 state: "OH",
 type: "full",
 
-parkingLevel: "lot",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically quieter earlier in the day with increased activity during evening games.",
+"Sports bar with bar seating, TVs throughout, and table seating for groups.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter.",
-"Sports events increase bar activity.",
-"Weekend nights usually bring the most visitors."
+"Sports events increase activity and noise."
 ]
 },
 
 {
 name: "The Back Porch Saloon",
-city: "Cincinnati",
-neighborhood: "Deer Park",
+city: "West Chester Township",
+neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "lot",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with bar seating and casual table areas in the Deer Park restaurant corridor. Typically quieter earlier in the day with increased evening activity.",
+"Neighborhood bar with bar seating and casual table areas in a compact layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Silver Spring House",
+name: "Silver Spring House Restaurant",
 city: "Cincinnati",
-neighborhood: "Pleasant Ridge",
+neighborhood: "Symmes Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "large_lot",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Restaurant and bar with indoor seating and a large outdoor patio along Montgomery Road. Typically steady during dinner hours with increased activity on weekends.",
+"Restaurant and bar with indoor seating and a large outdoor patio area.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to patio area"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings often feel calmer.",
-"Dinner hours bring families and groups.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
-   
+
 {
 name: "Trio",
 city: "Cincinnati",
@@ -2010,24 +1864,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and a bar area located near Kenwood Towne Centre. Typically calmer earlier in the evening with steady dinner reservations and weekend visits.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early dinner reservations often feel calmer.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2041,24 +1891,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Italian restaurant with multiple dining rooms located next to Kenwood Towne Centre. Typically busy during dinner hours with steady weekend traffic.",
+"Italian restaurant with multiple dining rooms and a large indoor seating layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and groups.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2072,24 +1918,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and wine bar with table seating and a tasting room near the Kenwood retail district. Typically calmer earlier in the evening with steady dinner reservations.",
+"Restaurant with table seating and a dedicated tasting area in a structured layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel relaxed.",
-"Dinner hours attract couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2103,24 +1945,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with counter ordering and table seating near Kenwood Towne Centre. Typically steady throughout the day with busy lunch periods.",
+"Casual restaurant with counter ordering and table seating in an open layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often bring consistent traffic.",
-"Afternoons tend to feel calmer.",
-"Weekend brunch periods usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2134,24 +1972,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Pizza restaurant and bar with table seating in the Kenwood dining corridor. Typically steady during dinner hours with increased activity later in the evening.",
+"Pizza restaurant with table seating and a bar area in a casual setting.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring steady dine-in traffic.",
-"Groups often gather for drinks later in the evening.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2165,24 +1999,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Indian restaurant with table seating and a casual dining room along Ludlow Avenue. Typically steady during dinner hours with quieter periods earlier in the day.",
+"Indian restaurant with table seating in a straightforward dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and couples.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -2196,54 +2026,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Indian restaurant with buffet and table seating along the Ludlow corridor. Typically calmer earlier in the day with steady dinner traffic.",
+"Indian restaurant with buffet service and table seating in a casual setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch buffet periods often bring steady traffic.",
-"Evenings attract small groups and families.",
-"Weekend dinners tend to bring the most activity."
-]
-},
-
-{
-name: "Taste of Belgium – Clifton",
-city: "Cincinnati",
-neighborhood: "Clifton",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Belgian-inspired restaurant with table seating and a bar area along Ludlow Avenue. Typically busiest during brunch hours with steady dinner traffic later in the day.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Late morning brunch periods often fill quickly.",
-"Afternoons tend to feel calmer after brunch.",
-"Weekend brunch hours usually bring the most activity."
+"Buffet service increases movement during peak times."
 ]
 },
 
@@ -2258,54 +2055,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Coffeehouse with indoor seating and a relaxed neighborhood atmosphere along Ludlow Avenue. Typically busiest during morning and afternoon hours.",
+"Coffeehouse with indoor seating and a relaxed setup for casual visits or work.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the cafe"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Morning hours bring steady coffee traffic.",
-"Afternoons often attract students and remote workers.",
-"Evenings usually feel quieter."
-]
-},
-
-{
-name: "Fortune Noodle House",
-city: "Cincinnati",
-neighborhood: "Clifton",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Asian restaurant with table seating and counter service along the Clifton dining corridor. Typically steady during lunch and dinner hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring quick visits.",
-"Dinner hours attract small groups and students.",
-"Weekend evenings tend to bring the most activity."
+"Afternoons attract students and remote workers."
 ]
 },
 
@@ -2320,23 +2084,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual fast-casual restaurant with counter ordering and limited seating along the Clifton dining corridor. Typically steady during lunch and late evening hours.",
+"Fast-casual restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often move quickly.",
-"Late-night traffic increases due to nearby campus activity.",
-"Weekend evenings bring steady crowds."
+"Late-night traffic increases due to nearby activity."
 ]
 },
 
@@ -2351,23 +2113,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating and casual dining tables along Ludlow Avenue. Typically quieter earlier in the day with increased activity during evenings.",
+"Bar and grill with bar seating and tables in a social setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights tend to bring the most activity."
+"Evenings bring increased activity."
 ]
 },
 
@@ -2382,28 +2142,26 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically calmer earlier in the day with increased activity during evening hours.",
+"Sports bar with TVs, bar seating, and table seating for groups.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter.",
-"Sports events increase bar activity.",
-"Weekend nights usually bring the most visitors."
+"Sports events increase noise and activity."
 ]
 },
 
 {
-name: "Senate",
+name: "Senate OTR",
 city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
@@ -2413,61 +2171,55 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar known for specialty hot dogs with table seating and a bar area along Vine Street. Typically calmer earlier in the day with busier dinner hours and weekend evenings.",
+"Restaurant with table seating and a bar area focused on a casual dining setup.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often move quickly with nearby workers.",
-"Dinner hours bring steady small groups and couples.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Goose & Elder",
+name: "Salazar Cincinnati",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Moderate",
-noiseLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"American restaurant with a diner-inspired layout and table seating near Findlay Market. Typically busiest during brunch hours with steady dinner traffic later in the day.",
+"Restaurant with table seating and a small bar area in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning and brunch periods tend to fill quickly.",
-"Afternoons usually feel calmer.",
-"Weekend brunch often brings the largest crowds."
-]
+insights: []
 },
 
 {
-name: "Salazar",
+name: "Kiki on Ludlow",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Clifton",
 state: "OH",
 type: "full",
 
@@ -2475,55 +2227,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant with table seating and a small bar area on Republic Street in OTR. Typically quieter earlier in the evening with steady dinner reservations and weekend visits.",
+"Japanese restaurant with bar seating and table dining in a casual setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early dinner reservations often feel calmer.",
-"Couples and small groups are common during dinner hours.",
-"Weekend evenings tend to bring the most activity."
-]
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Kiki",
-city: "Cincinnati",
-neighborhood: "OTR",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Japanese restaurant with bar seating and table dining in the OTR district. Typically relaxed earlier in the day with steady dinner traffic and weekend visits.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch periods often move quickly.",
-"Dinner service attracts couples and small groups.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2537,23 +2254,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar and grill with a large bar area and casual seating near Washington Park. Typically calmer earlier in the day with increased activity during evenings and sports events.",
+"Bar and grill with a large bar area and table seating in a social setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter than evenings.",
-"Sports events increase activity in the bar area.",
-"Weekend nights usually bring the most visitors."
+"Sports events increase noise and activity."
 ]
 },
 
@@ -2568,23 +2283,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Outdoor bar with a large courtyard and multiple seating areas in OTR. Typically relaxed earlier in the day with increased activity during evening hours and weekends.",
+"Outdoor bar with a large courtyard and multiple seating areas.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel calmer in the outdoor space.",
-"Evenings bring steady social groups.",
-"Weekend nights usually bring the largest crowds."
+"Outdoor space fills with groups during busy periods."
 ]
 },
 
@@ -2599,24 +2312,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood bar with a casual atmosphere and bar seating along the Vine Street corridor. Typically quieter earlier in the day with more activity later at night.",
+"Neighborhood bar with bar seating and a simple indoor layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel relaxed.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually see the most activity."
-]
+insights: []
 },
 
 {
@@ -2630,24 +2339,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Wine and bottle shop with bar seating and small table areas in OTR. Typically calmer earlier in the evening with steady social visits later at night.",
+"Wine bar with bar seating and small table areas in a compact space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel relaxed.",
-"Small groups commonly gather for drinks later at night.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2661,23 +2366,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large entertainment venue with bars, games, and open social spaces near the OTR nightlife district. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
+"Large entertainment venue with multiple bars, games, and open seating areas.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Waits possible during peak hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter before nightlife hours.",
-"Groups frequently gather for games and drinks.",
-"Weekend nights usually bring the largest crowds."
+"Groups gather for games and drinks."
 ]
 },
 
@@ -2692,23 +2395,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Arcade bar with vintage video games and bar seating in the OTR entertainment district. Typically quieter earlier in the evening with increased activity later at night.",
+"Arcade bar with gaming areas and bar seating in an open layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Early evenings tend to feel calmer.",
-"Groups gather for arcade games and drinks later in the night.",
-"Weekend nights usually bring the most visitors."
+"Games and music contribute to overall noise levels."
 ]
 },
 
@@ -2723,24 +2424,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with table seating and a casual dining layout near the Vine Street corridor in OTR. Typically quieter earlier in the evening with steady dinner service and weekend activity.",
+"Restaurant and bar with table seating and a straightforward dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel calmer.",
-"Dinner hours bring steady groups and couples.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2754,23 +2451,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Brewery and distillery with table seating, bar service, and a large indoor taproom space. Typically relaxed earlier in the day with increased activity during evenings and weekend visits.",
+"Brewery and distillery with a large taproom, bar seating, and open tables.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel calmer than evenings.",
-"Groups frequently gather for drinks in the evening.",
-"Weekend nights usually bring the largest crowds."
+"Groups gather for drinks in the taproom."
 ]
 },
 
@@ -2785,23 +2480,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and live music venue with bar seating and a performance space. Typically quieter earlier in the day with more activity during evening shows and weekend nights.",
+"Bar and live music venue with a performance area and standing space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter.",
-"Live music events increase noise and activity.",
-"Weekend nights tend to bring the most visitors."
+"Live music events increase noise and crowd levels."
 ]
 },
 
@@ -2816,23 +2509,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Bar with a large outdoor courtyard and indoor seating areas in the OTR district. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
+"Bar with indoor seating and a large outdoor courtyard for groups.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel relaxed in the outdoor space.",
-"Evenings bring steady social groups.",
-"Weekend nights typically bring the most activity."
+"Outdoor courtyard fills with groups during busy periods."
 ]
 },
 
@@ -2847,28 +2538,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Bar and restaurant with table seating and a bar area along the Vine Street corridor in OTR. Typically calmer earlier in the evening with steady dinner and bar activity later at night.",
+"Restaurant and bar with table seating and a central bar area.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel calmer.",
-"Dinner hours bring steady table seating.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "1215 Wine Bar",
+name: "1215 Wine Bar & Coffee Lab",
 city: "Cincinnati",
 neighborhood: "OTR",
 state: "OH",
@@ -2878,24 +2565,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Wine bar with indoor seating and an outdoor patio along Vine Street in OTR. Typically relaxed earlier in the evening with steady wine bar activity later at night.",
+"Wine bar with indoor seating and a small outdoor patio area.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings tend to feel quieter.",
-"Small groups often gather for drinks later in the night.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -2909,23 +2592,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Brewery taproom with bar seating and tables throughout the space in OTR. Typically calmer earlier in the day with increased activity during evening hours and weekends.",
+"Brewery taproom with bar seating and tables in an open layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often feel quieter than evenings.",
-"Groups frequently gather for drinks after work.",
-"Weekend evenings tend to bring the most activity."
+"Groups gather for drinks during busier periods."
 ]
 },
 
@@ -2936,27 +2617,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern café and bar space that hosts coffee service during the day and social gatherings or events in the evening. Activity varies depending on events and time of day.",
+"Café and bar space with seating for coffee service and evening gatherings.",
 
 environment: {
-parking: "Street parking available along surrounding Walnut Hills streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with conversation and occasional music or events.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings sometimes include hosted events.",
-"Daytime visits are usually calmer.",
-"Visitors often stay for coffee or conversation."
+"Evenings may include hosted events."
 ]
 },
 
@@ -2967,27 +2646,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Upscale steakhouse featuring Basque-inspired cuisine with table seating and a refined dining atmosphere. Dinner service typically brings steady crowds.",
+"Steakhouse with table seating in a structured dining room.",
 
 environment: {
-parking: "Street parking available nearby with additional nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours are typically busiest.",
-"Reservations are common.",
-"Couples and small groups are frequent."
+"Reservations are common."
 ]
 },
 
@@ -2998,27 +2675,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Korean fried chicken restaurant with casual seating and a lively dining atmosphere. Lunch and dinner hours typically bring steady crowds.",
+"Casual restaurant with table seating focused on quick dine-in and takeout orders.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with dining conversation and background music.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours are typically busiest.",
-"Takeout orders are common.",
-"Groups often gather for casual meals."
+"Takeout orders are common."
 ]
 },
 
@@ -3029,27 +2704,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Coffeehouse and jazz lounge known for live music performances and a relaxed listening atmosphere. Evenings typically bring the most activity.",
+"Coffeehouse and lounge with seating for live music performances.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during live jazz performances.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evening performances bring steady crowds.",
-"Visitors often arrive before shows begin.",
-"Music-focused listening atmosphere during performances."
+"Live music performances increase noise levels."
 ]
 },
 
@@ -3060,27 +2733,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Lounge-style bar and restaurant with bar seating, dining tables, and a lively nightlife atmosphere. Evenings and weekends typically bring the most activity.",
+"Lounge-style bar and restaurant with bar seating and table areas for groups.",
 
 environment: {
-parking: "Street parking available along surrounding streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the lounge"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with music and conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Weekend evenings bring the largest crowds.",
-"Music and nightlife events are common.",
-"Groups often gather for drinks and socializing."
+"Music and nightlife events increase activity."
 ]
 },
 
@@ -3091,27 +2762,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and restaurant with casual seating and televisions throughout the space. Evenings typically bring steady crowds gathering for drinks and sports.",
+"Bar and restaurant with table seating and TVs throughout the space.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings are typically the busiest.",
-"Sports events increase crowd activity.",
-"Local regulars are common."
+"Sports events increase noise and activity."
 ]
 },
 
@@ -3122,27 +2791,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop and bar offering coffee, drinks, and casual seating in a relaxed neighborhood setting. Mornings and afternoons typically bring steady traffic.",
+"Coffee shop and bar with casual seating for drinks, coffee, and small groups.",
 
 environment: {
-parking: "Street parking available along nearby Walnut Hills streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with coffee shop conversation and background music.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Mornings tend to be busiest.",
-"Visitors often stay for coffee or casual meetings.",
-"Afternoons are usually calmer."
+"Visitors often stay for meetings or work."
 ]
 },
 
@@ -3153,151 +2820,108 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local sandwich and deli-style restaurant with counter ordering and casual seating. Lunch hours typically bring steady traffic from nearby residents and workers.",
+"Deli-style restaurant with counter ordering and a small seating area.",
 
 environment: {
-parking: "Street parking available along surrounding Walnut Hills streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical lunch crowd conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours tend to be the busiest.",
-"Takeout orders are common.",
-"Visits are usually short."
-]
-},
-
-{
-name: "6 'N the Mornin'",
-city: "Cincinnati",
-neighborhood: "Walnut Hills",
-state: "OH",
-type: "full",
-
-parkingLevel: "moderate",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Breakfast and brunch restaurant with casual table seating and a lively daytime dining atmosphere. Mornings and early afternoons typically bring the most activity.",
-
-environment: {
-parking: "Street parking available along surrounding streets.",
-restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy brunch hours",
-location: "Inside the restaurant"
-},
-noise: "Moderate with steady brunch activity and conversation.",
-exits: "Front entrance opens directly to the sidewalk."
-},
-
-insights: [
-"Weekend brunch hours are typically busiest.",
-"Mornings bring steady crowds.",
-"Groups and families are common."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "Heyday",
 city: "Cincinnati",
-neighborhood: "Walnut Hills",
+neighborhood: "East Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood restaurant and bar with a modern interior and social dining atmosphere. Evenings and weekends typically bring the most activity.",
+"Restaurant and bar with table seating and a central bar area in a social setting.",
 
 environment: {
-parking: "Street parking available along nearby Walnut Hills streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with bar activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically the busiest.",
-"Weekend dinners draw steady crowds.",
-"Groups often gather for drinks and food."
-]
+insights: []
 },
 
 {
 name: "Rusk Kitchen + Bar",
 city: "Cincinnati",
-neighborhood: "Walnut Hills",
+neighborhood: "East Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant and bar with casual dining tables and a relaxed atmosphere. Lunch and dinner hours bring steady activity.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Street parking along surrounding Walnut Hills streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining conversation.",
-exits: "Main entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Local visitors are common.",
-"Weekday lunches move quickly."
-]
+insights: []
 },
 
 {
 name: "Home Court Tavern",
 city: "Cincinnati",
-neighborhood: "Walnut Hills",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with a casual sports-bar atmosphere and bar seating. Evenings typically bring steady crowds gathering for drinks and sports.",
+"Sports bar with bar seating and TVs in a casual setting.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings are typically the busiest.",
-"Sports events increase crowd activity.",
-"Local regulars are common."
+"Sports events increase noise and activity."
 ]
 },
 
@@ -3308,90 +2932,80 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Craft brewery and restaurant with bar seating, dining tables, and a social taproom atmosphere. Evenings and weekends typically bring the most activity.",
+"Brewery with bar seating, dining tables, and an open taproom layout.",
 
 environment: {
-parking: "Street parking available along surrounding streets with nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the brewery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with conversation and music.",
-exits: "Main entrance opens directly to the sidewalk."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Evenings and weekends are typically busiest.",
-"Groups often gather for drinks.",
-"Local events occasionally increase crowds."
+"Groups gather for drinks in the taproom."
 ]
 },
 
 {
 name: "Cafe Mochiko",
 city: "Cincinnati",
-neighborhood: "Walnut Hills",
+neighborhood: "East Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Japanese-inspired café and bakery known for pastries, coffee, and creative lunch dishes. Mornings and lunch hours typically bring steady crowds.",
+"Café and bakery with table seating and a steady flow of customers.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady café activity and conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are typically the busiest.",
-"Pastry and coffee visits are common.",
-"Lunch hours bring steady traffic."
-]
+insights: []
 },
 
 {
-name: "Bridges Nepali Cuisine",
+name: "Bridges Nepali Cuisine - Walnut Hills",
 city: "Cincinnati",
 neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Nepali restaurant known for momos and traditional dishes served in a casual dining space. Lunch and dinner hours bring steady activity.",
+"Restaurant with table seating in a casual and compact dining space.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with relaxed dining conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick.",
-"Dinner hours bring steady crowds.",
-"Smaller groups and couples are common."
-]
+insights: []
 },
 
 {
@@ -3401,27 +3015,26 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Fast-casual Mexican restaurant known for tacos and tortas with counter ordering and casual seating. Lunch and late evening hours often bring steady crowds.",
+"Fast-casual restaurant with counter ordering and casual seating for quick meals.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining and takeout activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
 "Late-night visits are common.",
-"Takeout orders are frequent.",
-"Lunch hours move quickly."
+"Takeout orders are frequent."
 ]
 },
 
@@ -3432,29 +3045,25 @@ neighborhood: "Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Wood-fired pizza restaurant with a large dining room, bar seating, and a relaxed neighborhood atmosphere. Dinner hours typically bring steady crowds.",
+"Pizza restaurant with a large dining room, bar seating, and table seating throughout.",
 
 environment: {
-parking: "Street parking available nearby with additional nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity and conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Families and groups are common.",
-"Weekend evenings bring steady crowds."
-]
-},   
+insights: []
+},
 
 {
 name: "Pho Lang Thang",
@@ -3467,30 +3076,28 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Vietnamese restaurant with table seating located near Findlay Market in OTR. Typically steady during lunch hours with continued traffic during dinner service.",
+"Restaurant with table seating located near a busy market area.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent market traffic.",
-"Dinner service attracts small groups and families.",
-"Weekend afternoons around the market tend to be busiest."
+"Nearby market traffic increases activity during peak times."
 ]
 },
 
 {
 name: "Nada",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
@@ -3498,30 +3105,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern Mexican restaurant with bar seating and multiple dining areas in the downtown dining district. Typically calmer earlier in the day with busier dinner service and weekend activity.",
+"Restaurant with multiple dining areas and a bar section in a modern layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often move quickly with downtown workers.",
-"Dinner service brings steady group dining.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
 name: "Sotto",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
@@ -3529,30 +3132,28 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Italian restaurant with a basement dining room and bar seating near the downtown dining corridor. Typically quieter earlier in the evening with steady dinner reservations later in the night.",
+"Restaurant with table seating and a bar area located on a lower level.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Downstairs"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Lower level"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Early evening reservations often feel calmer.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings tend to be the busiest."
+"Lower-level layout reduces outside noise."
 ]
 },
 
 {
 name: "Via Vite",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
@@ -3560,30 +3161,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Italian restaurant with indoor dining and patio seating near Fountain Square. Typically calmer earlier in the evening with steady dinner service and weekend visits.",
+"Restaurant with indoor seating and a patio area in a central downtown location.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early dinner hours often feel calmer.",
-"Evenings bring couples and small groups.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
 name: "Tokyo Kitty",
 city: "Cincinnati",
-neighborhood: "OTR",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
@@ -3591,23 +3188,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Karaoke bar with themed rooms and a central bar area in the downtown entertainment district. Typically quieter earlier in the evening with increased activity later at night.",
+"Karaoke bar with private rooms and a central bar area in an entertainment setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Early evening hours often feel calmer.",
-"Private karaoke rooms fill as the night progresses.",
-"Weekend nights usually bring the most activity."
+"Private rooms fill as the night progresses."
 ]
 },
 
@@ -3618,59 +3213,26 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant and bar with table seating and a music-themed dining environment in the downtown entertainment district. Typically calmer earlier in the day with busier dinner hours and weekend visits.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch periods often move quickly with downtown traffic.",
-"Dinner hours bring families and groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Taste of Belgium OTR",
-city: "Cincinnati",
-neighborhood: "OTR",
-state: "OH",
-type: "full",
+verified: true,
 
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Belgian-inspired restaurant with table seating and a bar area near Findlay Market in OTR. Typically busiest during brunch hours with steady dinner traffic later in the day.",
+"Restaurant with table seating and a bar area in a music-themed setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Late morning brunch periods often fill quickly.",
-"Afternoons usually feel calmer after brunch.",
-"Weekend brunch hours tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -3684,24 +3246,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mediterranean restaurant with table seating and a bar area along Vine Street in OTR. Typically calmer earlier in the evening with steady dinner reservations and weekend dining.",
+"Restaurant with table seating and a bar area in a compact dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening reservations often feel calmer.",
-"Couples and small groups are common during dinner.",
-"Weekend evenings usually bring the highest activity."
-]
+insights: []
 },
 
 {
@@ -3715,23 +3273,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern diner-style restaurant with table seating and a bar area on Vine Street in OTR. Typically busiest during brunch hours with steady dinner traffic later in the day.",
+"Diner-style restaurant with table seating and a bar area in a modern layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Late morning brunch periods tend to fill quickly.",
-"Afternoons usually feel calmer after brunch.",
-"Weekend brunch often brings the most consistent crowds."
+"Brunch periods fill quickly."
 ]
 },
 
@@ -3746,26 +3302,22 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Asian street food restaurant with table seating and counter ordering in OTR. Typically steady during dinner hours with weekend evenings bringing more activity.",
+"Restaurant with table seating and counter ordering in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring steady dine-in traffic.",
-"Weekend evenings usually see the most activity."
-]
+insights: []
 },
-   
+
 {
 name: "Ché OTR",
 city: "Cincinnati",
@@ -3777,24 +3329,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Argentine restaurant with table seating and a casual bar area in the OTR dining district. Typically calmer earlier in the day with busier dinner hours and weekend visits.",
+"Restaurant with table seating and a bar area in a compact dining space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often involve shorter stays.",
-"Dinner service tends to bring small groups and couples.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -3808,24 +3356,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Steakhouse with multiple dining rooms and a bar area near Washington Park in OTR. Typically quieter earlier in the evening with steady dinner reservations and weekend traffic.",
+"Steakhouse with multiple dining rooms and a bar area in a structured layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening reservations often feel calmer.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -3839,23 +3383,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Thai and sushi restaurant with table seating and a bar area along Vine Street. Typically quieter earlier in the day with busier dinner hours and weekend visits.",
+"Restaurant with table seating and a bar area serving sushi and Thai dishes.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often feel calmer than evenings.",
-"Takeout orders are common during dinner service.",
-"Weekend evenings tend to bring the most activity."
+"Takeout orders are common during busy periods."
 ]
 },
 
@@ -3870,23 +3412,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Wine-focused restaurant with table seating and a bar area along Main Street in OTR. Typically relaxed earlier in the evening with busier dinner service and weekend visits.",
+"Wine-focused restaurant with table seating and a bar area in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Happy hour periods often bring steady traffic.",
-"Dinner hours attract small groups and couples.",
-"Weekend evenings tend to bring the most activity."
+"Happy hour brings steady traffic."
 ]
 },
 
@@ -3901,23 +3441,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Pizza restaurant with counter ordering and bar seating in the OTR nightlife district. Typically steady during dinner hours with increased activity late at night.",
+"Pizza spot with counter ordering and bar seating in a nightlife setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours bring steady dine-in visits.",
-"Late evening hours tend to attract nightlife crowds.",
-"Weekend nights usually see the most activity."
+"Late-night crowds increase activity."
 ]
 },
 
@@ -3932,30 +3470,28 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating and counter ordering along Madison Road. Typically busiest during morning and late morning hours with quieter afternoons.",
+"Breakfast and brunch restaurant with table seating and counter ordering.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Morning hours often bring steady breakfast traffic.",
-"Late morning brunch periods fill quickly.",
-"Afternoons usually feel calmer."
+"Brunch periods fill quickly."
 ]
 },
 
 {
-name: "Mazunte Taqueria - Oakley",
+name: "Mazunte Taqueria - Madisonville",
 city: "Cincinnati",
-neighborhood: "Oakley",
+neighborhood: "Madisonville",
 state: "OH",
 type: "full",
 
@@ -3963,24 +3499,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with counter ordering and table seating along Madison Road. Typically steady during lunch hours with busier dinner periods.",
+"Mexican restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and families.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -3994,24 +3526,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating and casual dining tables near Oakley Square. Typically quieter earlier in the day with increased activity during evening hours.",
+"Bar and grill with bar seating and table seating in a neighborhood setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -4025,55 +3553,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with table seating and a casual dining atmosphere along Madison Road. Typically steady during dinner hours with increased weekend activity.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring groups and families.",
-"Weekend evenings usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Catch-a-Fire Pizza - Oakley",
-city: "Cincinnati",
-neighborhood: "Oakley",
-state: "OH",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Pizza restaurant with table seating and counter ordering along Madison Road. Typically steady during dinner hours with moderate evening activity.",
-
-environment: {
-parking: "Shared development parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and groups.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -4087,23 +3580,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Ice cream and chocolate shop with counter service and limited seating near Oakley Square. Typically steady during afternoons with increased evening visits.",
+"Ice cream shop with counter service and limited seating for short visits.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits involve quick counter-service stops.",
-"Warm weekend evenings usually bring the most activity."
+"Visits are typically quick."
 ]
 },
 
@@ -4118,61 +3609,28 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop with indoor seating and a relaxed cafe atmosphere along Madison Road. Typically busiest during morning and midday hours.",
+"Coffee shop with indoor seating and a steady flow of customers throughout the day.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the cafe"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Morning hours bring steady coffee traffic.",
-"Afternoons attract remote workers and students.",
-"Evenings tend to feel quieter."
+"Visitors often stay to work or study."
 ]
 },
 
 {
-name: "Red Feather Kitchen",
+name: "Kitchen Social - Montgomery",
 city: "Cincinnati",
-neighborhood: "Oakley",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant with table seating and a modern dining room near Oakley Square. Typically calmer earlier in the evening with steady dinner reservations.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early dinner hours often feel calmer.",
-"Dinner service attracts couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Kitchen Social - Rookwood",
-city: "Cincinnati",
-neighborhood: "Rookwood",
+neighborhood: "Montgomery",
 state: "OH",
 type: "full",
 
@@ -4180,30 +3638,26 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and a social dining atmosphere in the Rookwood Commons development. Typically steady during dinner hours with moderate evening activity.",
+"Restaurant with table seating and a social dining layout in a large space.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours attract groups and families.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Condado Tacos - Rookwood",
+name: "Condado Tacos - Oakley",
 city: "Cincinnati",
-neighborhood: "Rookwood",
+neighborhood: "Oakley",
 state: "OH",
 type: "full",
 
@@ -4211,24 +3665,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Taco restaurant with bar seating and table dining in the Rookwood retail district. Typically steady during dinner hours with increased evening activity.",
+"Taco restaurant with bar seating and table dining in an open layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring groups and families.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -4242,28 +3692,53 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating in the Rookwood Commons development. Typically busiest during morning and late morning hours.",
+"Breakfast and brunch restaurant with table seating in a busy daytime setting.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the entrance"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Near entrance"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Morning hours bring steady breakfast traffic.",
-"Late morning brunch periods often fill quickly.",
-"Afternoons usually feel calmer."
+"Brunch periods fill quickly."
 ]
 },
 
 {
-name: "Northstar Cafe - Rookwood",
+name: "Agave & Rye – Rookwood",
+city: "Cincinnati",
+neighborhood: "Rookwood",
+state: "OH",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "High",
+
+whatToExpect:
+"Restaurant and bar with a large dining room and bar seating in a high-energy setting.",
+
+environment: {
+parking: "Shared lot with nearby businesses.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
+},
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
+},
+
+insights: []
+},
+
+{
+name: "Ford's Garage – Norwood",
 city: "Cincinnati",
 neighborhood: "Rookwood",
 state: "OH",
@@ -4273,92 +3748,26 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with counter ordering and table seating in the Rookwood dining district. Typically steady during lunch hours with moderate dinner traffic.",
+"Restaurant and bar with a large dining room and bar seating in an open layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch periods often bring consistent traffic.",
-"Afternoons tend to feel calmer.",
-"Weekend brunch hours usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Agave & Rye – Rookwood",
-city: "Cincinnati",
-neighborhood: "Hyde Park",
-state: "OH",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "High",
-
-whatToExpect:
-"Restaurant and bar with a large dining room and bar seating inside the Rookwood Commons area. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
-
-environment: {
-parking: "Large shared parking lots throughout Rookwood Commons.",
-restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
-},
-noise: "Moderate to High.",
-exits: "Direct exterior access to Rookwood Commons."
-},
-
-insights: [
-"Often described as high-energy during dinner hours.",
-"First-timers notice activity increases after typical work hours.",
-"Weekend evenings bring the most traffic."
-]
-},
-
-{
-name: "Ford's Garage – Norwood",
-city: "Cincinnati",
-neighborhood: "Hyde Park",
-state: "OH",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant and bar with a large dining room and bar seating in the Rookwood development. Typically calmer earlier in the day and busier during dinner hours and weekends.",
-
-environment: {
-parking: "Large shared Rookwood parking lot.",
-restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
-},
-noise: "Moderate.",
-exits: "Direct exterior access to the shopping area."
-},
-
-insights: [
-"Often described as family-focused during early dinner hours.",
-"First-timers notice evenings bring the most activity.",
-"Weekend dinners bring fuller seating."
-]
+insights: []
 },
 
 {
 name: "The Establishment",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Oakley",
 state: "OH",
 type: "full",
 
@@ -4366,24 +3775,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with table seating and bar seating in Hyde Park Square. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating and a bar area in a compact layout.",
 
 environment: {
-parking: "Street parking around Hyde Park Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during busy dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers notice activity increases after work hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -4397,24 +3802,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a dining room and patio seating overlooking Hyde Park Square. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Restaurant with indoor seating and patio dining in a central square location.",
 
 environment: {
-parking: "Street parking around the square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Patio access overlooking Hyde Park Square."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as square-view focused during warm weather.",
-"First-timers notice dinner hours bring the most activity.",
-"Weekend evenings bring the highest traffic."
-]
+insights: []
 },
 
 {
@@ -4428,23 +3829,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Classic diner with counter seating and table seating in a compact layout. Typically busiest during breakfast and lunch hours.",
+"Classic diner with counter seating and table seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during weekend mornings",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as breakfast-focused with strong morning traffic.",
-"First-timers notice weekend mornings bring the most activity.",
-"Afternoon hours are calmer."
+"Morning hours bring steady traffic."
 ]
 },
 
@@ -4459,30 +3858,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant with table seating and a compact dining room layout. Typically steady during lunch hours and busier during dinner periods.",
+"Restaurant with table seating in a compact dining space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady evening traffic.",
-"First-timers notice activity increases after 5 pm.",
-"Weekend dinners bring fuller seating."
-]
+insights: []
 },
 
 {
 name: "Seasons 52",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -4490,30 +3885,26 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large restaurant with dining rooms and bar seating inside Rookwood Pavilion. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Large restaurant with multiple dining areas and bar seating in an open layout.",
 
 environment: {
-parking: "Large shared Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Exterior access to Rookwood Pavilion."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and dinner hours.",
-"First-timers notice evenings bring fuller seating.",
-"Weekend dinners show the highest activity."
-]
+insights: []
 },
 
 {
 name: "Taste of Belgium – Rookwood",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -4521,30 +3912,28 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with dining tables and bar seating in the Rookwood development. Typically busiest during brunch hours and early afternoons.",
+"Restaurant with table seating and a bar area in a casual dining layout.",
 
 environment: {
-parking: "Shared Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during weekend brunch",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Exterior access to the shopping area."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as brunch-focused with strong weekend traffic.",
-"First-timers notice mornings bring the most activity.",
-"Afternoon hours tend to be calmer."
+"Brunch periods fill quickly."
 ]
 },
 
 {
 name: "Bronte Bistro",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -4552,30 +3941,26 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant inside the Joseph-Beth bookstore with table seating and a quiet dining layout. Typically calmer during weekday hours and busier during lunch periods.",
+"Restaurant with table seating inside a bookstore setting with a quiet layout.",
 
 environment: {
-parking: "Rookwood Commons parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Rarely long waits",
-location: "Inside bookstore"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low.",
-exits: "Access through bookstore entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as calmer than nearby restaurants.",
-"First-timers notice lunch hours bring the most activity.",
-"Afternoon visits are generally quiet."
-]
+insights: []
 },
 
 {
 name: "Buca di Beppo Italian Restaurant",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -4583,23 +3968,21 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large restaurant with multiple dining rooms in the Rookwood development. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Large restaurant with multiple dining rooms designed for group seating.",
 
 environment: {
-parking: "Large Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Direct exterior access to Rookwood development."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as group-oriented with busy dinner periods.",
-"First-timers notice evenings bring the most activity.",
-"Weekend dinners show higher traffic."
+"Group dining increases noise levels."
 ]
 },
 
@@ -4614,30 +3997,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with indoor seating and patio seating in Hyde Park Square. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+"Restaurant and bar with indoor seating and patio space in a central location.",
 
 environment: {
-parking: "Street parking around Hyde Park Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Patio access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers notice activity increases after 5 pm.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
 name: "Rusty Bucket Restaurant and Tavern",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -4645,24 +4024,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with table seating and bar seating in a casual layout. Typically steady during lunch hours and busier during dinner periods.",
+"Restaurant and bar with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Street parking around Hyde Park Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady throughout lunch and dinner hours.",
-"First-timers notice evenings bring the most activity.",
-"Weekend evenings show slightly higher traffic."
-]
+insights: []
 },
 
 {
@@ -4676,24 +4051,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with a compact dining room and bar seating in Hyde Park Square. Typically busiest during lunch hours and dinner periods.",
+"Restaurant and bar with a compact dining room and bar seating.",
 
 environment: {
-parking: "Street parking around Hyde Park Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during busy periods",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady throughout lunch and dinner hours.",
-"First-timers notice evenings bring fuller seating.",
-"Weekend dinners show higher traffic."
-]
+insights: []
 },
 
 {
@@ -4707,30 +4078,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and bar seating in a structured dining layout. Typically calmer earlier in the evening and busier during dinner hours.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady table service.",
-"First-timers notice evenings bring the most activity.",
-"Weekend dinners bring fuller seating."
-]
+insights: []
 },
 
 {
 name: "The Pub – Rookwood",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -4738,30 +4105,26 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Restaurant and bar with a large dining room in the Rookwood Pavilion area. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Restaurant and bar with a large dining room and bar seating in an open layout.",
 
 environment: {
-parking: "Shared Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Direct exterior access to Rookwood Pavilion."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as bar-forward during evening hours.",
-"First-timers notice dinner hours bring the most traffic.",
-"Weekend evenings bring fuller crowds."
-]
+insights: []
 },
 
 {
 name: "J. Alexander's Restaurant",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -4769,24 +4132,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large restaurant with dining rooms and bar seating in the Rookwood development. Typically calmer earlier in the evening and busier during dinner hours.",
+"Large restaurant with multiple dining areas and bar seating in a structured layout.",
 
 environment: {
-parking: "Large Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Direct exterior access to the development."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during dinner service.",
-"First-timers notice evenings bring fuller seating.",
-"Weekend dinners show higher traffic."
-]
+insights: []
 },
 
 {
@@ -4800,30 +4159,26 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large restaurant and brewery with multiple dining areas and bar seating. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Large restaurant and brewery with multiple dining areas and bar seating.",
 
 environment: {
-parking: "Large Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during busy dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Direct exterior access to Rookwood development."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as family-focused earlier and bar-focused later.",
-"First-timers notice dinner hours bring the most activity.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
-name: "The Capital Grille",
+name: "The Capital Grille - Rookwood",
 city: "Cincinnati",
-neighborhood: "Hyde Park",
+neighborhood: "Rookwood",
 state: "OH",
 type: "full",
 
@@ -4831,27 +4186,25 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Upscale restaurant with structured dining rooms and bar seating in the Rookwood area. Typically calmer earlier in the evening and busier during dinner hours.",
+"Upscale restaurant with multiple dining rooms and bar seating in a structured layout.",
 
 environment: {
-parking: "Shared Rookwood parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Direct exterior access to Rookwood development."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as reservation-driven during dinner service.",
-"First-timers notice evenings bring the most activity.",
-"Weekend dinners bring fuller seating."
+"Reservations are common."
 ]
 },
-   
-   {
+
+{
 name: "Pleasant Ridge Chili",
 city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
@@ -4862,23 +4215,21 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Classic Cincinnati chili parlor with booth seating and a casual diner-style layout along Montgomery Road. Typically steady throughout the day with consistent lunch and late-evening traffic.",
+"Chili parlor with booth seating and a casual diner-style layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent neighborhood traffic.",
-"Most visits involve quick dine-in meals or carryout.",
-"Evening hours stay steady with local regulars."
+"Visits are often quick for dine-in or carryout."
 ]
 },
 
@@ -4893,55 +4244,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Pizza restaurant with counter ordering and table seating along the Pleasant Ridge business district. Typically steady during dinner hours with increased activity later in the evening.",
+"Pizza restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Dinner hours bring steady dine-in traffic.",
-"Late evenings often attract small groups.",
-"Weekend nights usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "J&W Bar-B-Que",
-city: "Cincinnati",
-neighborhood: "Pleasant Ridge",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Casual barbecue restaurant with counter service and table seating along Montgomery Road. Typically steady during lunch hours with continued activity through dinner.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Takeout orders are common during dinner hours.",
-"Weekend evenings tend to bring steady traffic."
-]
+insights: []
 },
 
 {
@@ -4955,24 +4271,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating and casual dining tables along Montgomery Road. Typically quieter earlier in the day with increased activity during evening hours.",
+"Bar and grill with bar seating and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most visitors."
-]
+insights: []
 },
 
 {
@@ -4986,54 +4298,21 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Buffet-style restaurant with multiple dining sections and table seating along Montgomery Road. Typically steady during lunch hours with busier dinner periods.",
+"Buffet-style restaurant with multiple seating sections and steady guest movement.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring consistent traffic.",
-"Families and groups are common during dinner hours.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Emanu Restaurant",
-city: "Cincinnati",
-neighborhood: "Pleasant Ridge",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Casual restaurant with table seating and a relaxed dining atmosphere in the Pleasant Ridge business district. Typically quieter earlier in the day with steady dinner traffic.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and couples.",
-"Weekend evenings tend to bring the most activity."
+"Families and groups are common."
 ]
 },
 
@@ -5048,24 +4327,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small restaurant with counter ordering and table seating in a casual dining space. Typically steady during lunch hours and busier during dinner periods.",
+"Small restaurant with counter ordering and table seating in a compact layout.",
 
 environment: {
-parking: "Street parking along Montgomery Road.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and early dinner hours.",
-"First-timers note midday brings the most activity.",
-"Evening traffic remains moderate."
-]
+insights: []
 },
 
 {
@@ -5079,24 +4354,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Wine bar with indoor seating and a relaxed lounge-style layout. Typically calmer earlier in the evening and busier during weekend nights.",
+"Wine bar with indoor seating in a relaxed lounge-style layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady bar activity.",
-"First-timers notice activity increases later in the evening.",
-"Weekend nights bring the most consistent traffic."
-]
+insights: []
 },
 
 {
@@ -5110,23 +4381,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and counter ordering in a small dining room. Typically busiest during brunch hours and early afternoons.",
+"Restaurant with counter ordering and table seating in a small dining room.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during brunch",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as brunch-focused with strong midday traffic.",
-"First-timers note weekends bring the highest activity.",
-"Afternoon hours are generally calmer."
+"Brunch periods bring steady traffic."
 ]
 },
 
@@ -5141,28 +4410,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+"Small café with counter ordering and indoor seating for short visits.",
 
 environment: {
-parking: "Street parking along Montgomery Road.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as morning-focused with shorter visits.",
-"First-timers notice breakfast hours bring the most traffic.",
-"Activity decreases steadily later in the afternoon."
-]
+insights: []
 },
 
 {
-name: "Hello Honey",
+name: "Hello Honey - Pleasant Ridge",
 city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
@@ -5172,23 +4437,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small dessert shop with counter ordering and limited seating. Typically busiest during afternoon and evening dessert hours.",
+"Dessert shop with counter service and limited seating for quick visits.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as dessert-focused with short visits.",
-"First-timers notice increased activity after dinner hours.",
-"Weekend evenings bring the most traffic."
+"Visits are typically short."
 ]
 },
 
@@ -5203,24 +4466,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Brewery and restaurant with bar seating and dining tables in a casual layout. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Brewery and restaurant with bar seating and table seating in an open layout.",
 
 environment: {
-parking: "Street parking and small nearby lots.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady bar traffic.",
-"First-timers notice activity increases after typical work hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -5234,24 +4493,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with themed interior seating and lounge-style areas. Typically quieter earlier in the evening and busier later at night.",
+"Themed bar with lounge seating and a multi-room layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as nightlife-oriented with themed bar atmosphere.",
-"First-timers notice activity increases later in the evening.",
-"Weekend nights bring the most consistent crowds."
-]
+insights: []
 },
 
 {
@@ -5265,28 +4520,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a structured dining room and bar seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+"Steakhouse with a structured dining room and bar seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as dinner-focused with steady evening traffic.",
-"First-timers notice reservations shape the pace of dinner hours.",
-"Weekend evenings bring fuller dining rooms."
+"Reservations are common."
 ]
 },
 
 {
-name: "Coffee Exchange",
+name: "The Coffee Exchange of Pleasant Ridge",
 city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
@@ -5296,24 +4549,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop with counter ordering and indoor seating areas. Typically busiest during morning hours and early afternoons.",
+"Coffee shop with counter ordering and indoor seating for short visits or work.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as morning-focused with steady coffee traffic.",
-"First-timers notice breakfast hours bring the most activity.",
-"Afternoon hours tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -5327,24 +4576,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with lounge seating and a compact interior layout. Typically quieter earlier in the evening and busier later at night.",
+"Lounge-style bar with a compact interior and seating for small groups.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as nightlife-oriented with late evening activity.",
-"First-timers notice crowds increase later in the night.",
-"Weekend nights bring the highest traffic."
-]
+insights: []
 },
 
 {
@@ -5354,27 +4599,27 @@ neighborhood: "Price Hill",
 state: "OH",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Classic Cincinnati chili parlor with booth seating and a casual diner-style layout along Glenway Avenue. Typically steady throughout the day with consistent lunch and late-night traffic.",
+"Chili parlor with booth seating and a diner-style layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours bring consistent neighborhood traffic.",
-"Evenings attract families and small groups.",
-"Late-night visits are common after local events."
+"Late-night visits are common."
 ]
 },
 
@@ -5389,85 +4634,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Chinese restaurant with table seating and a casual dining room near the Glenway corridor. Typically steady during lunch and dinner hours with many takeout orders.",
+"Chinese restaurant with table seating in a casual dining room.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Takeout orders are common during dinner hours.",
-"Weekend evenings bring steady traffic."
-]
-},
-
-{
-name: "The Bold Faced Dairy Bar",
-city: "Cincinnati",
-neighborhood: "Price Hill",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Small dessert and soft-serve shop with counter service near the Incline District. Typically quieter earlier in the day with increased activity during warm evenings.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
-},
-noise: "Low",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits are quick walk-up orders.",
-"Warm weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Somm Wine Bar",
-city: "Cincinnati",
-neighborhood: "Price Hill",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Wine bar with indoor seating and a patio located along Price Avenue in East Price Hill. Typically calmer earlier in the evening with steady wine bar traffic later at night.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening visits often feel relaxed.",
-"Small groups gather for drinks later in the night.",
-"Weekend evenings usually bring the most activity."
+"Takeout orders are common."
 ]
 },
 
@@ -5482,23 +4663,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with counter ordering and table seating along the Warsaw Avenue corridor. Typically steady during lunch hours with busier dinner periods.",
+"Mexican restaurant with counter ordering and table seating in a casual setup.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often move quickly.",
-"Dinner hours attract families and neighborhood groups.",
-"Weekend evenings bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -5513,23 +4692,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant and tortilla shop with counter ordering and table seating along the Warsaw Avenue corridor. Typically busiest during lunch hours with steady dinner traffic.",
+"Mexican restaurant with counter ordering and table seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring the most activity.",
-"Takeout orders are common throughout the day.",
-"Weekend afternoons attract steady neighborhood traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -5540,27 +4717,27 @@ neighborhood: "Price Hill",
 state: "OH",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a large dining room and outdoor patio overlooking the city. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Restaurant with a large dining room and outdoor seating overlooking the city.",
 
 environment: {
-parking: "Dedicated lot next to the restaurant and additional street parking nearby.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during busy dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Patio and street-level access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as view-driven, with many visitors drawn to the patio.",
-"First-timers notice traffic increases around sunset and dinner hours.",
-"Weekend evenings bring fuller seating."
+"Outdoor seating is used frequently."
 ]
 },
 
@@ -5575,24 +4752,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with table seating and counter ordering. Typically busiest during lunch hours and early evening periods.",
+"Casual restaurant with counter ordering and table seating in a simple layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during midday hours.",
-"First-timers note lunch brings the most activity.",
-"Evening traffic remains consistent but moderate."
-]
+insights: []
 },
 
 {
@@ -5606,55 +4779,51 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Dining-focused restaurant with large windows overlooking the city and a structured dining room layout. Typically calm earlier in the evening and busier during dinner hours and weekends.",
+"Restaurant with a structured dining room and table seating overlooking the city.",
 
 environment: {
-parking: "Private parking lot available for guests.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner service",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as view-oriented with steady dinner traffic.",
-"First-timers notice reservations shape the evening pace.",
-"Weekend evenings bring fuller dining rooms."
+"Reservations are common."
 ]
 },
 
 {
-name: "Veracruz Mexican Grill",
+name: "Veracruz Mexican Grill - Price Hill",
 city: "Cincinnati",
 neighborhood: "Price Hill",
 state: "OH",
 type: "full",
 
+verified: true,   
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a casual dining layout and bar seating. Typically calmer during weekday afternoons and busier during dinner hours.",
+"Restaurant with table seating and bar seating in a casual dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and dinner hours.",
-"First-timers notice activity increases during evening service.",
-"Weekends bring slightly higher traffic."
-]
+insights: []
 },
 
 {
@@ -5668,24 +4837,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with counter ordering and dining tables. Typically busiest during lunch hours and early evenings.",
+"Restaurant with counter ordering and table seating in a casual setup.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as lunch-driven with steady foot traffic.",
-"First-timers note midday hours bring the most activity.",
-"Evening traffic remains consistent."
-]
+insights: []
 },
 
 {
@@ -5699,24 +4864,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and counter ordering. Typically steady during lunch and early dinner periods.",
+"Restaurant with table seating and counter ordering in a straightforward layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as consistent throughout the day.",
-"First-timers notice lunch brings the most traffic.",
-"Weekends show slightly higher activity."
-]
+insights: []
 },
 
 {
@@ -5730,24 +4891,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a structured dining layout and bar seating. Typically calmer earlier in the day and busier during dinner hours.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused.",
-"First-timers notice traffic increases around dinner hours.",
-"Weekends bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -5761,23 +4918,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small restaurant with counter ordering and dining tables. Typically busiest during lunch hours and early evening periods.",
+"Small restaurant with counter ordering and table seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-service oriented with shorter visits.",
-"First-timers note lunch hours bring the most traffic.",
-"Activity remains steady throughout the afternoon."
+"Visits are typically quick."
 ]
 },
 
@@ -5792,23 +4947,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch and late evening hours.",
+"Fast-casual restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-stop oriented.",
-"First-timers note traffic peaks during lunch.",
-"Late evening visits increase slightly."
+"Visits are often quick."
 ]
 },
 
@@ -5823,24 +4976,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with bar seating and a compact interior layout. Typically calmer during the day and busier during evening hours and weekends.",
+"Neighborhood bar with a compact layout and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as locally driven with steady evening traffic.",
-"First-timers notice activity increases after dinner hours.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
 
 {
@@ -5854,24 +5003,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+"Small café with counter ordering and indoor seating for short visits or work.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as morning-focused with shorter visits.",
-"First-timers notice breakfast hours bring the most activity.",
-"Traffic decreases through the afternoon."
-]
+insights: []
 },
 
 {
@@ -5881,58 +5026,52 @@ neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
 
-parkingLevel: "Limited",
+parkingLevel: "Difficult",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating and a casual dining layout near Mt. Lookout Square. Typically busiest during morning and late brunch hours, with quieter periods in the afternoon.",
+"Breakfast and brunch restaurant with table seating in a casual dining layout.",
 
 environment: {
 parking: "Limited street parking.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours tend to bring steady breakfast traffic.",
-"Late morning brunch periods can fill quickly.",
-"Afternoons are usually calmer after the brunch rush."
-]
+insights: []
 },
 
 {
-name: "Taglio Pizza - Mt. Lookout",
+name: "Taglio Pizza - Columbia-Tusculum",
 city: "Cincinnati",
-neighborhood: "Mt. Lookout",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "Limited",
+parkingLevel: "Difficult",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Pizza restaurant with counter ordering and table seating near Mt. Lookout Square. Typically steady during lunch hours, with increased activity during dinner and weekend evenings.",
+"Pizza restaurant with counter ordering and table seating in a compact layout.",
 
 environment: {
 parking: "Limited street parking.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring quick dine-in visits.",
-"Takeout orders are common during dinner hours.",
-"Weekend evenings tend to bring the most activity."
+"Takeout orders are common."
 ]
 },
 
@@ -5943,58 +5082,52 @@ neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
 
-parkingLevel: "Limited",
+parkingLevel: "Difficult",
 noiseLevel: "Low",
 
 whatToExpect:
-"Local café with table seating and a relaxed neighborhood atmosphere near Mt. Lookout Square. Typically busiest during breakfast and lunch hours, with quieter afternoons.",
+"Café with table seating in a relaxed neighborhood setting.",
 
 environment: {
 parking: "Limited street parking.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning visits often involve coffee and breakfast stops.",
-"Lunch periods tend to bring steady neighborhood traffic.",
-"Mid-afternoons usually feel quieter."
-]
+insights: []
 },
 
 {
-name: "Aladdin's Eatery - Mt. Lookout",
+name: "Aladdin's Eatery - Hyde Park",
 city: "Cincinnati",
-neighborhood: "Mt. Lookout",
+neighborhood: "Hyde Park",
 state: "OH",
 type: "full",
 
-parkingLevel: "Limited",
+parkingLevel: "Difficult",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mediterranean restaurant with counter ordering and table seating near Mt. Lookout Square. Typically steady during lunch hours, with busier dinner periods and weekend activity.",
+"Mediterranean restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
 parking: "Limited street parking.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent foot traffic.",
-"Many visits involve quick dine-in meals or takeout orders.",
-"Weekend evenings tend to bring the most activity."
+"Takeout orders are common."
 ]
 },
 
@@ -6005,65 +5138,30 @@ neighborhood: "Mt. Lookout",
 state: "OH",
 type: "full",
 
-parkingLevel: "Limited",
+parkingLevel: "Difficult",
 noiseLevel: "Low",
 
 whatToExpect:
-"Italian café and market with table seating and counter service near Mt. Lookout Square. Typically steady during lunch hours, with quieter periods in the afternoon and early evening.",
+"Italian café with counter ordering and table seating in a small dining space.",
 
 environment: {
 parking: "Limited street parking.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch periods tend to bring steady neighborhood visits.",
-"Many guests stop in for quick meals or specialty items.",
-"Afternoons usually feel calmer."
-]
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Mt. Lookout Creamy Whip",
-city: "Cincinnati",
-neighborhood: "Mt. Lookout",
-state: "OH",
-type: "full",
-
-parkingLevel: "Limited",
-noiseLevel: "Low",
-
-whatToExpect:
-"Walk-up ice cream stand with outdoor ordering and limited seating nearby. Typically quieter earlier in the day, with busier periods during warm evenings and weekends.",
-
-environment: {
-parking: "Limited street parking.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the building"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often bring steady dessert traffic.",
-"Evenings tend to attract families and groups.",
-"Warm weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
 name: "Stanley's Pub",
 city: "Cincinnati",
-neighborhood: "Mt. Lookout",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
@@ -6071,24 +5169,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a large bar area and casual seating. Typically calmer earlier in the day, with increased activity during evenings and weekend nights.",
+"Bar and grill with a large bar area and table seating in a social setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"The bar area becomes more active later in the night.",
-"Weekend nights tend to bring the largest crowds."
-]
+insights: []
 },
 
 {
@@ -6102,24 +5196,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant with a structured dining room and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Occasional waits during busy dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady evening traffic.",
-"First-timers note activity builds after typical work hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -6133,24 +5223,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Classic neighborhood restaurant with bar seating and table service. Typically steady during lunch hours and busier during dinner periods and weekends.",
+"Neighborhood restaurant with bar seating and table service in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak meal times",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as consistently busy during lunch and dinner.",
-"First-timers note activity increases around midday.",
-"Weekend evenings bring steady dining traffic."
-]
+insights: []
 },
 
 {
@@ -6164,24 +5250,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and a compact dining layout. Typically calmer earlier in the day and busier during dinner service and weekends.",
+"Restaurant with table seating in a compact dining layout.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Occasional waits during dinner rush",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-oriented.",
-"First-timers notice activity increases after 5 pm.",
-"Weekends bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -6195,28 +5277,24 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large bar with multiple floors and outdoor patio seating. Typically lighter earlier in the day and significantly busier during evening hours and weekends.",
+"Large bar with multiple floors and seating areas, including an outdoor patio.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High.",
-exits: "Patio and street-level access available."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as nightlife-oriented, especially on weekends.",
-"First-timers note activity increases significantly later in the evening.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
 
 {
-name: "The Vault Mt. Lookout",
+name: "The Vault - Mt. Lookout",
 city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
@@ -6226,24 +5304,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with a modern interior and bar seating. Typically calmer earlier in the day and busier during dinner hours and weekend evenings.",
+"Restaurant and bar with table seating and a central bar in a modern layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as bar-forward during evening hours.",
-"First-timers notice activity builds steadily through dinner service.",
-"Weekends bring the most consistent traffic."
-]
+insights: []
 },
 
 {
@@ -6257,28 +5331,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and wine bar with indoor seating and patio space. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Wine bar and restaurant with indoor seating and patio space.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Patio and street-level access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers note patio seating draws visitors during warm weather.",
-"Weekends bring fuller dining rooms."
+"Outdoor seating is used frequently."
 ]
 },
 
 {
-name: "Ichiban",
+name: "Ichiban - Mt. Lookout",
 city: "Cincinnati",
 neighborhood: "Mt. Lookout",
 state: "OH",
@@ -6288,24 +5360,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant with a traditional dining layout and sushi bar seating. Typically steady during lunch hours and busier during dinner periods.",
+"Sushi restaurant with table seating and bar seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and dinner.",
-"First-timers note activity increases during evening service.",
-"Weekend evenings bring slightly higher traffic."
-]
+insights: []
 },
 
 {
@@ -6319,23 +5387,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with counter ordering and dining tables. Typically busiest during lunch hours and dinner periods.",
+"Pizza restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-service with steady dining traffic.",
-"First-timers notice lunch and dinner bring the most activity.",
-"Weekend evenings bring slightly higher traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -6350,24 +5416,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a structured dining room and bar seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady evening traffic.",
-"First-timers notice activity builds after typical work hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -6381,24 +5443,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with dining tables and bar seating. Typically calmer during weekday afternoons and busier during dinner hours.",
+"Restaurant with table seating and bar seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during dinner service.",
-"First-timers note evenings bring the most activity.",
-"Weekends bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -6412,27 +5470,23 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter ordering and limited seating. Typically busiest during morning hours and early afternoons.",
+"Small café with counter ordering and limited seating.",
 
 environment: {
-parking: "Street parking around Mt. Lookout Square.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as morning-focused with short visits.",
-"First-timers note breakfast hours bring the most activity.",
-"Traffic decreases later in the afternoon."
-]
+insights: []
 },
-   
-   {
+
+{
 name: "Hummus Republic",
 city: "Cincinnati",
 neighborhood: "Clifton",
@@ -6443,23 +5497,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Counter-service restaurant with a straightforward ordering line and casual seating. Typically busiest during lunch hours and early evening periods.",
+"Counter-service restaurant with a simple ordering line and casual seating.",
 
 environment: {
-parking: "Street parking along nearby Clifton streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-stop oriented with short visits.",
-"Lunch hours bring the most consistent activity.",
-"Evening traffic increases slightly but remains steady."
+"Visits are typically quick."
 ]
 },
 
@@ -6474,28 +5526,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small restaurant with a casual dining layout and counter ordering. Typically calmer mid-afternoon and busier during lunch and early dinner periods.",
+"Small restaurant with counter ordering and a compact seating area.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during midday hours.",
-"First-time visitors note traffic builds around lunch.",
-"Activity tapers slightly later in the evening."
-]
+insights: []
 },
 
 {
-name: "Hangry Joe's Hot Chicken & Wings",
+name: "Hangry Joe's Hot Chicken & Wings - Clifton",
 city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
@@ -6505,24 +5553,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch and late evening hours.",
+"Fast-casual restaurant with counter ordering and limited seating for quick visits.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as quick-service with short visit times.",
-"Lunch and late-night hours bring the most traffic.",
-"Activity tends to be consistent rather than event-driven."
-]
+insights: []
 },
 
 {
@@ -6536,23 +5580,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Compact café-style space with counter ordering and small seating areas. Typically busiest during dessert hours and late evenings.",
+"Compact café with counter ordering and small seating areas for short visits.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as dessert-focused with short visits.",
-"First-timers notice increased activity after dinner hours.",
-"Weekend evenings bring the most foot traffic."
+"Late-evening visits are common."
 ]
 },
 
@@ -6567,24 +5609,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Dining-focused restaurant with table seating and a bar area. Typically calmer during weekday afternoons and busier during dinner hours.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Occasional waits during dinner rush",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-oriented.",
-"First-timers note traffic increases steadily after 5 pm.",
-"Weekends bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -6598,28 +5636,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Street-level restaurant with a traditional dining layout. Typically steady during lunch hours and busier during dinner periods.",
+"Restaurant with table seating in a traditional dining layout.",
 
 environment: {
-parking: "Street parking along Vine Street.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady throughout the day.",
-"First-timers note activity increases during evening service.",
-"Weekends bring slightly higher table occupancy."
-]
+insights: []
 },
 
 {
-name: "HangOverEasy",
+name: "HangOverEasy - Clifton",
 city: "Cincinnati",
 neighborhood: "Clifton",
 state: "OH",
@@ -6629,23 +5663,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with bar seating and a compact dining room. Typically busiest during breakfast, brunch, and weekend mornings.",
+"Breakfast and brunch restaurant with table seating and a compact dining room.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible during brunch rush",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as morning-focused with high brunch traffic.",
-"First-timers notice weekend mornings bring the most activity.",
-"Afternoons are generally calmer."
+"Morning visits bring steady traffic."
 ]
 },
 
@@ -6660,23 +5692,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small counter-service restaurant with limited seating. Typically busiest during lunch and early evening hours.",
+"Small restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-stop oriented.",
-"Lunch hours bring the most consistent traffic.",
-"Activity remains steady throughout the afternoon."
+"Visits are typically quick."
 ]
 },
 
@@ -6691,23 +5721,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch hours and late evenings.",
+"Fast-casual restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-service with shorter visits.",
-"Lunch and late-night hours bring the most traffic.",
-"Activity remains consistent throughout the day."
+"Visits are typically quick."
 ]
 },
 
@@ -6722,24 +5750,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with a mix of counter ordering and dining tables. Typically calmer mid-afternoon and busier during lunch and dinner periods.",
+"Restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as lunch and dinner focused.",
-"First-timers note activity increases around midday.",
-"Evening hours bring moderate traffic."
-]
+insights: []
 },
 
 {
@@ -6753,24 +5777,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Casual restaurant and bakery with counter ordering and dining tables. Typically steady during lunch hours and early evenings.",
+"Restaurant and bakery with counter ordering and table seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as consistent throughout the day.",
-"First-timers note lunch brings the most activity.",
-"Evening hours remain steady but less crowded."
-]
+insights: []
 },
 
 {
@@ -6784,24 +5804,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with bar seating and a compact dining area. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady traffic.",
-"First-timers note evenings bring fuller tables.",
-"Weekend nights show the highest activity."
-]
+insights: []
 },
    
 {
@@ -6815,24 +5831,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Dining-focused restaurant with a traditional table layout. Typically calm during weekday afternoons and busier during dinner service.",
+"Restaurant with table seating in a traditional dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and dinner hours.",
-"First-timers note dinner brings the most activity.",
-"Weekends show slightly higher traffic."
-]
+insights: []
 },
 
 {
@@ -6846,23 +5858,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small restaurant with counter service and limited seating. Typically busiest during lunch and early evening hours.",
+"Small restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as lunch-driven with quick visits.",
-"First-timers notice midday traffic peaks.",
-"Activity remains steady during the afternoon."
+"Visits are typically quick."
 ]
 },
 
@@ -6877,24 +5887,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with casual seating and counter service. Typically calmer earlier in the day and busier during evening hours.",
+"Restaurant and bar with counter service and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible during evening rush",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as bar-forward during evening hours.",
-"First-timers notice activity increases after dinner time.",
-"Weekends bring the most consistent traffic."
-]
+insights: []
 },
 
 {
@@ -6908,23 +5914,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Counter-service restaurant with limited seating. Typically busiest during lunch hours and late evenings.",
+"Fast-casual restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-service with short visits.",
-"Lunch hours bring the most consistent activity.",
-"Late-night traffic increases slightly."
+"Visits are typically quick."
 ]
 },
 
@@ -6939,24 +5943,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large pizza restaurant with dining tables and bar seating. Typically steady during lunch hours and busier during evenings and weekends.",
+"Pizza restaurant with table seating and a bar area in a large dining space.",
 
 environment: {
-parking: "Street parking and nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible during dinner rush",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as high-traffic during evenings.",
-"First-timers note activity increases around dinner time.",
-"Weekend nights bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -6970,24 +5970,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with dining tables and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Restaurant with table seating and bar seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady neighborhood traffic.",
-"First-timers note evenings bring fuller tables.",
-"Weekend activity is slightly higher than weekdays."
-]
+insights: []
 },
 
 {
@@ -7001,24 +5997,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large riverfront restaurant with multiple dining rooms and patio seating. Generally calmer earlier in the day, with increased activity during dinner hours, weekends, and nearby events.",
+"Large restaurant with multiple dining rooms and indoor and outdoor seating.",
 
 environment: {
-parking: "Valet only.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except during peak dinner hours",
-location: "Inside main building"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher when dining rooms are full.",
-exits: "Multiple exits and patio access."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Spacious layout with steady dining traffic.",
-"Activity increases around dinner hours.",
-"Weekend evenings bring the fullest seating."
-]
+insights: []
 },
 
 {
@@ -7032,24 +6024,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter service and limited seating. Typically busiest during morning and early afternoon hours.",
+"Small café with counter ordering and limited seating.",
 
 environment: {
-parking: "Street parking in Mt. Adams.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Uncommon",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; generally quiet outside peak coffee hours.",
-exits: "Direct sidewalk access."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning-focused traffic pattern.",
-"Breakfast hours bring the most activity.",
-"Traffic decreases steadily through the afternoon."
-]
+insights: []
 },
 
 {
@@ -7063,24 +6051,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Compact restaurant with a structured dining room and bar seating. Generally calm earlier in the evening and busier during peak dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a compact dining space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases as the dining room fills.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Intimate atmosphere due to smaller size.",
-"Dinner hours gradually increase activity.",
-"Weekends bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -7094,24 +6078,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small dining-focused restaurant with closely arranged tables. Typically quieter midweek and busier during dinner hours and weekends.",
+"Small restaurant with table seating in a compact dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher when dining room is full.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Compact dining layout.",
-"Reservations shape the evening pace.",
-"Weekend dinners bring the highest occupancy."
-]
+insights: []
 },
 
 {
@@ -7125,24 +6105,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Street-level restaurant with bar seating and dining tables. Generally lighter during weekday hours and busier during evening service and weekends.",
+"Restaurant and bar with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Street parking in Mt. Adams.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak evening hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during peak dinner and bar hours.",
-exits: "Direct sidewalk access."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Bar-forward layout influences traffic patterns.",
-"Activity increases noticeably after dinner hours.",
-"Weekend evenings bring the most consistent traffic."
-]
+insights: []
 },
 
 {
@@ -7156,24 +6132,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood bar and restaurant with indoor seating and patio space. Typically steady during the day and busier during evening hours and weekends.",
+"Neighborhood bar and restaurant with table seating and patio space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak evening hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekend evenings.",
-exits: "Patio and street access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Locally driven neighborhood spot.",
-"Activity builds gradually through the evening.",
-"Weekend nights bring the most noticeable crowd levels."
-]
+insights: []
 },
 
 {
@@ -7187,23 +6159,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small bar and restaurant with indoor seating and a patio overlooking the city. Typically calmer earlier in the day and busier during evening hours and weekends.",
+"Small bar and restaurant with indoor seating and outdoor patio space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during busy evenings",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekend evenings.",
-exits: "Patio access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Patio and city views drive visitor traffic.",
-"Outdoor seating draws many first-time visitors.",
-"Evening hours bring the most activity."
+"Outdoor seating is used frequently."
 ]
 },
 
@@ -7218,24 +6188,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with indoor seating and a rooftop patio area. Typically quieter earlier in the evening and busier later at night, especially on weekends.",
+"Bar with indoor seating and a patio area in a nightlife-focused setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during weekend nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High; increases late at night.",
-exits: "Street and rooftop access available."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Nightlife-oriented traffic pattern.",
-"Activity increases after dinner hours.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
 
 {
@@ -7249,23 +6215,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small counter-service pizza spot with limited seating. Typically busiest during late-night hours and weekend evenings.",
+"Pizza spot with counter ordering and limited seating in a compact space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Uncommon",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate; varies depending on crowd size.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Quick-stop oriented layout.",
-"Late-night hours bring the most activity.",
-"Traffic remains steady rather than event-driven."
+"Late-night visits are common."
 ]
 },
 
@@ -7280,23 +6244,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small bar with indoor seating and a secluded outdoor patio. Typically calm earlier in the evening and busier during live music nights and weekends.",
+"Small bar with indoor seating and an outdoor patio area.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during busy nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during live music.",
-exits: "Patio and street access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Patio-centered layout shapes the experience.",
-"Live music strongly influences activity.",
-"Weekend evenings bring the most visitors."
+"Live music is hosted regularly."
 ]
 },
 
@@ -7311,24 +6273,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood bar with a compact interior and traditional bar layout. Generally steady during the day and busier during evening hours.",
+"Neighborhood bar with a compact interior and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during busy evenings",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekend evenings.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Locally driven with consistent traffic.",
-"Activity builds gradually through the evening.",
-"Weekends bring the fullest seating."
-]
+insights: []
 },
 
 {
@@ -7342,26 +6300,22 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with a small interior and close seating arrangement. Typically quieter earlier in the evening and busier later at night.",
+"Bar with a compact interior and close seating arrangement.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during weekend nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High; higher during weekend nights.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Night-focused bar traffic.",
-"Activity increases later in the evening.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
-   
+
 {
 name: "The View at Mt. Adams",
 city: "Cincinnati",
@@ -7373,23 +6327,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with large windows and outdoor seating overlooking the city. Typically lighter earlier in the day and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating and outdoor patio space overlooking the city.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak evenings",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekend evenings.",
-exits: "Patio and street access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"View-driven destination spot.",
-"Window and patio seating attract most visitors.",
-"Evenings bring the most consistent traffic."
+"Outdoor seating is used frequently."
 ]
 },
 
@@ -7404,24 +6356,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with indoor seating and an entertainment-focused layout. Typically quiet during the day and busier during evening hours and weekends.",
+"Bar with indoor seating in a nightlife-focused layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during busy nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High; especially during late-night hours.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Music and nightlife oriented environment.",
-"Activity increases significantly after dinner hours.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
 
 {
@@ -7435,24 +6383,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Street-level restaurant with a compact dining room and bar seating. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Restaurant with a compact dining room and bar seating in a casual layout.",
 
 environment: {
-parking: "Street parking and nearby downtown garages.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak dinner hours",
-location: "Inside main dining area"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases as tables fill.",
-exits: "Direct sidewalk access."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Neighborhood-oriented and steady in pace.",
-"Activity builds gradually into the evening.",
-"Weekends bring fuller seating compared to midweek."
-]
+insights: []
 },
 
 {
@@ -7466,24 +6410,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern restaurant with indoor seating and patio space in a mixed-use development. Generally calm earlier in the day and busier during dinner service and weekends.",
+"Restaurant with indoor seating and patio space in an open layout.",
 
 environment: {
-parking: "Dedicated lot and shared development parking available.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner hours",
-location: "Inside main building"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during peak dinner service.",
-exits: "Patio and street-level access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Open, contemporary layout.",
-"Evenings bring a noticeable increase in traffic.",
-"Structured atmosphere rather than nightlife-driven."
-]
+insights: []
 },
 
 {
@@ -7497,24 +6437,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Two-level restaurant with bar seating and closely arranged dining tables. Typically lighter during weekday afternoons and noticeably busier during dinner hours and weekends.",
+"Restaurant with table seating and a bar area across multiple levels.",
 
 environment: {
-parking: "Street parking and nearby OTR garages.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Common during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Likely",
+location: "Inside main area"
 },
-noise: "Moderate to High; increases during peak dinner service.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"High traffic during dinner hours.",
-"Weekend wait times are common.",
-"Activity increases steadily after 5 pm."
-]
+insights: []
 },
 
 {
@@ -7528,23 +6464,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Upscale, structured dining room with traditional table seating. Generally calm during weekday evenings and busier during weekend dinner hours.",
+"Steakhouse with a structured dining room and table seating.",
 
 environment: {
-parking: "Valet and nearby downtown garages.",
+parking: "Valet or Street parking/lots nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon",
-location: "Inside main dining area"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; conversation-friendly.",
-exits: "Street-level access."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Reservation-driven and paced environment.",
-"Consistent, controlled atmosphere.",
-"Weekend evenings bring fuller dining rooms."
+"Reservations are common."
 ]
 },
 
@@ -7559,24 +6493,20 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Multi-room steakhouse set in a historic building with structured table layouts. Generally calm earlier in the evening, with busier dinner hours and weekends.",
+"Large restaurant with multiple dining rooms in a structured layout.",
 
 environment: {
-parking: "Valet. On-site parking lot available.",
+parking: "Valet.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon",
-location: "Inside building"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; conversation-friendly throughout most hours.",
-exits: "Multiple building exits."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Steady and organized even when full.",
-"Multi-room layout changes the feel depending on seating.",
-"Dinner hours shape most of the activity."
-]
+insights: []
 },
 
 {
@@ -7590,23 +6520,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large, multi-level dining space with a formal layout and prominent bar area. Generally calmer midweek and busier during weekend dinner hours.",
+"Large restaurant with multiple dining areas and a bar in a formal layout.",
 
 environment: {
-parking: "Valet and nearby downtown garages.",
+parking: "Valet or Street parking/lots nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner hours",
-location: "Inside main levels"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during peak dinner service.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Structured and reservation-shaped flow.",
-"Evenings bring the most noticeable increase in activity.",
-"Weekends feel fuller but remain organized."
+"Reservations are common."
 ]
 },
 
@@ -7621,24 +6549,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood bar with a compact interior and bar-focused seating. Typically calmer during the day and busier during evening hours and weekends.",
+"Neighborhood bar with a compact interior and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak evenings",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekend evenings.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Locally driven and consistent atmosphere.",
-"Compact layout fills quickly.",
-"Activity remains steady rather than event-driven."
-]
+insights: []
 },
 
 {
@@ -7652,24 +6576,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar located within a larger venue space with structured seating. Generally lighter earlier in the day and busier during dinner hours and special events.",
+"Restaurant and bar with structured seating inside a larger venue space.",
 
 environment: {
-parking: "Street parking and nearby garages.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during events",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during events and weekend evenings.",
-exits: "Street-level access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Event-influenced activity tied to nearby attractions.",
-"Noticeable shift during weekend evenings.",
-"Weekday hours feel more controlled and steady."
-]
+insights: []
 },
 
 {
@@ -7683,23 +6603,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Bright daytime restaurant with compact seating. Busiest during breakfast and weekend brunch hours.",
+"Breakfast restaurant with compact seating and a steady morning crowd.",
 
 environment: {
-parking: "Street + garages; competitive during brunch.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
 capacity: "Limited capacity",
-waits: "Possible during brunch peak",
-location: "Inside restaurant"
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during brunch rush.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Bright and bustling during mornings.",
-"Weekend brunch drives steady traffic."
-]
+insights: []
 },
 
 {
@@ -7713,22 +6630,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large bar with extensive outdoor seating. Quieter earlier; more energetic evenings and game days.",
+"Large bar with indoor seating and outdoor space in a social setting.",
 
 environment: {
-parking: "Street + garages; tight during games.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
 capacity: "Multiple stalls",
-waits: "Possible during busy nights",
-location: "Inside main building"
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High evenings and weekends.",
-exits: "Direct access to The Banks."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
 insights: [
-"Energy closely tied to game schedules.",
-"Outdoor seating is a major draw."
+"Outdoor seating is used frequently."
 ]
 },
 
@@ -7743,23 +6659,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual tavern with indoor and small outdoor seating. Calmer midday; busier on weekends.",
+"Tavern with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Street + garages; tighter on weekends.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
 capacity: "Limited capacity",
-waits: "Possible during peak hours",
-location: "Inside venue"
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; louder late evenings.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Neighborhood-style relaxed feel.",
-"Energy increases later in the evening."
-]
+insights: []
 },
 
 {
@@ -7773,23 +6686,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Spacious taco and tequila spot with indoor and outdoor seating. Livelier in evenings and on Taco Tuesdays.",
+"Restaurant with table seating and a bar area in an open layout.",
 
 environment: {
-parking: "Street + garages; tight at peak.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during busy times",
+capacity: "Multiple stalls",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate; louder evenings.",
-exits: "Street-level on Vine St."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Energy builds in the evenings.",
-"Music contributes to lively atmosphere."
-]
+insights: []
 },
 
 {
@@ -7799,27 +6709,26 @@ neighborhood: "Oakley",
 state: "OH",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large brewery with expansive indoor and outdoor seating. Calmer daytime; lively evenings and weekends.",
+"Large brewery with indoor and outdoor seating in an open layout.",
 
 environment: {
-parking: "On-site lot + street; fills quickly.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple; accessible",
-waits: "Possible on busy nights",
-location: "Inside main building"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Low to Moderate daytime; High evenings.",
-exits: "Large patio and multiple exits."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Open, social layout.",
-"Crowds increase on weekends."
-]
+insights: []
 },
 
 {
@@ -7833,23 +6742,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Bright café focused on breakfast and lunch. Busier during brunch and weekday lunch rush.",
+"Bright café with table seating focused on breakfast and lunch service.",
 
 environment: {
-parking: "Street + downtown garages.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during brunch peak",
-location: "Inside restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during brunch.",
-exits: "Open layout; quick street exit."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Bright and airy setting.",
-"Weekend brunch draws steady crowds."
-]
+insights: []
 },
 
 {
@@ -7863,25 +6769,22 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large riverfront restaurant with multi-level seating and patio space. Activity increases around games.",
+"Large restaurant and brewery with multiple seating areas and outdoor space.",
 
 environment: {
-parking: "Garages + street; limited during events.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple; accessible",
-waits: "Possible during peak events",
-location: "Inside multiple levels"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate daytime; High during events.",
-exits: "Multiple exits + patio access."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Crowds track with stadium schedules.",
-"Spacious layout accommodates groups."
-]
+insights: []
 },
-   
+
 {
 name: "O’Malley’s in the Alley",
 city: "Cincinnati",
@@ -7893,23 +6796,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Historic Irish pub below street level. Calmer weekdays; busier before games.",
+"Bar with a compact interior located on a lower level.",
 
 environment: {
-parking: "Street + garages; tight on game days.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; tighter layout",
-waits: "Possible pre-game",
-location: "Inside lower level"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Lower level"
 },
-noise: "Moderate; louder during pre-game.",
-exits: "Alley entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Classic old-school pub feel.",
-"Guests linger during slower hours."
-]
+insights: []
 },
 
 {
@@ -7923,22 +6823,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern restaurant with smaller dining room and reservation-driven flow.",
+"Restaurant with table seating in a compact dining room.",
 
 environment: {
-parking: "OTR street + garages; competitive at dinner.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during full dinner service",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases at full capacity.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Intimate and structured dining experience.",
-"Energy shifts as tables fill."
+"Reservations are common."
 ]
 },
 
@@ -7953,23 +6852,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Cozy Irish-style pub with lively bar atmosphere. Busier on weekends and game nights.",
+"Bar with a compact layout and bar seating in a social setting.",
 
 environment: {
-parking: "Street meters + garages; tight on game nights.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak evenings",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High evenings.",
-exits: "Street-level access."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Energetic pre-game gathering spot.",
-"Friendly, social environment."
-]
+insights: []
 },
 
 {
@@ -7983,23 +6879,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large multi-level brewery with rooftop space. Increasingly busy through evenings and weekends.",
+"Large brewery with multiple levels and open seating areas.",
 
 environment: {
-parking: "Street + garages; fills at peak times.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple; accessible",
-waits: "Possible during busy nights",
-location: "Multiple levels"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate daytime; High evenings.",
-exits: "Multiple exits including rooftop."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Open industrial layout.",
-"Energy builds gradually throughout the day."
-]
+insights: []
 },
 
 {
@@ -8013,23 +6906,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern taproom with structured layout and outdoor seating.",
+"Taproom with table seating and outdoor seating in a structured layout.",
 
 environment: {
-parking: "Street + garages; varies with events.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak times",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher evenings.",
-exits: "Outdoor seating; street-level exit."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Polished, organized flow.",
-"Predictable atmosphere even when busy."
-]
+insights: []
 },
 
 {
@@ -8043,22 +6933,21 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Soccer-focused bar with open layout. Much busier during live matches.",
+"Bar with an open layout and table seating focused on live sports viewing.",
 
 environment: {
-parking: "Street + garages; limited during matches.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during live games",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High during matches.",
-exits: "Direct street access."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Energy closely tied to match schedules.",
-"Communal atmosphere during games."
+"Live matches increase noise and crowd levels."
 ]
 },
 
@@ -8073,23 +6962,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large bar and restaurant with high energy during evenings and game days.",
+"Large restaurant and bar with multiple seating areas in an open layout.",
 
 environment: {
-parking: "Downtown street + garages; tight at peak.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during busy nights",
-location: "Inside main level"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate lunch; High evenings/game nights.",
-exits: "Large entrance + riverfront access."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Energy tracks with downtown events.",
-"Calmer earlier in the day."
-]
+insights: []
 },
 
 {
@@ -8103,30 +6989,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Compact, street-level restaurant with a traditional dining layout. Calmer earlier in the evening, with fuller tables during peak dinner hours and weekends.",
+"Restaurant with table seating in a compact dining room.",
 
 environment: {
-parking: "Street parking along Main + nearby public lots; may require short walk during peak times.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except during peak dinner",
-location: "Inside main dining area"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate; increases when fully seated.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Cozy and intimate layout.",
-"Clear shift between early evening and weekend peak.",
-"Full but controlled on busy nights."
-]
+insights: []
 },
 
 {
 name: "Brothers Bar & Grill – Newport",
 city: "Newport",
-neighborhood: "",
+neighborhood: "Newport on the Levee",
 state: "KY",
 type: "full",
 
@@ -8134,86 +7016,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large sports bar and restaurant with bar seating and multiple dining areas at Newport on the Levee. Typically calmer earlier in the day with busier evenings and weekend nightlife.",
+"Large sports bar with multiple seating areas and bar seating.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel calmer before evening crowds.",
-"Groups gather for drinks and sports viewing.",
-"Weekend nights usually bring the most activity."
-]
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "The Buzz Social",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "High",
-
-whatToExpect:
-"Bar and social venue with games, lounge seating, and bar service near the Newport nightlife district. Typically quieter earlier in the evening with increased activity later at night.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening hours often feel calmer.",
-"Groups gather for games and drinks later at night.",
-"Weekend nights usually bring the most visitors."
-]
-},
-
-{
-name: "The Local Post",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood bar with a casual atmosphere and bar seating in the Newport nightlife area. Typically calmer earlier in the day with increased activity during evening hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights tend to bring the most visitors."
-]
+insights: []
 },
 
 {
@@ -8227,29 +7043,25 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Historic music venue with multiple performance rooms and bar service throughout the building. Typically quieter earlier in the evening with increased activity during concerts and weekend events.",
+"Music venue with multiple rooms and bar service throughout the space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Waits possible during peak hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Likely",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Non-event evenings often feel calm.",
-"Concert nights bring larger crowds.",
-"Weekend shows usually create the most activity."
-]
+insights: []
 },
 
 {
-name: "Kung Brew Cafe",
-city: "Newport",
+name: "KungBrew Cafe",
+city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -8258,61 +7070,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Coffee shop and cafe with table seating and a relaxed neighborhood atmosphere along Monmouth Street. Typically busiest during morning and lunch hours with quieter evenings.",
+"Coffee shop with table seating in a relaxed layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the cafe"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Morning hours bring steady coffee traffic.",
-"Lunch visits often move quickly.",
-"Afternoons usually feel quieter."
-]
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Rotolo’s Pizzeria - Newport",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Pizza restaurant with counter ordering and table seating near the Levee district. Typically steady during lunch hours with increased activity during dinner and weekend evenings.",
-
-environment: {
-parking: "Large shared parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring steady dine-in traffic.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
 name: "Cold Stone Creamery - Newport",
 city: "Newport",
-neighborhood: "",
+neighborhood: "Newport on the Levee",
 state: "KY",
 type: "full",
 
@@ -8320,57 +7097,22 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Ice cream shop with counter service and limited seating near the Levee district. Typically steady during afternoon hours with busier evenings and weekend visits.",
+"Ice cream shop with counter service and limited seating.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits involve quick counter service.",
-"Weekend evenings usually bring the most activity."
-]
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Menchie’s Frozen Yogurt - Newport",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "Low",
-
-whatToExpect:
-"Frozen yogurt shop with self-serve stations and limited indoor seating near the Levee area. Typically steady during afternoons with increased activity during evening hours.",
-
-environment: {
-parking: "Large shared parking lot.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
-},
-noise: "Low",
-exits: "Easy step outside to sidewalk"
+insights: []
 },
 
-insights: [
-"Afternoons often bring steady traffic.",
-"Most visits are short dessert stops.",
-"Weekend evenings tend to be busiest."
-]
-},
-   
 {
 name: "Villa Fiesta",
 city: "Covington",
@@ -8378,30 +7120,26 @@ neighborhood: "Latonia",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant along Taylor Mill Road with booth and table seating in a relaxed neighborhood dining environment. Activity typically builds during dinner hours and weekend evenings.",
+"Mexican restaurant with booth seating and table dining in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dinner conversation and background music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically the busiest.",
-"Families and small groups are common.",
-"Parking is usually easy directly outside the restaurant."
-]
+insights: []
 },
-   
+
 {
 name: "Del Gardo’s Cannoli",
 city: "Covington",
@@ -8413,24 +7151,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Italian dessert shop with counter service and limited indoor seating in the MainStrasse area. Typically steady during afternoon and evening hours with quick visits for dessert or takeaway.",
+"Dessert shop with counter service and limited seating in a compact space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits are quick counter-service stops.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -8444,23 +7178,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Steakhouse with table seating and a bar area located in the Covington dining district. Typically quieter earlier in the evening with steady dinner reservations and weekend visits.",
+"Steakhouse with table seating and a bar area in a structured dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Early dinner reservations often feel calmer.",
-"Couples and small groups are common during dinner service.",
-"Weekend evenings usually bring the most activity."
+"Reservations are common."
 ]
 },
 
@@ -8475,24 +7207,20 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant and lounge located on the top floor of the Radisson hotel with panoramic views and table seating. Typically relaxed earlier in the evening with steady dinner reservations and weekend visitors.",
+"Restaurant with table seating in a structured dining room layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel quieter.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually see the most visitors."
-]
+insights: []
 },
 
 {
@@ -8506,23 +7234,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual burger restaurant with counter ordering and table seating along the Madison Avenue corridor. Typically steady during lunch hours with continued traffic during dinner periods.",
+"Casual restaurant with counter ordering and table seating in a simple layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring consistent traffic.",
-"Most visits involve quick dine-in meals or takeout.",
-"Weekend afternoons tend to be the busiest."
+"Visits are typically quick."
 ]
 },
 
@@ -8537,24 +7263,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Craft cocktail bar with lounge seating and a relaxed social atmosphere along the Covington nightlife corridor. Typically calmer earlier in the evening with more activity later at night.",
+"Bar with lounge seating and a compact layout for small groups.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel relaxed.",
-"Small groups gather for cocktails later in the night.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -8568,30 +7290,26 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar and social venue with a casual layout and bar seating in the Covington entertainment district. Typically quieter earlier in the day with increased activity during evening hours and weekends.",
+"Bar with a casual layout and bar seating in a social setting.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Evenings bring steady social groups.",
-"Weekend nights usually bring the largest crowds."
-]
+insights: []
 },
 
 {
-name: "Gypsy’s Smokehouse",
+name: "Gypsy’s Mainstrasse",
 city: "Covington",
-neighborhood: "",
+neighborhood: "Mainstrasse",
 state: "KY",
 type: "full",
 
@@ -8599,24 +7317,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Barbecue restaurant with table seating and a casual dining atmosphere along the Madison Avenue corridor. Typically steady during dinner hours with busier weekend activity.",
+"Barbecue restaurant with table seating in a casual dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner service brings small groups and families.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -8630,28 +7344,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Bar located above street level with lounge seating and a relaxed nightlife atmosphere. Typically calmer earlier in the evening with increased activity later at night.",
+"Bar with lounge seating located above street level in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings tend to feel quieter.",
-"Groups often gather for drinks later at night.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Juniper’s Gin Bar",
+name: "Juniper’s - Covington",
 city: "Covington",
 neighborhood: "",
 state: "KY",
@@ -8661,92 +7371,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Gin-focused cocktail bar with lounge seating and a relaxed bar atmosphere in the Covington nightlife district. Typically calmer earlier in the evening with steady cocktail traffic later at night.",
+"Cocktail bar with lounge seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evening visits often feel relaxed.",
-"Small groups gather for cocktails later at night.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Pike Street Lounge",
-city: "Covington",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood bar with bar seating and a casual lounge atmosphere along Pike Street. Typically quieter earlier in the day with more activity during evening hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most visitors."
-]
-},
-
-{
-name: "The Madison Event Space Bar",
-city: "Covington",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "High",
-
-whatToExpect:
-"Event venue with bar service and seating areas used for social gatherings and hosted events. Typically quieter outside scheduled events with increased activity during event nights.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside"
-},
-
-insights: [
-"Non-event days tend to feel quiet.",
-"Event nights bring larger crowds.",
-"Weekend events usually create the most activity."
-]
-},
-   
-   {
 name: "Frida 602",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
 
@@ -8754,30 +7398,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with table seating and a bar area along the MainStrasse corridor. Typically calmer earlier in the day with busier dinner service and weekend evenings.",
+"Mexican restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often move quickly with nearby workers.",
-"Dinner hours bring steady small groups and couples.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Larry’s All American Cafe",
+name: "Larry’s - Covington",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -8785,30 +7425,28 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood diner with booth seating and a casual counter service atmosphere. Typically busiest during breakfast and lunch hours with quieter evenings.",
+"Diner with booth seating and counter service in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Morning hours often bring steady breakfast traffic.",
-"Lunch periods tend to move quickly.",
-"Afternoons usually feel calmer."
+"Morning visits are common."
 ]
 },
 
 {
 name: "The Standard Covington",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
 
@@ -8816,92 +7454,84 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar located in a converted garage with indoor dining and patio seating. Typically calmer earlier in the evening with busier dinner service and weekend activity.",
+"Restaurant and bar with indoor seating and patio space in an open layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Happy hour periods often bring steady traffic.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
 name: "Braxton Brewing Company",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
+
+verified: true,
 
 parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Brewery taproom with large open seating areas and bar service near the Covington entertainment district. Typically calmer earlier in the day with increased activity during evenings and weekends.",
+"Brewery with open seating areas and bar service in a large space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Afternoons often feel quieter before evening crowds.",
-"Groups frequently gather for drinks after work.",
-"Weekend nights usually bring the largest crowds."
-]
+insights: []
 },
 
 {
 name: "KungFood Chu’s AmerAsia",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
+
+verified: true,
 
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Asian restaurant and craft beer bar with table seating and a casual dining layout. Typically steady during dinner hours with increased activity during weekends.",
+"Restaurant with table seating and a bar area in a casual dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring steady dine-in traffic.",
-"Weekend evenings usually see the most activity."
-]
+insights: []
 },
 
 {
 name: "Goodfellas Pizzeria - Covington",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
 
@@ -8909,30 +7539,28 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Pizza restaurant with counter ordering and bar seating in the MainStrasse nightlife district. Typically steady during dinner hours with increased activity late at night.",
+"Pizza restaurant with counter ordering and bar seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours bring steady dine-in visits.",
-"Late evenings attract nightlife crowds.",
-"Weekend nights usually bring the most activity."
+"Late-night visits are common."
 ]
 },
 
 {
 name: "Mac’s Pizza Pub - Covington",
 city: "Covington",
-neighborhood: "Mainstrasse",
+neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
 
@@ -8940,86 +7568,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood pizza pub with a bar area and casual table seating. Typically calmer earlier in the day with increased activity during evening hours and sports events.",
+"Pizza pub with bar seating and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Sports events increase activity in the bar area.",
-"Weekend nights usually bring the most visitors."
-]
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "El Rincon Mexican Restaurant",
-city: "Covington",
-neighborhood: "Mainstrasse",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Casual Mexican restaurant with booth seating and a relaxed dining room atmosphere. Typically quieter earlier in the day with busier dinner hours and weekend visits.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch hours often move quickly.",
-"Evenings bring families and small groups.",
-"Weekend dinners tend to bring the most activity."
-]
-},
-
-{
-name: "Rich’s Proper Food & Drink",
-city: "Covington",
-neighborhood: "Mainstrasse",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant and bar with table seating and a relaxed dining layout in the Covington dining district. Typically calmer earlier in the evening with steady dinner reservations.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening reservations often feel calmer.",
-"Dinner hours attract couples and small groups.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -9033,30 +7595,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Multi-level restaurant and bar with indoor seating and a rooftop patio. Typically lighter earlier in the day and busier during dinner hours and weekends, especially in warmer weather.",
+"Multi-level restaurant and bar with indoor seating and outdoor space.",
 
 environment: {
-parking: "Street parking and nearby public lots; may require short walk during peak times.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner hours",
-location: "Inside main level"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher on rooftop and weekend evenings.",
-exits: "Street-level entrance and rooftop access."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Seating level changes the overall experience.",
-"Rooftop traffic increases seasonally.",
-"Activity builds steadily into the evening."
-]
+insights: []
 },
 
 {
 name: "Blinkers Tavern",
 city: "Covington",
-neighborhood: "MainStrasse",
+neighborhood: "Roebling/Riverfront",
 state: "KY",
 type: "full",
 
@@ -9064,30 +7622,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Traditional dining restaurant with a structured table layout and bar area. Generally calm earlier in the evening, with fuller tables during peak dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
-parking: "Street parking along Pike Street and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except during peak dinner hours",
-location: "Inside main dining area"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; conversation-friendly even when busy.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Reservation-shaped dinner flow.",
-"Consistent pace rather than sharp crowd spikes.",
-"Weekends bring fuller seating but remain controlled."
-]
+insights: []
 },
 
 {
 name: "Carmelo’s Restaurant",
 city: "Covington",
-neighborhood: "MainStrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -9095,30 +7649,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Intimate, street-level dining space with closely arranged tables. Typically quieter midweek and earlier in the evening, with busier dinner service on weekends.",
+"Restaurant with closely arranged table seating in a compact dining space.",
 
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak dinner hours",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases as the dining room fills.",
-exits: "Direct sidewalk access."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Compact and dining-focused layout.",
-"Smaller footprint fills quickly.",
-"Activity builds gradually through dinner hours."
-]
+insights: []
 },
 
 {
 name: "Coppin’s Restaurant & Bar",
 city: "Covington",
-neighborhood: "Roebling/Riverfront",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -9126,24 +7676,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Hotel-based restaurant and bar with a structured, open dining room. Generally calm during weekday hours and busier during dinner and weekend periods.",
+"Restaurant and bar with a structured dining room in a hotel setting.",
 
 environment: {
-parking: "Hotel parking garage available on-site; easy access.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon",
-location: "Inside hotel main level"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate; typically steady rather than loud.",
-exits: "Lobby and street-level access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Influenced by hotel traffic patterns.",
-"Predictable flow throughout the day.",
-"Weekends bring moderate increases in activity."
-]
+insights: []
 },
 
 {
@@ -9157,23 +7703,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small, traditional diner with counter seating and a straightforward layout. Generally steady throughout the day, with more activity during breakfast and late-night hours.",
+"Small diner with counter seating and a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Uncommon",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; conversation-friendly due to smaller footprint.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Routine-driven, especially during breakfast.",
-"Activity spreads across the day rather than peaking sharply.",
-"Late-night hours maintain steady traffic."
+"Late-night visits are common."
 ]
 },
 
@@ -9188,24 +7732,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Compact lounge-style bar with a dark, enclosed interior and close seating. Typically quieter earlier in the evening and busier during weekend nights.",
+"Lounge-style bar with a compact interior and close seating.",
 
 environment: {
-parking: "Street parking in Mainstrasse Village; fills on weekends.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during weekend evenings",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High; higher during weekend nightlife hours.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Intimate and nightlife-oriented atmosphere.",
-"Activity increases noticeably after dinner hours.",
-"Weekend evenings bring the highest crowd levels."
-]
+insights: []
 },
 
 {
@@ -9219,24 +7759,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Street-level Italian restaurant with compact, enclosed dining room. Quieter midweek and earlier evenings; fuller during weekend dinner service.",
+"Italian restaurant with a compact dining room and table seating.",
 
 environment: {
-parking: "Street parking along Main + nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner",
+capacity: "Multiple stalls",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate; increases as dining room fills.",
-exits: "Direct sidewalk access."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Smaller layout fills quickly.",
-"Energy shifts noticeably during peak hours.",
-"Intimate feel when fully seated."
-]
+insights: []
 },
 
 {
@@ -9250,28 +7786,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern restaurant with clean, open dining layout and bar seating. Generally calm during weekdays; busier during weekend dinners.",
+"Restaurant with table seating and a bar area in an open layout.",
 
 environment: {
-parking: "Street parking + nearby lots; varies by time.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except peak dinner",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; conversation-friendly earlier.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Bright, organized layout.",
-"Steady pacing rather than high turnover.",
-"Predictable flow during most hours."
-]
+insights: []
 },
 
 {
-name: "Cock & Bull",
+name: "Cock & Bull Public House",
 city: "Covington",
 neighborhood: "MainStrasse",
 state: "KY",
@@ -9281,24 +7813,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood pub with bar seating and traditional dining tables. Quieter earlier in the day; busier evenings and weekends.",
+"Neighborhood pub with bar seating and table seating in a traditional layout.",
 
 environment: {
-parking: "Street parking + nearby lots; fills during peak hours.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during busy evenings",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during evening bar activity.",
-exits: "Street-level access."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Bar-driven layout influences feel.",
-"Steady local foot traffic.",
-"Clear daytime vs evening shift."
-]
+insights: []
 },
 
 {
@@ -9308,30 +7836,26 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Modern Mexican restaurant along Madison Avenue with colorful décor, table seating, and a bar area focused on handcrafted cocktails. Lunch and dinner hours typically bring steady crowds from nearby neighborhoods and downtown visitors.",
+"Mexican restaurant with table seating and a bar area in a modern layout.",
 
 environment: {
-parking: "Street parking along surrounding Covington streets with additional nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and background music.",
-exits: "Front entrance opens directly to the sidewalk along Madison Avenue."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours tend to be the busiest.",
-"Visitors often stop in while exploring nearby Covington areas.",
-"Street parking may require a short walk during busy periods."
-]
+insights: []
 },
-   
+
 {
 name: "Doubt It Bar",
 city: "Covington",
@@ -9343,24 +7867,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Small bar with compact interior and close seating. Quieter earlier in the day; more active late at night, especially weekends.",
+"Small bar with a compact interior and close seating.",
 
 environment: {
-parking: "Street parking nearby; may require short walk.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Possible during peak nights",
+capacity: "Single stall",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate to High late evenings.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Tight footprint shapes atmosphere.",
-"Late-night energy most noticeable.",
-"Timing impacts comfort more than size."
-]
+insights: []
 },
 
 {
@@ -9374,30 +7894,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with contemporary layout and both dining and lounge seating. Calmer earlier; fuller on weekend evenings.",
+"Restaurant and bar with table seating and lounge areas in a modern layout.",
 
 environment: {
-parking: "Street parking along Main + nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekends.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Stylish, social atmosphere on weekends.",
-"Clear shift between early and peak hours.",
-"Layout supports both dining and bar visits."
-]
+insights: []
 },
-   
+
 {
 name: "Libby’s Southern Comfort",
 city: "Covington",
-neighborhood: "MainStrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -9405,30 +7921,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant with bar seating and traditional dining layout. Calmer earlier; steady dinner and weekend activity.",
+"Restaurant with table seating and a bar area in a traditional dining layout.",
 
 environment: {
-parking: "Street parking + nearby lots; may require short walk during peak hours.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner",
+capacity: "Multiple stalls",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate; increases during dinner service.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Activity builds gradually.",
-"Weekends noticeably busier than weekdays.",
-"Dining-focused rather than nightlife-driven."
-]
+insights: []
 },
 
 {
 name: "Agave & Rye",
 city: "Covington",
-neighborhood: "MainStrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
 
@@ -9436,24 +7948,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large, open restaurant with prominent bar area and bold interior. Lighter afternoons; energetic evenings and weekends.",
+"Large restaurant and bar with an open layout and prominent bar seating.",
 
 environment: {
-parking: "Street parking + nearby garages; fills faster weekends.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner",
+capacity: "Multiple stalls",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate to High evenings.",
-exits: "Street-level access."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Energy shifts after 6 pm.",
-"Bar-forward layout influences atmosphere.",
-"Weekend evenings most active."
-]
+insights: []
 },
 
 {
@@ -9467,23 +7975,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Smaller dining-focused restaurant with structured layout. Calm earlier; fuller during peak dinner hours.",
+"Restaurant with table seating in a compact and structured dining room.",
 
 environment: {
-parking: "Street parking + nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except peak dinner",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; conversation-friendly.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Reservation-driven pacing.",
-"Steady energy even when full.",
-"Measured midweek flow."
+"Reservations are common."
 ]
 },
 
@@ -9498,24 +8004,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large multi-level beer hall with communal seating. Calmer earlier; significantly busier evenings, weekends, and events.",
+"Large beer hall with communal seating across multiple levels.",
 
 environment: {
-parking: "Riverfront garages + lots; fills quickly on weekends.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple; accessible",
-waits: "Possible during peak events",
-location: "Inside multiple levels"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High during live music and peak hours.",
-exits: "Large entrance + patio access."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Event-driven energy.",
-"Communal layout shapes experience.",
-"Weekends bring highest volume."
-]
+insights: []
 },
 
 {
@@ -9529,24 +8031,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Waterfront restaurant with multiple dining rooms and views of the Ohio River and Cincinnati skyline. Typically quieter earlier in the evening with steady dinner reservations and weekend dining.",
+"Restaurant with multiple dining rooms and table seating in a waterfront setting.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early dinner reservations often feel calmer.",
-"Evenings bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -9560,28 +8058,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and table dining along Monmouth Street. Typically steady during lunch hours with busier dinner service and weekend visits.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often bring consistent traffic.",
-"Dinner hours bring families and small groups.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
-name: "York Street Cafe",
+name: "Coaches Corner",
 city: "Newport",
 neighborhood: "",
 state: "KY",
@@ -9591,117 +8085,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with eclectic decor and table seating along the York Street corridor. Typically quieter earlier in the evening with steady dinner reservations and weekend activity.",
+"Bar and grill with table seating and a bar area in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Upstairs"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening visits often feel calmer.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "JerZee’s Pub",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "High",
-
-whatToExpect:
-"Sports bar with bar seating, TVs throughout the space, and casual dining tables. Typically quieter earlier in the day with increased activity during evenings and sports events.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Sports events increase activity in the bar area.",
-"Weekend nights usually bring the largest crowds."
-]
-},
-
-{
-name: "Twelve Mile House",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood bar with bar seating and a casual local atmosphere along the Newport corridor. Typically quieter earlier in the day with increased activity during evening hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often feel relaxed.",
-"Evenings bring steady neighborhood bar traffic.",
-"Weekend nights tend to bring the most activity."
-]
-},
-
-{
-name: "Coach House Bar & Grill",
-city: "Newport",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood bar and grill with bar seating and table dining along the Newport corridor. Typically quieter earlier in the day with more activity during evening hours.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Evenings bring steady bar and dining traffic.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -9715,24 +8112,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large, traditional dining restaurant with multiple seating areas inside Newport on the Levee. Generally calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Large restaurant with multiple dining areas and table seating.",
 
 environment: {
-parking: "Levee garage parking directly adjacent; easy access.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner hours",
-location: "Inside main dining area"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during peak dinner service.",
-exits: "Direct access to Levee walkways and exterior exits."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Structured and reservation-driven, especially at dinner.",
-"Activity increases steadily after 5–6 pm.",
-"Weekends bring fuller dining rooms but remain organized."
-]
+insights: []
 },
 
 {
@@ -9746,24 +8139,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Casual diner-style restaurant with a straightforward counter and table layout. Typically steady during breakfast and lunch hours, with lighter traffic later in the day.",
+"Diner with counter seating and table seating in a simple layout.",
 
 environment: {
-parking: "Street parking nearby; may require short walk.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Uncommon except during peak breakfast hours",
-location: "Inside main dining area"
+capacity: "Limited capacity",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate; generally conversation-friendly.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Routine-driven, especially during morning hours.",
-"Breakfast brings the most consistent activity.",
-"Pace remains steady rather than event-driven."
-]
+insights: []
 },
 
 {
@@ -9777,24 +8166,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Traditional sit-down restaurant with a full dining room and bar seating. Generally calmer midweek and earlier in the day, with busier dinner hours and weekends.",
+"Mexican restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner service",
-location: "Inside main dining area"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases during peak dinner service.",
-exits: "Street-level access."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Family-oriented earlier in the evening.",
-"Activity builds gradually after 5 pm.",
-"Weekend nights bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -9804,28 +8189,26 @@ neighborhood: "The Levee",
 state: "KY",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Golf-themed bar with open interior space and entertainment-focused seating. Typically lighter during weekday afternoons and busier in the evenings and on weekends.",
+"Entertainment-focused bar with open seating and activity areas.",
 
 environment: {
-parking: "Street parking nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak evening hours",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High; higher during peak evenings.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Activity centers around entertainment areas.",
-"Evenings bring the most noticeable increase in crowd energy.",
-"Weeknights tend to be calmer than weekends."
-]
+insights: []
 },
 
 {
@@ -9839,24 +8222,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small neighborhood bar with close seating and a traditional pub layout. Generally steady during the day and busier in the evenings, especially on weekends.",
+"Small neighborhood bar with a compact layout and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak evening hours",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases as the space fills.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Compact and locally driven atmosphere.",
-"Smaller footprint shapes the overall feel.",
-"Evenings bring the most noticeable change in activity."
-]
+insights: []
 },
 
 {
@@ -9870,30 +8249,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Outdoor bar and seating area with an open-air layout. Typically lighter earlier in the day and busier in the evenings, particularly during warm weather.",
+"Outdoor bar with open seating areas in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "On-site restroom facilities",
-waits: "Possible during peak evenings",
-location: "On-site outdoor facilities"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; varies based on crowd size and events.",
-exits: "Fully open outdoor layout."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Weather-dependent traffic patterns.",
-"Open layout creates a different feel than enclosed bars.",
-"Weekend evenings bring the most consistent activity."
-]
+insights: []
 },
 
 {
 name: "Doner House",
 city: "Newport",
-neighborhood: "",
+neighborhood: "The Levee",
 state: "KY",
 type: "full",
 
@@ -9901,23 +8276,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small counter-service restaurant with limited indoor seating. Typically busiest during lunch hours, with lighter traffic mid-afternoon and later evening.",
+"Small restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Uncommon",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low; generally quick visits with light background activity.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Quick-stop oriented with shorter visit times.",
-"Lunch brings the most consistent flow.",
-"Activity remains steady rather than event-driven."
+"Visits are typically quick."
 ]
 },
 
@@ -9932,24 +8305,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small restaurant with a casual, enclosed dining layout. Generally calmer during weekday hours and busier during dinner and weekend periods.",
+"Small restaurant with table seating in a compact dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during peak dinner hours",
-location: "Inside main dining area"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; increases during peak dinner hours.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Intimate due to smaller footprint.",
-"Activity builds gradually through the evening.",
-"Weekends bring fuller seating compared to weekdays."
-]
+insights: []
 },
 
 {
@@ -9963,24 +8332,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood bar with bar-focused seating and a compact interior. Typically steady earlier in the day and busier during evening hours and weekends.",
+"Neighborhood bar with a compact interior and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor; limited capacity",
-waits: "Possible during weekend evenings",
-location: "Inside venue"
+capacity: "Limited capacity",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; higher during weekend evenings.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Locally driven with consistent regular patrons.",
-"Space fills quickly due to compact layout.",
-"Activity remains steady rather than event-driven."
-]
+insights: []
 },
 
 {
@@ -9994,24 +8359,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large dining space with a mix of table seating and grill tables inside Newport on the Levee. Typically lighter earlier in the day and noticeably busier during dinner hours and weekends.",
+"Large restaurant with table seating and grill tables in an open layout.",
 
 environment: {
-parking: "Levee garage parking available on-site; easy access.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible during peak dinner hours",
-location: "Inside main dining area"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High; increases during peak dinner hours due to table activity.",
-exits: "Located within the Levee with clear access to exterior walkways."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Group-oriented layout centered around shared tables.",
-"Noticeable increase in movement and conversation during dinner hours.",
-"Weekends bring the most significant crowd levels."
-]
+insights: []
 },
 
 {
@@ -10025,23 +8386,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small reservation-focused dining space with structured layout. Calm earlier; fuller during peak dinner.",
+"Small restaurant with table seating in a structured dining layout.",
 
 environment: {
-parking: "Street parking along Monmouth + nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Uncommon except peak dinner",
-location: "Inside main floor"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Reservation pacing shapes flow.",
-"Steady energy even when full.",
-"Intimate layout."
+"Reservations are common."
 ]
 },
 
@@ -10056,30 +8415,26 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large entertainment-focused bar near riverfront. Quiet daytime; high-energy late nights.",
+"Large bar with open seating and entertainment areas.",
 
 environment: {
-parking: "Riverfront garages + lots; tight nightlife hours.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor; accessible",
-waits: "Possible late-night peaks",
-location: "Inside main building"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High during live music and late evenings.",
-exits: "Multiple access points + outdoor space."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Nightlife-centered activity.",
-"Clear shift after dark.",
-"Weekend evenings busiest."
-]
+insights: []
 },
 
 {
 name: "Bridgeview Box Park",
 city: "Newport",
-neighborhood: "",
+neighborhood: "The Levee",
 state: "KY",
 type: "full",
 
@@ -10087,24 +8442,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Open-air container park with multiple vendors and outdoor seating. Lighter earlier; busier warm-weather evenings.",
+"Outdoor venue with multiple vendors and open seating areas.",
 
 environment: {
-parking: "Shared riverfront parking nearby.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Shared facilities; accessible",
-waits: "Possible peak evenings",
-location: "On-site shared restrooms"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate; varies by event.",
-exits: "Fully outdoor layout."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Weather-dependent traffic.",
-"Casual vendor flow.",
-"Gradual evening build."
-]
+insights: []
 },
 
 {
@@ -10118,24 +8469,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small historic bar with compact interior. Steady daytime; moderate evening activity.",
+"Small bar with a compact interior and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Possible when full",
+capacity: "Single stall",
+waits: "Possible",
 location: "Inside main area"
 },
-noise: "Moderate; increases as space fills.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Tight footprint shapes energy.",
-"Consistent local presence.",
-"Steady rather than event-driven."
-]
+insights: []
 },
 
 {
@@ -10149,24 +8496,20 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Modern distillery with tasting room and tours across multiple levels. Calm weekdays; busier weekend tours and events.",
+"Distillery with tasting areas and seating across multiple levels.",
 
 environment: {
-parking: "Dedicated on-site parking lot available.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple; accessible",
-waits: "Uncommon except peak tours",
-location: "Inside main building"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate depending on tours.",
-exits: "Multiple entrances + patio access."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Tour schedule shapes traffic.",
-"Structured, organized flow.",
-"Weekends bring stronger group activity."
-]
+insights: []
 },
 
 {
@@ -10176,28 +8519,26 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+verified: true,  
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with a compact interior and bar-focused seating. Typically quieter earlier in the day and busier during evening hours and weekends.",
+"Neighborhood bar with a compact interior and bar seating.",
 
 environment: {
-parking: "Street parking along Elm Street and nearby residential streets.",
+parking: "Lot in the back or street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as locally driven with consistent evening traffic.",
-"First-timers notice activity increases after typical dinner hours.",
-"Weekend nights bring the most consistent crowds."
-]
+insights: []
 },
    
 {
@@ -10207,28 +8548,26 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with dining tables and bar seating in a street-level space. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating and bar seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady throughout dinner hours.",
-"First-timers note activity increases after work hours.",
-"Weekends bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -10242,24 +8581,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Distillery tasting room with bar seating and small table areas. Typically calmer earlier in the day and busier during evening hours and weekends.",
+"Distillery with bar seating and small table areas in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as tour and tasting-driven, especially during evenings.",
-"First-timers notice activity increases during event nights.",
-"Weekend evenings bring the most visitors."
-]
+insights: []
 },
 
 {
@@ -10273,23 +8608,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+"Small café with counter ordering and indoor seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as morning-focused with shorter visits.",
-"First-timers note breakfast hours bring the most activity.",
-"Traffic decreases steadily through the afternoon."
+"Morning visits are common."
 ]
 },
 
@@ -10304,24 +8637,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with a compact interior and outdoor seating areas. Typically quieter during the day and busier during evening hours and weekends.",
+"Bar with a compact interior and outdoor seating areas.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Patio and street-level access available."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Often described as bar-focused with evening activity.",
-"First-timers notice traffic increases later in the evening.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
 
 {
@@ -10335,24 +8664,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Riverfront club and bar with indoor seating and outdoor areas overlooking the water. Typically lighter earlier in the day and busier during evenings, weekends, and seasonal events.",
+"Riverfront club with indoor seating and outdoor areas.",
 
 environment: {
-parking: "Dedicated parking lot available near the club.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Outdoor deck and riverfront access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Often described as riverfront-focused with seasonal activity.",
-"First-timers notice traffic increases during warm weather.",
-"Weekend evenings bring the most consistent crowds."
-]
+insights: []
 },
 
 {
@@ -10366,24 +8691,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and wine bar with a dining room, bar seating, and patio areas. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Restaurant and wine bar with table seating and patio space.",
 
 environment: {
-parking: "Street parking along Fairfield Avenue.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Front sidewalk seating and rear patio available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers note weekends bring the most activity.",
-"Earlier weekday dinners tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -10397,117 +8718,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Seafood restaurant with table seating and a bar area along the Fairfield Avenue corridor. Typically calmer earlier in the evening with steady dinner reservations and weekend visits.",
+"Seafood restaurant with table seating and a bar area in a structured layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early dinner hours often feel calmer.",
-"Evenings bring couples and small groups.",
-"Weekend nights usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Enson Harbor",
-city: "Bellevue",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Seafood and sushi restaurant with table seating and a bar area along Fairfield Avenue. Typically steady during dinner hours with quieter periods earlier in the day.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and families.",
-"Weekend evenings tend to bring the most activity."
-]
-},
-
-{
-name: "Nomad",
-city: "Bellevue",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Neighborhood restaurant and bar with table seating and a relaxed dining atmosphere along Fairfield Avenue. Typically calmer earlier in the evening with steady dinner traffic later at night.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the venue"
-},
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evening visits often feel relaxed.",
-"Dinner hours attract couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Virgil’s Cafe",
-city: "Bellevue",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Locally owned cafe with table seating and a casual neighborhood atmosphere along Fairfield Avenue. Typically busiest during breakfast and lunch hours with quieter evenings.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the cafe"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Morning hours often bring steady breakfast traffic.",
-"Lunch visits move quickly with neighborhood diners.",
-"Afternoons usually feel quieter."
-]
+insights: []
 },
 
 {
@@ -10521,23 +8745,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Historic candy and ice cream shop with counter service and limited seating along Fairfield Avenue. Typically steady during afternoon hours with increased activity during evenings and weekends.",
+"Dessert shop with counter service and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits involve quick counter-service stops.",
-"Weekend evenings usually bring the most activity."
+"Visits are typically quick."
 ]
 },
 
@@ -10552,29 +8774,27 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+"Small café with counter ordering and indoor seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as morning-focused with shorter visits.",
-"First-timers note breakfast hours bring the most traffic.",
-"Activity decreases through the afternoon."
+"Morning visits are common."
 ]
 },
 
 {
-name: "Cancun Mexican Bar & Grill - Bellevue",
-city: "Bellevue",
+name: "Cancun Mexican Bar & Grill - Newport",
+city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -10583,24 +8803,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and a bar area in a street-level dining space. Typically calmer mid-afternoon and busier during dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused.",
-"First-timers notice traffic increases after typical work hours.",
-"Weekends bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -10614,24 +8830,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with dining tables and bar seating in the Bellevue entertainment district. Typically calmer earlier in the day and busier during dinner hours.",
+"Restaurant with table seating and a bar area in a modern layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-oriented with steady dinner traffic.",
-"First-timers notice activity increases after 5 pm.",
-"Weekend evenings bring higher activity."
-]
+insights: []
 },
 
 {
@@ -10645,24 +8857,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with a modern interior and table seating. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating in a modern dining space.",
 
 environment: {
-parking: "Street parking around Fairfield Avenue.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady evening activity.",
-"First-timers notice traffic increases after work hours.",
-"Weekend nights bring the most visitors."
-]
+insights: []
 },
 
 {
@@ -10676,28 +8884,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Compact restaurant with a traditional dining room layout. Typically calmer mid-afternoon and busier during dinner hours and weekends.",
+"Restaurant with table seating in a compact dining room.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during dinner service",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady table service.",
-"First-timers note activity increases during dinner hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
-name: "Pompilio's",
+name: "Pompilios - Newport",
 city: "Newport",
 neighborhood: "",
 state: "KY",
@@ -10707,29 +8911,25 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large restaurant with multiple dining rooms and a traditional table layout. Typically steady during lunch hours and busier during dinner periods and weekends.",
+"Large restaurant with multiple dining rooms and table seating.",
 
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady throughout lunch and dinner hours.",
-"First-timers note evenings bring fuller dining rooms.",
-"Weekend evenings show the highest traffic."
-]
+insights: []
 },
 
 {
 name: "Wayfarer Tavern",
-city: "Bellevue",
+city: "Dayton",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -10738,24 +8938,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with indoor seating and patio space. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating and patio space.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Patio seating available."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers note weekends bring the most activity.",
-"Earlier dinners tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -10769,24 +8965,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large riverside restaurant with indoor dining rooms and outdoor deck seating overlooking the Ohio River. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Large restaurant with multiple dining areas and outdoor seating.",
 
 environment: {
-parking: "Private lot available next to the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner service",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Deck and riverfront access available."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Often described as view-driven, especially during sunset hours.",
-"First-timers notice dinner hours bring the most activity.",
-"Weekend evenings bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -10800,23 +8992,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small counter-service shop with limited seating. Typically busiest during midday hours and early evenings.",
+"Small shop with counter service and limited seating for quick visits.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "No public restroom",
-waits: "N/A",
-location: "Not available"
+capacity: "unknown",
+waits: "unknown",
+location: "unknown"
 },
-noise: "Low.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as quick-stop oriented with short visits.",
-"First-timers notice lunch hours bring the most traffic.",
-"Activity remains steady through the afternoon."
+"Visits are typically quick."
 ]
 },
 
@@ -10831,24 +9021,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with counter ordering and dining tables. Typically busiest during lunch hours and dinner periods.",
+"Casual restaurant with counter ordering and table seating in a simple layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and dinner hours.",
-"First-timers note evenings bring the most activity.",
-"Weekend nights bring slightly higher traffic."
-]
+insights: []
 },
 
 {
@@ -10862,24 +9048,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with a compact interior and bar seating. Typically quieter during the day and busier during evening hours and weekends.",
+"Neighborhood bar with a compact interior and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-oriented with bar traffic.",
-"First-timers notice activity increases after dinner hours.",
-"Weekend nights bring the highest traffic."
-]
+insights: []
 },
 
 {
@@ -10893,29 +9075,25 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with indoor seating and a backyard patio area. Typically quieter earlier in the day and busier during evening hours and weekends.",
+"Bar with indoor seating and a backyard patio area.",
 
 environment: {
-parking: "Street parking along Fairfield Avenue.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Back patio access available."
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Often described as evening-focused with bar activity.",
-"First-timers note later evening hours bring the most traffic.",
-"Weekends show the highest crowd levels."
-]
+insights: []
 },
 
 {
 name: "Rose Room",
-city: "Bellevue",
+city: "Dayton",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -10924,29 +9102,25 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar with lounge-style seating and a compact interior layout. Typically calmer earlier in the evening and busier later at night.",
+"Lounge-style bar with a compact interior and close seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as nightlife-oriented.",
-"First-timers notice activity increases later in the evening.",
-"Weekend nights bring the highest crowds."
-]
+insights: []
 },
 
 {
 name: "Galactic Fried Chicken",
-city: "Bellevue",
+city: "Dayton",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -10955,54 +9129,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Fast-casual restaurant with counter ordering and limited seating. Typically busiest during lunch hours and evening takeout periods.",
+"Fast-casual restaurant with counter ordering and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
-},
-
-insights: [
-"Often described as quick-service with shorter visits.",
-"First-timers notice lunch brings the most traffic.",
-"Evening takeout activity increases slightly."
-]
-},
-
-{
-name: "The Overlook at Fort Thomas",
-city: "Fort Thomas",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant and bar with indoor dining rooms and outdoor patio seating overlooking the river valley. Typically calmer earlier in the day and busier during dinner hours and weekends.",
-
-environment: {
-parking: "Dedicated parking lot available next to the restaurant.",
-restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
-},
-noise: "Moderate.",
-exits: "Patio and overlook access available."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as view-driven, especially during sunset hours.",
-"First-timers notice dinner hours bring the most activity.",
-"Weekend evenings bring fuller seating."
+"Visits are typically quick."
 ]
 },
 
@@ -11017,29 +9158,27 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Neighborhood deli with counter service and table seating along Fort Thomas Avenue. Typically busiest during breakfast and lunch hours with quieter periods later in the afternoon.",
+"Deli with counter service and table seating in a compact layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the deli"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Morning hours often bring steady breakfast traffic.",
-"Lunch visits move quickly with neighborhood diners.",
-"Afternoons usually feel calmer."
+"Visits are typically quick."
 ]
 },
 
 {
-name: "Kampuchea Kitchen",
-city: "Fort Thomas",
+name: "Graeter’s Ice Cream - Newport",
+city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -11048,59 +9187,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Casual Cambodian restaurant with table seating along the Fort Thomas Avenue dining corridor. Typically steady during dinner hours with quieter periods earlier in the day.",
+"Ice cream shop with counter service and limited seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and couples.",
-"Weekend evenings tend to bring the most activity."
+"Visits are typically quick."
 ]
 },
 
 {
-name: "Graeter’s Ice Cream - Fort Thomas",
-city: "Fort Thomas",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Ice cream shop with counter service and limited indoor seating along Fort Thomas Avenue. Typically steady during afternoons with increased activity during evening hours and weekends.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
-},
-noise: "Low",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits involve quick counter-service stops.",
-"Warm weekend evenings usually bring the most activity."
-]
-},
-   
-{
-name: "Tickle Pickle Restaurant",
+name: "Tickle Pickle Restaurant - Ft. Thomas",
 city: "Fort Thomas",
 neighborhood: "",
 state: "KY",
@@ -11110,24 +9216,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with counter ordering and table seating in a small dining space. Typically busiest during lunch hours and early evening periods.",
+"Casual restaurant with counter ordering and table seating in a small dining space.",
 
 environment: {
-parking: "Street parking along North Fort Thomas Avenue.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during lunch rush",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as lunch-focused with steady midday traffic.",
-"First-timers note activity increases around noon.",
-"Evening traffic remains steady but smaller than lunch."
-]
+insights: []
 },
 
 {
@@ -11141,24 +9243,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and bar area in a neighborhood dining setting. Typically calmer earlier in the evening and busier during dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a neighborhood layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers notice activity increases after typical work hours.",
-"Weekend evenings bring fuller dining rooms."
-]
+insights: []
 },
 
 {
@@ -11172,24 +9270,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Restaurant and bar with table seating and bar seating in a casual layout. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating and a bar area in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as bar-forward during evening hours.",
-"First-timers notice activity increases during dinner service.",
-"Weekend evenings bring the most consistent traffic."
-]
+insights: []
 },
 
 {
@@ -11203,24 +9297,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant and wine bar with table seating and a structured dining layout. Typically calmer earlier in the evening and busier during dinner hours.",
+"Restaurant and wine bar with table seating in a structured dining layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as dinner-focused with steady table service.",
-"First-timers notice evenings bring the most activity.",
-"Weekend dinners bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -11234,24 +9324,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with dining tables and bar seating in a casual neighborhood setting. Typically steady during lunch hours and busier during dinner periods.",
+"Restaurant and bar with table seating and a bar area in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady throughout lunch and dinner hours.",
-"First-timers notice evenings bring the most activity.",
-"Weekend evenings show slightly higher traffic."
-]
+insights: []
 },
 
 {
@@ -11265,24 +9351,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with a compact interior and bar-focused seating. Typically quieter earlier in the day and busier during evening hours and weekends.",
+"Neighborhood bar with a compact interior and bar seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High.",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as locally driven with steady bar traffic.",
-"First-timers notice activity increases later in the evening.",
-"Weekend nights bring the highest crowd levels."
-]
+insights: []
 },
 
 {
@@ -11296,24 +9378,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood pub with bar seating and dining tables in a casual interior layout. Typically calmer during weekday afternoons and busier during dinner hours and weekends.",
+"Neighborhood pub with table seating and bar seating in a casual layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers notice activity increases after work hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
 
 {
@@ -11327,24 +9405,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Restaurant with table seating in a compact dining room layout. Typically steady during lunch hours and busier during dinner periods.",
+"Restaurant with table seating in a compact dining room.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as steady during lunch and dinner hours.",
-"First-timers notice dinner brings the most activity.",
-"Weekend evenings bring slightly higher traffic."
-]
+insights: []
 },
 
 {
@@ -11358,23 +9432,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with counter ordering and indoor seating. Typically busiest during morning hours and early afternoons.",
+"Small café with counter ordering and indoor seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate.",
-exits: "Street-level entrance."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Often described as morning-focused with shorter visits.",
-"First-timers notice breakfast hours bring the most traffic.",
-"Activity decreases through the afternoon."
+"Morning visits are common."
 ]
 },
 
@@ -11389,26 +9461,22 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant and bar with table seating and bar seating in a neighborhood dining space. Typically calmer earlier in the day and busier during dinner hours and weekends.",
+"Restaurant and bar with table seating and a bar area in a neighborhood layout.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak dinner hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate.",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Often described as evening-focused with steady dinner traffic.",
-"First-timers notice activity increases after work hours.",
-"Weekend evenings bring fuller seating."
-]
+insights: []
 },
-   
+
 {
 name: "PeeWee's Place",
 city: "Crescent Springs",
@@ -11420,24 +9488,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual neighborhood restaurant with booth seating and a relaxed bar area. Typically calmer during weekday afternoons, with more activity during dinner hours and weekend meals.",
+"Casual restaurant with booth seating and a bar area in a relaxed layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoon hours tend to feel quieter than dinner periods.",
-"Regular local customers are common throughout the week.",
-"Weekend dinners usually bring the most consistent crowds."
-]
+insights: []
 },
 
 {
@@ -11451,24 +9515,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood tavern with a central bar area and surrounding dining tables. Typically relaxed earlier in the day, with increased activity during evening dining hours and weekends.",
+"Restaurant and bar with a central bar area and table seating.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunch periods often feel calmer than evening hours.",
-"The bar area tends to stay active during dinner service.",
-"Weekend evenings are typically the busiest."
-]
+insights: []
 },
 
 {
@@ -11482,24 +9542,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Upscale neighborhood restaurant with a bar area and multiple dining sections. Typically quieter during weekday lunches, with busier dinner service and weekend reservations.",
+"Restaurant with table seating and a bar area in a structured dining layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunch service often feels more relaxed.",
-"Evening reservations are common during dinner hours.",
-"Weekend dinners usually bring the highest traffic."
-]
+insights: []
 },
 
 {
@@ -11513,23 +9569,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Small ramen restaurant with a compact dining room and counter seating. Typically quieter earlier in the day, with moderate dinner activity and steady takeout traffic.",
+"Small restaurant with counter seating and table seating in a compact layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often move quickly with smaller groups.",
-"Takeout orders are common throughout the evening.",
-"Dinner hours usually bring the most consistent dine-in traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -11544,28 +9598,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier lunch and dinner periods.",
+"Casual restaurant with counter ordering and table seating in a compact layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often see steady but short visits.",
-"Takeout orders are common throughout the day.",
-"Evening dinner periods tend to bring the most activity."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "Oriental Wok",
+name: "Oriental Wok - Lakeside Park",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
@@ -11575,24 +9627,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large Chinese restaurant with multiple dining rooms and a bar area. Typically calm earlier in the day, with busier dinner hours and weekend evenings.",
+"Large restaurant with multiple dining areas and a bar in a structured layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunches often feel quieter than dinner service.",
-"Families and larger tables are common during evenings.",
-"Weekend dinner hours tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -11606,24 +9654,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a bar area. Typically relaxed earlier in the day, with more energy during dinner hours and weekend evenings.",
+"Mexican restaurant with booth seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often move quickly with smaller groups.",
-"Evenings tend to bring more social bar activity.",
-"Weekend dinners are usually the busiest periods."
-]
+insights: []
 },
 
 {
@@ -11637,29 +9681,27 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small Chinese restaurant with a simple dining room and counter service area. Typically quieter earlier in the day, with steady takeout activity during dinner hours.",
+"Small restaurant with counter service and a simple dining area.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often involve quick dine-in visits.",
-"Takeout orders are common throughout the evening.",
-"Weekend dinners usually bring the most activity."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "Soco's Mexican Restaurant & Bar",
-city: "Crescent Springs",
+city: "Fort Mitchell",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -11668,29 +9710,25 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a bar area. Typically quieter earlier in the day, with busier dinner hours and weekend evenings.",
+"Mexican restaurant with booth seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunch periods tend to feel calmer.",
-"Evenings often bring groups and social dining.",
-"Weekend dinners typically have the highest traffic."
-]
+insights: []
 },
 
 {
-name: "BRU Burger Bar - Crescent Springs",
-city: "Crescent Springs",
+name: "BRU Burger Bar - Fort Mitchell",
+city: "Fort Mitchell",
 neighborhood: "",
 state: "KY",
 type: "full",
@@ -11699,27 +9737,23 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Modern burger restaurant with bar seating and multiple dining areas. Typically relaxed earlier in the day, with busier dinner hours and weekends.",
+"Restaurant with table seating and a bar area in a modern layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel quieter than dinner hours.",
-"Bar seating tends to stay active in the evenings.",
-"Weekend dinners usually bring the most consistent crowds."
-]
+insights: []
 },
-   
-   {
+
+{
 name: "Cincy Seafood",
 city: "Crescent Springs",
 neighborhood: "",
@@ -11730,28 +9764,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual seafood restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier activity during dinner hours and weekend evenings.",
+"Casual restaurant with counter ordering and a small dining area.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often move quickly with smaller groups.",
-"Takeout orders are common throughout the evening.",
-"Weekend dinners usually bring the most activity."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "Sandwich Block Deli",
+name: "The Block Deli",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
@@ -11761,28 +9793,26 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Local deli with a compact dining room and counter ordering. Typically busiest during lunch hours, with quieter periods during mid-afternoon and early evening.",
+"Deli with counter ordering and a compact seating area.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours usually bring the most consistent foot traffic.",
-"Many visits are quick dine-in or takeout orders.",
-"Mid-afternoon periods tend to feel quieter."
+"Visits are typically quick."
 ]
 },
 
 {
-name: "Bonefish Grill",
+name: "Bonefish Grill - Buttermilk Pike",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
@@ -11792,24 +9822,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Chain seafood restaurant with a bar area and multiple dining sections. Typically calmer earlier in the day, with busier dinner hours and weekend evenings.",
+"Restaurant with multiple dining areas and a bar in a structured layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel quieter than dinner hours.",
-"Evening service tends to bring larger tables and reservations.",
-"Weekend dinners are typically the busiest periods."
-]
+insights: []
 },
 
 {
@@ -11823,23 +9849,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Thai and sushi restaurant with a compact dining room and relaxed seating layout. Typically quieter during weekday afternoons, with steady dinner traffic and weekend activity.",
+"Restaurant with table seating in a compact and relaxed layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoon hours usually feel calmer than dinner periods.",
-"Takeout orders are common during evening hours.",
-"Weekend dinners often bring the highest activity."
+"Takeout orders are common."
 ]
 },
 
@@ -11854,24 +9878,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Hibachi and sushi restaurant with grill tables and traditional dining seating. Typically relaxed earlier in the day, with more activity during dinner hours and weekends.",
+"Restaurant with grill tables and table seating in an open layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Hibachi tables often fill during dinner hours.",
-"Lunch service usually feels calmer than evenings.",
-"Weekend dinners tend to bring the busiest crowds."
-]
+insights: []
 },
 
 {
@@ -11885,28 +9905,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Indian restaurant with a small dining room and relaxed table seating. Typically quieter earlier in the day, with steady dinner traffic and weekend visits.",
+"Indian restaurant with table seating in a compact dining room.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often involve shorter dine-in stays.",
-"Takeout orders are common during evening hours.",
-"Weekend dinners usually bring the most activity."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "KJ's",
+name: "KJ's - Buttermilk",
 city: "Crescent Springs",
 neighborhood: "",
 state: "KY",
@@ -11916,24 +9934,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day, with more activity during evening hours and weekends.",
+"Bar and grill with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter compared to evenings.",
-"The bar area tends to stay active later in the day.",
-"Weekend nights usually bring the most consistent crowds."
-]
+insights: []
 },
 
 {
@@ -11947,24 +9961,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual pizza restaurant with bar seating and a relaxed dining area. Typically quieter earlier in the day, with busier dinner hours and weekend evenings.",
+"Pizza restaurant with table seating and bar seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits tend to be shorter and steady.",
-"Evening hours often bring families and small groups.",
-"Weekend dinners typically see the highest traffic."
-]
+insights: []
 },
 
 {
@@ -11978,24 +9988,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large buffet restaurant with multiple dining sections and self-serve food stations. Typically calmer earlier in the day, with busier dinner hours and weekend meal periods.",
+"Large buffet restaurant with multiple dining areas and self-serve stations.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours usually move quickly with steady traffic.",
-"Evening periods often bring families and larger groups.",
-"Weekend dinners tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -12009,30 +10015,26 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Sports bar with a central bar area, TVs throughout the space, and casual seating. Typically quieter earlier in the day, with more activity during evening hours and televised games.",
+"Sports bar with a central bar and table seating throughout the space.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons usually feel calmer than evening periods.",
-"Game nights often increase activity and noise levels.",
-"Weekend evenings typically bring the largest crowds."
-]
+insights: []
 },
 
 {
-name: "Poseidons Pizza",
-city: "Crescent Springs",
-neighborhood: "",
+name: "Poseidons Pizza - Florence",
+city: "Florence",
+neighborhood: "unknown",
 state: "KY",
 type: "full",
 
@@ -12040,29 +10042,23 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Casual pizza restaurant with a small dining area and counter ordering. Typically quieter earlier in the day, with busier dinner periods and weekend activity.",
+"Pizza restaurant with counter ordering and a small dining area.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits are often quick dine-in or takeout orders.",
-"Evening hours bring the most consistent dine-in traffic.",
-"Weekend dinners usually see the highest activity."
+"Takeout orders are common."
 ]
 },
-
-/* =========================
-Florence , KY
-========================= */
 
 {
 name: "Drake's - Florence",
@@ -12075,24 +10071,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Large casual restaurant with a central bar, patio seating, and multiple dining sections. Typically calmer earlier in the day, with increased activity during dinner hours, sports events, and weekend evenings.",
+"Large restaurant with a central bar and multiple dining areas.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoon hours often feel calmer than evening periods.",
-"The bar area tends to stay active during dinner service.",
-"Weekend evenings usually bring the largest crowds."
-]
+insights: []
 },
 
 {
@@ -12106,28 +10098,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Automotive-themed restaurant with a bar area and multiple dining sections. Typically relaxed earlier in the day, with busier dinner hours and steady weekend traffic.",
+"Restaurant with table seating and a bar area across multiple dining sections.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel calmer than evenings.",
-"Families and groups are common during dinner hours.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Blind Squirrel",
+name: "Blind Squirrel - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -12137,24 +10125,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Sports bar with a large bar area, TVs throughout the space, and multiple seating sections. Typically quieter earlier in the day, with increased activity during evening hours and televised games.",
+"Sports bar with a large bar area and table seating throughout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel calmer than evening periods.",
-"Game nights tend to increase noise and crowd levels.",
-"Weekend nights usually bring the busiest traffic."
-]
+insights: []
 },
 
 {
@@ -12168,23 +10152,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small Thai restaurant with a compact dining room and relaxed seating layout. Typically quieter earlier in the day, with steady dinner traffic and takeout activity.",
+"Small restaurant with table seating in a compact layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often involve shorter dine-in visits.",
-"Takeout orders are common during evening hours.",
-"Weekend dinners tend to bring the most activity."
+"Takeout orders are common."
 ]
 },
 
@@ -12199,28 +10181,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a bar-focused layout and casual table seating. Typically calmer earlier in the day, with increased activity during evenings and weekend nights.",
+"Bar and grill with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoon periods usually feel quieter than evenings.",
-"The bar area stays active during late hours.",
-"Weekend nights tend to bring the highest traffic."
-]
+insights: []
 },
 
 {
-name: "Maple Street Biscuit Company",
+name: "Maple Street Biscuit Company - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -12230,28 +10208,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual breakfast and lunch restaurant with counter ordering and table seating. Typically busiest during morning and brunch hours, with quieter afternoons.",
+"Breakfast restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours usually bring the most activity.",
-"Late morning brunch periods can fill quickly.",
-"Afternoons often feel quieter."
-]
+insights: []
 },
 
 {
-name: "KPOT Korean BBQ & Hot Pot",
+name: "KPOT Korean BBQ & Hot Pot - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -12261,28 +10235,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Interactive Korean BBQ and hot pot restaurant with grill tables throughout the dining room. Typically calmer earlier in the day, with busy dinner service and weekend gatherings.",
+"Restaurant with grill tables and table seating across a large dining area.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often feel quieter than dinner periods.",
-"Groups commonly gather for longer meals in the evening.",
-"Weekend dinners tend to be the busiest."
-]
+insights: []
 },
 
 {
-name: "Churchill's Bourbon & Brew Bar & Grille",
+name: "Churchill's Bourbon & Brew Bar & Grille - Turfway Park",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -12292,28 +10262,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar and grill with a large bar area and surrounding dining tables. Typically relaxed earlier in the day, with increased activity during evenings and weekend nights.",
+"Bar and grill with a central bar and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoon hours often feel quieter.",
-"The bar area becomes more active during evenings.",
-"Weekend nights usually bring the largest crowds."
-]
+insights: []
 },
 
 {
-name: "Twin Peaks",
+name: "Twin Peaks - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -12323,57 +10289,22 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Sports bar with a central bar, TVs throughout the space, and multiple dining sections. Typically calmer earlier in the day, with more activity during evening hours and sports events.",
+"Sports bar with a central bar and table seating throughout the space.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Game days usually increase noise and crowd levels.",
-"Weekend nights tend to be the busiest."
-]
+insights: []
 },
    
-{
-name: "Symphony Mediterranean Grill",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Mediterranean restaurant with a small dining room and counter service area. Typically quieter earlier in the day, with steady dinner traffic and takeout activity.",
-
-environment: {
-parking: "Shared development parking lot.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch periods usually involve shorter visits.",
-"Takeout orders are common in the evening.",
-"Weekend dinners tend to bring the most activity."
-]
-},
-
 {
 name: "Chin Fusion Restaurant & Sushi",
 city: "Florence",
@@ -12385,24 +10316,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Asian fusion restaurant with sushi bar seating and multiple dining tables. Typically quieter earlier in the day, with steady dinner traffic and weekend activity.",
+"Restaurant with table seating and a sushi bar in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel calmer than evenings.",
-"Sushi bar seating tends to stay active during dinner.",
-"Weekend evenings usually bring the highest traffic."
-]
+insights: []
 },
 
 {
@@ -12416,28 +10343,24 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a bar area. Typically quieter earlier in the day, with busier dinner hours and weekend gatherings.",
+"Mexican restaurant with booth seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunch hours often feel calmer.",
-"Evening dining periods tend to bring groups.",
-"Weekend dinners usually see the most activity."
-]
+insights: []
 },
 
 {
-name: "Spear Ridge Cafe",
+name: "Spear Ridge Cafe - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -12447,28 +10370,24 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small café with table seating and a relaxed neighborhood feel. Typically busiest during breakfast and lunch hours, with quieter afternoons.",
+"Small café with table seating in a simple layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours usually bring the most consistent traffic.",
-"Lunch periods tend to move quickly.",
-"Mid-afternoon periods often feel quieter."
-]
+insights: []
 },
 
 {
-name: "Kopan",
+name: "Kopan - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -12478,55 +10397,49 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Korean restaurant with table seating and grill-style dining options. Typically quieter earlier in the day, with more activity during dinner hours and weekend evenings.",
+"Restaurant with table seating and grill-style dining in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often feel calmer than evenings.",
-"Groups commonly gather for dinner service.",
-"Weekend dinners tend to bring the highest traffic."
-]
+insights: []
 },
 
 {
-name: "Cheddar's Scratch Kitchen",
+name: "Cheddar's Scratch Kitchen - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
 type: "full",
 
+verified: true,
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large casual chain restaurant with multiple dining rooms and a bar area. Typically calmer earlier in the day, with busier dinner periods and weekend family dining.",
+"Large restaurant with multiple dining areas and a bar in a structured layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunch periods often feel more relaxed.",
-"Families and larger tables are common during dinner hours.",
-"Weekend evenings usually bring the most consistent crowds."
-]
+insights: []
 },
 
 {
@@ -12540,24 +10453,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual bar and grill with a bar-focused layout and surrounding tables. Typically quieter earlier in the day, with increased activity during evening hours and weekend nights.",
+"Bar and grill with a central bar and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoon hours often feel calmer than evenings.",
-"The bar area tends to stay active later in the day.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -12571,24 +10480,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large restaurant and brewery with multiple dining sections and a bar area. Typically calmer earlier in the day, with busier dinner hours and weekend dining.",
+"Large restaurant with multiple dining areas and a bar in a casual layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel quieter than evenings.",
-"Groups and families are common during dinner hours.",
-"Weekend dinners tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -12602,24 +10507,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a bar area. Typically quieter earlier in the day, with busier dinner periods and weekend gatherings.",
+"Mexican restaurant with booth seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often feel calmer than evenings.",
-"Groups and social dining are common during dinner.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -12633,28 +10534,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Hibachi-style Japanese restaurant with grill tables and traditional seating. Typically calmer earlier in the day, with busier dinner service and weekend gatherings.",
+"Restaurant with grill tables and table seating in a large dining space.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch service usually feels calmer than evenings.",
-"Hibachi tables tend to fill during dinner hours.",
-"Weekend dinners often bring the largest crowds."
-]
+insights: []
 },
-   
+
 {
-name: "Acapulco Mexican & Grill",
+name: "Acapulco Mexican & Grill - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -12664,24 +10561,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a relaxed dining layout. Typically quieter earlier in the day, with busier dinner hours and weekend visits.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Evenings tend to bring more groups and families.",
-"Weekend dinners usually see the most activity."
-]
+insights: []
 },
 
 {
@@ -12695,23 +10588,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small Japanese restaurant with counter ordering and limited seating. Typically quieter earlier in the day, with steady takeout activity during dinner hours.",
+"Small restaurant with counter ordering and limited seating.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits are often quick dine-in stops.",
-"Takeout orders are common throughout the evening.",
-"Weekend dinners bring the most activity."
+"Takeout orders are common."
 ]
 },
 
@@ -12726,55 +10617,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Japanese restaurant with sushi bar seating and table dining. Typically calmer earlier in the day, with steady dinner traffic and weekend visits.",
+"Restaurant with table seating and a sushi bar in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Afternoons often feel quieter than dinner hours.",
-"Sushi bar seating tends to stay active during evenings.",
-"Weekend dinners usually bring the highest traffic."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "The Premier - Florence",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "High",
-
-whatToExpect:
-"Bar and grill with a bar-centered layout and casual dining tables. Typically calmer earlier in the day, with more activity during evening hours and weekend nights.",
-
-environment: {
-parking: "Dedicated parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Afternoon hours often feel quieter.",
-"The bar area becomes more active during evenings.",
-"Weekend nights usually bring the most consistent crowds."
-]
+insights: []
 },
 
 {
@@ -12788,28 +10644,24 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Large Tex-Mex restaurant with colorful dining rooms and a bar area. Typically quieter earlier in the day, with busier dinner hours and weekend dining.",
+"Large restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel calmer.",
-"Families and groups are common during dinner service.",
-"Weekend evenings usually bring the highest activity."
-]
+insights: []
 },
 
 {
-name: "City Barbeque",
+name: "City Barbeque - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -12819,23 +10671,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Fast-casual barbecue restaurant with counter ordering and table seating. Typically busiest during lunch and dinner hours, with quieter mid-afternoons.",
+"Fast-casual restaurant with counter ordering and table seating.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring the most consistent traffic.",
-"Takeout orders are common throughout the day.",
-"Evening hours tend to bring steady dine-in activity."
+"Takeout orders are common."
 ]
 },
 
@@ -12850,23 +10700,21 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Sandwich shop with counter ordering and a small dining area. Typically busiest during lunch hours, with quieter afternoons.",
+"Sandwich shop with counter ordering and a small seating area.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours usually bring the most activity.",
-"Visits are often quick dine-in or takeout stops.",
-"Mid-afternoons tend to feel quieter."
+"Visits are typically quick."
 ]
 },
 
@@ -12881,28 +10729,24 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual pizza restaurant with a relaxed dining room and counter ordering. Typically quieter earlier in the day, with busier dinner periods and weekend activity.",
+"Pizza restaurant with counter ordering and table seating in a casual tighter layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick and steady.",
-"Evenings bring families and small groups.",
-"Weekend dinners tend to be the busiest."
-]
+insights: []
 },
 
 {
-name: "Breakers Grill",
+name: "Breakers Grill - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -12912,24 +10756,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood sports bar with pool tables, TVs, and casual seating. Typically calmer earlier in the day, with more activity during evenings and weekend nights.",
+"Sports bar with table seating, bar seating, and activity areas.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Sports events and pool tables keep activity steady at night.",
-"Weekend nights usually bring the largest crowds."
-]
+insights: []
 },
 
 {
@@ -12943,26 +10783,22 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Local bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day, with increased activity during evening hours and weekend nights.",
+"Bar and grill with a central bar and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoon periods often feel quieter.",
-"The bar area stays active during evening hours.",
-"Weekend nights tend to bring the most traffic."
-]
+insights: []
 },
-   
+
 {
 name: "Dave & Buster's - Florence",
 city: "Florence",
@@ -12974,28 +10810,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large entertainment venue with arcade games, a sports bar, and restaurant seating areas. Typically calmer earlier in the day, with increased activity during evenings and weekends.",
+"Large venue with dining areas, bar seating, and arcade space.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Waits possible during peak hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"Arcade areas tend to stay active throughout the day.",
-"Weekend evenings usually bring the largest crowds."
-]
+insights: []
 },
 
 {
-name: "Red Robin Gourmet Burgers and Brews",
+name: "Red Robin Gourmet Burgers and Brews - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -13005,28 +10837,24 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Family-friendly burger restaurant with booth seating and a bar area. Typically calmer earlier in the day, with busier dinner hours and weekend family dining.",
+"Restaurant with booth seating and a bar area in a casual dining layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday afternoons often feel quieter.",
-"Families are common during dinner hours.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
-name: "The Honey Baked Ham Company",
+name: "The Honey Baked Ham Company - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -13036,23 +10864,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Small deli and retail shop with counter ordering and limited seating. Typically busiest during lunch hours and holiday seasons, with quieter afternoons.",
+"Small deli with counter ordering and limited seating.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring steady traffic.",
-"Many visits involve quick pickup orders.",
-"Mid-afternoons usually feel quieter."
+"Visits are typically quick."
 ]
 },
 
@@ -13067,28 +10893,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Sports bar and restaurant with a central bar area and table seating throughout the dining room. Typically quieter earlier in the day, with increased activity during evening hours and televised games.",
+"Sports bar with a central bar and table seating throughout the space.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel calmer than evenings.",
-"Sports events increase activity in the bar area.",
-"Weekend nights tend to bring the largest crowds."
-]
+insights: []
 },
 
 {
-name: "Fillmore's Dairy Hut",
+name: "Fillmore's Dairy Hut - Burlington Pike",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -13098,24 +10920,20 @@ parkingLevel: "Easy",
 noiseLevel: "Low",
 
 whatToExpect:
-"Walk-up ice cream and dessert stand with outdoor seating nearby. Typically quieter earlier in the day, with busier periods during warm evenings and weekends.",
+"Walk-up dessert stand with outdoor seating nearby.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the building"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often see steady but quick visits.",
-"Evenings bring more families and groups.",
-"Warm weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -13129,24 +10947,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day, with more activity during evenings and weekend nights.",
+"Bar and grill with a central bar and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter than evenings.",
-"The bar area becomes more active later in the day.",
-"Weekend nights tend to bring the most traffic."
-]
+insights: []
 },
 
 {
@@ -13160,24 +10974,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar and grill with a bourbon-focused bar and surrounding dining tables. Typically relaxed earlier in the day, with increased activity during evening hours and weekend nights.",
+"Bar and grill with a central bar and surrounding table seating.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel calmer than evenings.",
-"The bar area tends to stay active later in the day.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -13191,24 +11001,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large buffet restaurant with multiple dining sections and self-serve food stations. Typically calmer earlier in the day, with busier dinner hours and weekend meals.",
+"Large buffet restaurant with multiple dining areas and self-serve stations.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours often see steady traffic.",
-"Families and groups are common during dinner service.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -13222,23 +11028,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual barbecue restaurant with table seating and a relaxed dining room. Typically steady during lunch hours, with busier dinner periods and weekend traffic.",
+"Barbecue restaurant with table seating in a casual dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent traffic.",
-"Takeout orders are common during dinner periods.",
-"Weekend evenings tend to be the busiest."
+"Takeout orders are common."
 ]
 },
 
@@ -13253,26 +11057,22 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Thai restaurant with a sushi bar and table seating throughout the dining room. Typically calmer earlier in the day, with steady dinner traffic and weekend visits.",
+"Restaurant with table seating and a sushi bar in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often feel calmer than dinner hours.",
-"Evening visits often involve small groups and couples.",
-"Weekend dinners typically bring the most activity."
-]
+insights: []
 },
-   
+
 {
 name: "3 Ladies Thai Cuisine",
 city: "Florence",
@@ -13284,28 +11084,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Thai restaurant with a compact dining room and relaxed table seating. Typically quieter earlier in the day, with steady dinner traffic and takeout activity.",
+"Small restaurant with table seating in a compact dining room.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch visits often move quickly.",
-"Takeout orders are common during dinner hours.",
-"Weekend evenings tend to bring the most activity."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "Mad Mike's Burgers & Fries",
+name: "Mad Mike's Burgers & Fries - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -13315,59 +11113,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual burger restaurant with counter ordering and table seating. Typically busiest during lunch and dinner hours with steady traffic throughout the day.",
+"Burger restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent crowds.",
-"Takeout orders are common throughout the day.",
-"Weekend afternoons usually stay busy."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "Kabobske's Gyros & Grill",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Mediterranean restaurant with counter ordering and a small dining area. Typically quieter earlier in the day with steady lunch and dinner visits.",
-
-environment: {
-parking: "Shared development parking lot.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch hours often bring the most consistent traffic.",
-"Many visits are quick dine-in or takeout orders.",
-"Evenings tend to remain steady but not crowded."
-]
-},
-
-{
-name: "Bourbon House Pizza",
+name: "Bourbon House Pizza - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -13377,24 +11142,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual pizza restaurant with table seating and a relaxed neighborhood atmosphere. Typically quieter earlier in the day with busier dinner periods and weekend visits.",
+"Pizza restaurant with table seating in a casual dining layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel calmer than evenings.",
-"Families and small groups commonly visit during dinner.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -13408,28 +11169,24 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Family-style restaurant with booth seating and casual table dining. Typically busiest during lunch and dinner hours with steady local traffic.",
+"Family-style restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often bring steady crowds.",
-"Regular local customers are common.",
-"Weekend dinners tend to be the busiest."
-]
+insights: []
 },
 
 {
-name: "Lita's Tacos",
+name: "Lita's Tacos - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -13439,59 +11196,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with counter ordering and a small dining area. Typically steady during lunch hours with continued traffic during dinner and weekend evenings.",
+"Mexican restaurant with counter ordering and a small dining area.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch periods often bring quick dine-in visits.",
-"Takeout orders are common throughout the day.",
-"Weekend evenings usually bring the most activity."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "Olive Tree Mediterranean Grill",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-
-whatToExpect:
-"Mediterranean restaurant with counter service and table seating throughout the dining room. Typically quieter earlier in the day with steady lunch and dinner traffic.",
-
-environment: {
-parking: "Shared development parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch hours often bring consistent foot traffic.",
-"Many visits involve quick dine-in or takeout orders.",
-"Evenings remain steady but typically not crowded."
-]
-},
-
-{
-name: "Rafferty's Restaurant & Bar",
+name: "Rafferty's Restaurant & Bar - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -13501,24 +11225,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant with booth seating, table dining, and a bar area. Typically calmer earlier in the day with busier dinner periods and weekend family dining.",
+"Restaurant with booth seating, table seating, and a bar area.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunches often feel calmer than evenings.",
-"Families and groups are common during dinner hours.",
-"Weekend dinners usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -13532,59 +11252,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating and a bright open dining room. Typically busiest during morning and brunch hours with quieter afternoons.",
+"Breakfast restaurant with table seating in an open dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours tend to bring the most consistent crowds.",
-"Late morning brunch periods can fill quickly.",
-"Afternoons are usually quieter."
-]
+insights: []
 },
 
 {
-name: "Smokey Bones",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Barbecue restaurant with a bar area and multiple dining sections. Typically calmer earlier in the day with increased activity during dinner hours and weekends.",
-
-environment: {
-parking: "Dedicated parking lot.",
-restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch hours often feel calmer than evenings.",
-"The bar area tends to stay active during dinner service.",
-"Weekend evenings usually bring the largest crowds."
-]
-},
-   
-{
-name: "Texas Roadhouse",
+name: "Texas Roadhouse - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -13594,28 +11279,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Large steakhouse with multiple dining sections and a bar area. Typically quieter earlier in the day with busy dinner periods and weekend family gatherings.",
+"Large restaurant with multiple dining areas and a bar in a casual layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Waits possible during peak hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Likely",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekday lunches often feel calmer than evenings.",
-"Families and large groups are common during dinner hours.",
-"Weekend evenings usually bring the longest waits."
-]
+insights: []
 },
 
 {
-name: "LongHorn Steakhouse",
+name: "LongHorn Steakhouse - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -13625,28 +11306,24 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Steakhouse with booth seating, table dining, and a bar area. Typically calmer earlier in the day with busier dinner hours and weekend visits.",
+"Steakhouse with booth seating, table seating, and a bar area.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel calmer than evenings.",
-"Dinner service tends to bring families and small groups.",
-"Weekend evenings usually see the most activity."
-]
+insights: []
 },
 
 {
-name: "Outback Steakhouse",
+name: "Outback Steakhouse - Florence",
 city: "Florence",
 neighborhood: "",
 state: "KY",
@@ -13656,117 +11333,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Steakhouse with booth seating and a bar area near the entrance. Typically quieter earlier in the day with busier dinner hours and weekend dining.",
+"Steakhouse with booth seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch hours often feel calmer than evenings.",
-"Groups and families are common during dinner service.",
-"Weekend evenings usually bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "The Turf Club",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "High",
-
-whatToExpect:
-"Bar and dining venue connected to the Turfway Park racing facility with table seating and bar areas. Typically quieter outside racing events with increased activity during race days and weekend evenings.",
-
-environment: {
-parking: "Large shared parking lot.",
-restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Waits possible during peak hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Non-event days often feel calmer.",
-"Race events bring larger crowds and increased activity.",
-"Weekend evenings typically see the most visitors."
-]
-},
-
-{
-name: "Boone Bar & Kitchen",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "High",
-
-whatToExpect:
-"Casual bar and grill with a central bar area and surrounding tables. Typically calmer earlier in the day with increased activity during evening hours and weekend nights.",
-
-environment: {
-parking: "Dedicated parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the restaurant"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Afternoon hours often feel quieter.",
-"The bar area becomes more active later in the evening.",
-"Weekend nights usually bring the largest crowds."
-]
-},
-
-{
-name: "Coba Bar & Grill",
-city: "Independence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
-
-whatToExpect:
-"Neighborhood bar and grill with casual dining tables, bar seating, and TVs. Evenings often bring steady crowds gathering for drinks and food.",
-
-environment: {
-parking: "Parking lot directly outside the building.",
-restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
-},
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the parking lot."
-},
-
-insights: [
-"Evenings are typically the busiest time.",
-"Sports events can increase crowd noise.",
-"Parking is usually easy directly outside."
-]
+insights: []
 },
 
 {
@@ -13776,60 +11356,52 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local restaurant and bar along Madison Pike with casual table seating and a relaxed neighborhood atmosphere. Activity typically increases during dinner hours and weekend evenings.",
+"Restaurant and bar with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with conversation and occasional bar activity during busy periods.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours tend to be the busiest.",
-"Bar seating often fills later in the evening.",
-"Parking is typically easy directly outside."
-]
-},   
+insights: []
+},
 
 {
-name: "Peppers Mexican Grill",
+name: "Peppers Mexican Grill - Independence",
 city: "Independence",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with booth and table seating in a relaxed dining environment. Lunch and dinner hours typically bring steady traffic from nearby neighborhoods.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and background music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick and steady.",
-"Dinner hours bring families and small groups.",
-"Parking is generally easy in the plaza lot."
-]
-},   
+insights: []
+},
 
 {
 name: "Peecox Bar & Grill - Independence",
@@ -13838,29 +11410,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood sports bar with bar seating, tables, and TVs throughout the space. Evenings and weekends typically bring the most activity.",
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Parking lot directly outside the bar.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically the busiest.",
-"Sports events can increase noise levels.",
-"Most visits are casual and social."
-]
-},   
+insights: []
+},
 
 {
 name: "Log Cabin Inn",
@@ -13869,29 +11437,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Longstanding neighborhood restaurant and bar with rustic décor and casual dining spaces. Activity typically builds during dinner hours and weekend evenings.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Parking lot located directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dinner conversation and bar activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are the busiest period.",
-"Regular local visitors are common.",
-"Parking is usually easy directly outside."
-]
-},  
+insights: []
+},
 
 {
 name: "Knuk-N-Futz",
@@ -13900,100 +11464,57 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
-
-whatToExpect:
-"Casual neighborhood bar and grill with bar seating, tables, and a relaxed social atmosphere. Evenings and weekends typically bring the most activity.",
-
-environment: {
-parking: "Parking lot directly outside the building.",
-restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
-},
-noise: "Moderate to High during busy evenings and live entertainment.",
-exits: "Front entrance opens directly to the parking lot."
-},
-
-insights: [
-"Evenings and weekends are typically busiest.",
-"Live music or events may increase noise levels.",
-"Most visitors stay for drinks and casual meals."
-]
-},
-   
-{
-name: "El Jinete Mexican Restaurant",
-city: "Independence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "easy",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Casual Mexican restaurant with colorful décor and a large dining area. Lunch and dinner hours typically bring steady activity.",
-
-environment: {
-parking: "Large parking lot surrounding the restaurant.",
-restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate with conversation and background music during busy periods.",
-exits: "Front entrance opens directly to the parking lot."
-},
-
-insights: [
-"Lunch hours are steady with nearby workers.",
-"Dinner hours bring families and groups.",
-"Parking is typically easy."
-]
-},
-   
-{
-name: "Woody's Bar & Grille",
-city: "Florence",
-neighborhood: "",
-state: "KY",
-type: "full",
-
 parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a bar-focused layout and casual seating. Typically calmer earlier in the day with increased activity during evening hours and weekend nights.",
+"Bar and grill with table seating and bar seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Afternoons often feel quieter than evenings.",
-"The bar area stays active later in the day.",
-"Weekend nights tend to bring the most traffic."
-]
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-/* =========================
-BLUE ASH, OH
-========================= */
+insights: []
+},
+
+{
+name: "El Jinete Mexican Restaurant - Taylor Mill",
+city: "Taylor Mill",
+neighborhood: "unknown",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Mexican restaurant with booth seating and table seating in a large dining area.",
+
+environment: {
+parking: "Large dedicated parking lot available.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
+},
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
+},
+
+insights: []
+},
 
 {
 name: "Blue Ash Chili",
 city: "Blue Ash",
-neighborhood: "Blue Ash",
+neighborhood: "",
 state: "OH",
 type: "full",
 
@@ -14001,92 +11522,28 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Local chili parlor with booth seating and a casual diner-style layout along Kenwood Road. Typically steady throughout the day with consistent lunch and late evening visits.",
+"Diner-style restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours often bring consistent neighborhood traffic.",
-"Most visits involve quick dine-in meals or carryout.",
-"Evenings stay steady with families and regulars."
+"Visits are typically quick."
 ]
 },
 
 {
-name: "Catch-a-Fire Pizza - Blue Ash",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Pizza restaurant with table seating and counter ordering in the Blue Ash dining district. Typically steady during dinner hours with increased activity on weekends.",
-
-environment: {
-parking: "Shared development parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and small groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Brown Dog Café",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant with table seating and a casual dining atmosphere near Summit Park in Blue Ash. Typically calmer earlier in the evening with steady dinner reservations later.",
-
-environment: {
-parking: "Large shared parking lot.",
-restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Early dinner hours often feel calmer.",
-"Dinner service attracts couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Caruso's Ristorante & Bar",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
+name: "Caruso's Ristorante & Bar - Fairfield",
+city: "Fairfield",
+neighborhood: "Fairfield",
 state: "OH",
 type: "full",
 
@@ -14094,24 +11551,20 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Italian restaurant with table seating and a bar area along the Kenwood Road corridor. Typically steady during dinner hours with moderate evening activity.",
+"Italian restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and small groups.",
-"Weekend evenings tend to bring steady activity."
-]
+insights: []
 },
    
 {
@@ -14125,55 +11578,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Japanese steakhouse with hibachi tables and sushi bar seating in the Blue Ash dining district. Typically steady during dinner hours with increased weekend activity.",
+"Japanese restaurant with grill tables and a sushi bar in a large dining space.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the entrance"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Near entrance"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Dinner hours often bring groups and families.",
-"Hibachi seating can increase overall noise levels.",
-"Weekend evenings usually bring the most activity."
-]
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Shooters Sports Grill - Blue Ash",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
-state: "OH",
-type: "full",
-
-parkingLevel: "Easy",
-noiseLevel: "High",
-
-whatToExpect:
-"Sports bar with bar seating, TVs throughout the space, and casual dining tables along the Blue Ash restaurant corridor. Typically quieter earlier in the day with increased activity during evening games.",
-
-environment: {
-parking: "Dedicated parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Afternoons often feel quieter.",
-"Sports events increase activity in the bar area.",
-"Weekend nights usually bring the most visitors."
-]
+insights: []
 },
 
 {
@@ -14187,85 +11605,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Dessert shop with counter service and limited seating in the Blue Ash retail corridor. Typically steady during afternoons with increased activity during evenings.",
+"Dessert shop with counter service and limited seating.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Afternoons often bring steady dessert traffic.",
-"Most visits involve quick counter-service stops.",
-"Warm weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Pasta Bravo",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Italian restaurant with table seating and casual dining along the Kenwood Road corridor. Typically steady during dinner hours with moderate evening traffic.",
-
-environment: {
-parking: "Shared development parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and couples.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Senate - Blue Ash",
-city: "Blue Ash",
-neighborhood: "Blue Ash",
-state: "OH",
-type: "full",
-
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-
-whatToExpect:
-"Restaurant and bar with table seating and a casual dining layout near Summit Park. Typically steady during dinner hours with increased evening activity.",
-
-environment: {
-parking: "Large shared parking lot.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the entrance"
-},
-noise: "Moderate",
-exits: "Easy step outside to park area"
-},
-
-insights: [
-"Dinner hours bring steady dine-in traffic.",
-"Groups often gather for drinks later in the evening.",
-"Weekend evenings usually bring the most activity."
+"Visits are typically quick."
 ]
 },
 
@@ -14280,28 +11634,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating and a bright dining room in the Blue Ash business district. Typically busiest during morning and late morning hours.",
+"Breakfast restaurant with table seating in a bright, open dining space.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours bring steady breakfast traffic.",
-"Late morning brunch periods often fill quickly.",
-"Afternoons usually feel calmer."
-]
+insights: []
 },
 
 {
-name: "Sammy's Gourmet Burgers & Beers",
+name: "Sammy's Craft Burgers & Beers",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
@@ -14311,28 +11661,24 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Burger restaurant with bar seating and casual dining tables in the Blue Ash restaurant corridor. Typically steady during dinner hours with increased evening activity.",
+"Restaurant with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours attract families and groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Slatt's Pub",
+name: "Slatt's Pub & Grill",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
@@ -14342,24 +11688,20 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood pub with bar seating and table dining in the Blue Ash business district. Typically quieter earlier in the day with increased activity during evening hours.",
+"Neighborhood pub with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -14373,28 +11715,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Japanese restaurant with table seating and sushi bar service along Kenwood Road. Typically steady during dinner hours with quieter periods earlier in the day.",
+"Japanese restaurant with table seating and a sushi bar in a calm dining space.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings tend to bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Firehouse Grill",
+name: "Firehouse Grill & Private Event Rooms",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
@@ -14404,26 +11742,22 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"American grill with table seating and bar service in the Blue Ash dining district. Typically steady during dinner hours with moderate evening activity.",
+"Restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and groups.",
-"Weekend evenings tend to bring steady activity."
-]
+insights: []
 },
-   
+
 {
 name: "The Park Pour",
 city: "Blue Ash",
@@ -14435,28 +11769,24 @@ parkingLevel: "Easy",
 noiseLevel: "High",
 
 whatToExpect:
-"Bar and social venue with bar seating and outdoor gathering space near Summit Park. Typically calmer earlier in the evening with increased activity later at night.",
+"Bar with indoor seating and outdoor gathering space.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to park area"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings often feel relaxed.",
-"Groups gather for drinks after nearby events.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
-name: "Tahona Kitchen + Bar",
+name: "Tahona Taqueria + Tequila Bar",
 city: "Blue Ash",
 neighborhood: "Blue Ash",
 state: "OH",
@@ -14466,24 +11796,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with bar seating and table dining in the Blue Ash restaurant district. Typically steady during dinner hours with increased weekend activity.",
+"Mexican restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often move quickly.",
-"Dinner hours bring small groups and families.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 /* =========================
@@ -14491,7 +11817,7 @@ MONTGOMERY, OH
 ========================= */
 
 {
-name: "Stone Creek Dining Company",
+name: "Stone Creek Dining Company - Montgomery",
 city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
@@ -14501,24 +11827,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Upscale restaurant with multiple dining rooms and bar seating in downtown Montgomery. Typically calmer earlier in the evening with steady dinner reservations.",
+"Restaurant with multiple dining rooms and a bar area in a structured layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early dinner reservations often feel calmer.",
-"Dinner hours attract couples and groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -14528,28 +11850,24 @@ neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local coffee shop serving espresso drinks and pastries with casual seating and a relaxed café atmosphere along the Ohio River in New Richmond.",
+"Coffee shop with counter service and casual seating in a small layout.",
 
 environment: {
-parking: "Street parking available along nearby downtown streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring the most visitors.",
-"Many guests stop in while visiting the riverfront area.",
-"Afternoons are usually quieter."
-]
+insights: []
 },
 
 {
@@ -14559,28 +11877,26 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+verified: true,
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood coffee shop in Covington serving espresso drinks, pastries, and light café items with casual seating.",
+"Coffee shop with counter ordering and casual seating in a compact layout.",
 
 environment: {
-parking: "Street parking available along surrounding Covington streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are typically busiest.",
-"Visitors often stop in for quick coffee runs.",
-"Afternoons are usually calmer."
-]
+insights: []
 },
 
 {
@@ -14590,59 +11906,51 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood coffee shop serving espresso drinks and pastries with a small, casual seating area and relaxed atmosphere.",
+"Small coffee shop with counter service and limited seating.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with quiet coffee shop activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring the most traffic.",
-"Most visits are short coffee stops.",
-"Afternoons tend to be quieter."
-]
+insights: []
 },
 
 {
 name: "The Roost Latonia",
 city: "Covington",
-neighborhood: "",
+neighborhood: "Latonia",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood café in the Latonia district serving coffee, breakfast items, and light meals with casual seating.",
+"Café with counter service and table seating in a casual layout.",
 
 environment: {
-parking: "Street parking available along surrounding Covington streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Visitors often stay for casual meetings.",
-"Afternoons are usually calmer."
-]
+insights: []
 },
 
 {
@@ -14652,28 +11960,24 @@ neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop in Norwood serving espresso drinks and pastries with a casual café seating area.",
+"Coffee shop with counter service and seating for guests.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are typically busiest.",
-"Visitors often stay to work or study.",
-"Afternoons tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -14683,28 +11987,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop along Monmouth Street in Newport serving espresso drinks and light café items with casual seating.",
+"Coffee shop with counter ordering and seating in a small layout.",
 
 environment: {
-parking: "Street parking available along nearby Newport streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Visitors often stop in while walking Monmouth Street.",
-"Afternoons are typically quieter."
-]
+insights: []
 },
 
 {
@@ -14714,28 +12014,24 @@ neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffeehouse and cocktail bar serving espresso drinks during the day and cocktails in the evening with casual seating.",
+"Coffeehouse and bar with seating for daytime and evening use.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with coffee shop activity during the day and bar activity in the evening.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Evenings shift toward a bar atmosphere.",
-"Visitors often stay for meetings or socializing."
-]
+insights: []
 },
 
 {
@@ -14745,28 +12041,24 @@ neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Café inside the Cinergy entertainment complex offering coffee, snacks, and quick bites for visitors to the theater and entertainment venue.",
+"Café inside an entertainment complex with counter service and seating.",
 
 environment: {
-parking: "Large parking lot available at the entertainment complex.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the complex"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate depending on activity in surrounding entertainment areas.",
-exits: "Located inside the complex with exits leading to the main lobby and parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Most visits are quick.",
-"Visitors often stop in before or after movies.",
-"Parking is typically easy."
-]
+insights: []
 },
 
 {
@@ -14776,28 +12068,24 @@ neighborhood: "OTR",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Specialty coffee roaster and café serving espresso drinks and pour-over coffee with seating for guests.",
+"Coffee shop with counter service and seating for guests in a compact layout.",
 
 environment: {
-parking: "Street parking available along nearby West End streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Visitors often stay to work or study.",
-"Coffee enthusiasts visit for specialty drinks."
-]
+insights: []
 },
 
 {
@@ -14807,28 +12095,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Community café serving coffee and breakfast items with a relaxed and quiet atmosphere.",
+"Café with counter service and seating in a quiet setting.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low with quiet conversation and relaxed café activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring the most visitors.",
-"Visitors often stay for casual meetings.",
-"Afternoons tend to be calm."
-]
+insights: []
 },
 
 {
@@ -14838,90 +12122,78 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood coffee shop serving espresso drinks, pastries, and light café items with casual seating and a relaxed atmosphere.",
+"Coffee shop with counter service and casual seating in a small layout.",
 
 environment: {
-parking: "Street parking available along surrounding Dayton streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring the most coffee traffic.",
-"Visitors often stop in for quick coffee runs.",
-"Afternoons are typically quieter."
-]
+insights: []
 },
 
 {
 name: "Cream + Sugar Coffeehouse",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Norwood",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and café offering espresso drinks, pastries, and light breakfast options with casual seating.",
+"Coffee shop with counter service and casual seating in a compact layout.",
 
 environment: {
-parking: "Street parking available along nearby city streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady coffee shop conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings tend to be busiest.",
-"Visitors often stay for coffee or work.",
-"Afternoons are usually calmer."
-]
+insights: []
 },
 
 {
-name: "Luckman Coffee",
+name: "Luckman Coffee - Beechmont Ave",
 city: "Cincinnati",
 neighborhood: "",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local coffee shop serving espresso drinks and pastries with casual seating and a relaxed café environment.",
+"Coffee shop with counter service and seating in a casual layout.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring the most activity.",
-"Visitors often stop in for quick coffee visits.",
-"Afternoons tend to be quieter."
-]
+insights: []
 },
 
 {
@@ -14931,152 +12203,134 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood coffee shop serving espresso drinks and light café items with casual seating.",
+"Coffee shop with counter service and casual seating in a compact layout.",
 
 environment: {
-parking: "Street parking available along surrounding Covington streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Visitors often stop in before work.",
-"Afternoons are typically quieter."
-]
+insights: []
 },
 
 {
 name: "Daylily",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Columbia-Tusculum",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+verified: true,
+
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Café and bakery offering coffee, pastries, and light breakfast items with casual seating and a relaxed atmosphere.",
+"Café and bakery with counter service and seating in a casual layout.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with café conversation and background music.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings tend to be the busiest.",
-"Pastries and coffee are popular stops.",
-"Afternoons are generally calmer."
-]
+insights: []
 },
 
 {
 name: "Lola's Coffee + Bar",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Downtown",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and bar serving espresso drinks during the day and cocktails in the evening with casual seating.",
+"Coffee shop and bar with seating for daytime and evening use.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with coffee shop activity during the day and bar activity in the evening.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady coffee traffic.",
-"Evenings shift toward a bar atmosphere.",
-"Visitors often stay for social gatherings."
-]
+insights: []
 },
 
 {
 name: "Fable Cafe",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "Westwood",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "low_moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood café offering coffee, pastries, and casual seating in a relaxed environment.",
+"Café with counter service and casual seating in a small layout.",
 
 environment: {
-parking: "Street parking available nearby.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical café conversation.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings bring steady visitors.",
-"Visitors often stay for casual work.",
-"Afternoons are usually quieter."
-]
+insights: []
 },
 
 {
 name: "Bean & Barley",
 city: "Cincinnati",
-neighborhood: "",
+neighborhood: "East Walnut Hills",
 state: "OH",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and café offering espresso drinks and brunch-style food with a casual dining atmosphere.",
+"Café with table seating and counter service in a casual dining layout.",
 
 environment: {
-parking: "Street parking available along nearby streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining and coffee activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Weekend brunch hours are typically busiest.",
-"Mornings bring steady coffee traffic.",
-"Groups often gather for brunch."
-]
+insights: []
 },
 
 {
@@ -15086,34 +12340,30 @@ neighborhood: "The Levee",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Bakery and café located at Newport on the Levee offering pastries, breakfast items, and coffee with casual seating.",
+"Bakery and café with counter service and table seating in a shared complex.",
 
 environment: {
-parking: "Parking garages and surface lots available at Newport on the Levee.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the Levee complex"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate depending on activity in the surrounding Levee area.",
-exits: "Located inside the Levee complex with nearby exits to the riverfront and parking garages."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Mornings bring steady breakfast traffic.",
-"Visitors often stop in while exploring the Levee.",
-"Weekend mornings tend to be busier."
-]
-},   
-   
+insights: []
+},
+
 {
-name: "Ferrari's Little Italy",
-city: "Montgomery",
-neighborhood: "Montgomery",
+name: "Ferrari's Little Italy & Bakery",
+city: "Madeira",
+neighborhood: "Madeira",
 state: "OH",
 type: "full",
 
@@ -15121,30 +12371,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Italian restaurant with table seating and a traditional dining room in downtown Montgomery. Typically calmer earlier in the evening with steady dinner reservations.",
+"Italian restaurant with table seating and a bar area in a structured layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early dinner visits often feel relaxed.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
 name: "S.W. Clyborne Co. Provision & Spirits",
-city: "Montgomery",
-neighborhood: "Montgomery",
+city: "Mason",
+neighborhood: "Mason",
 state: "OH",
 type: "full",
 
@@ -15152,24 +12398,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Restaurant and bar with multiple dining rooms and a social dining atmosphere in downtown Montgomery. Typically steady during dinner hours with increased evening activity.",
+"Restaurant and bar with multiple dining areas in a social layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings often feel calmer.",
-"Dinner hours attract groups and couples.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -15183,24 +12425,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Mexican restaurant with booth seating and table dining along Montgomery Road. Typically steady during lunch and dinner hours.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and small groups.",
-"Weekend evenings usually bring steady traffic."
-]
+insights: []
 },
 
 {
@@ -15214,30 +12452,26 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast restaurant with table seating and a busy brunch atmosphere along Montgomery Road. Typically busiest during morning and late morning hours.",
+"Breakfast restaurant with table seating in a busy dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the entrance"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Near entrance"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours bring steady breakfast traffic.",
-"Late morning brunch periods often fill quickly.",
-"Afternoons usually feel quieter."
-]
+insights: []
 },
 
 {
 name: "Dingle House Irish Pub",
-city: "Montgomery",
-neighborhood: "Montgomery",
+city: "West Chester Township",
+neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
@@ -15245,24 +12479,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Irish pub with bar seating and table dining in the Montgomery dining district. Typically quieter earlier in the day with increased evening activity.",
+"Irish pub with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside the pub"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Afternoons often feel quieter.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -15276,28 +12506,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Bakery and cafe with counter service and limited table seating along Montgomery Road. Typically busiest during morning and lunch hours.",
+"Bakery with counter service and limited seating in a compact layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the bakery"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning visits often bring steady bakery traffic.",
-"Lunch visits move quickly.",
-"Afternoons usually feel calmer."
-]
+insights: []
 },
 
 {
-name: "Montgomery Inn",
+name: "Montgomery Inn - Montgomery",
 city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
@@ -15307,26 +12533,22 @@ parkingLevel: "Easy",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Barbecue restaurant with table seating and multiple dining rooms along Montgomery Road. Typically steady throughout the day with consistent dinner traffic.",
+"Large restaurant with multiple dining areas and table seating.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring families and groups.",
-"Weekend evenings tend to bring steady activity."
-]
+insights: []
 },
-   
+
 {
 name: "Bones' Burgers",
 city: "Montgomery",
@@ -15338,28 +12560,24 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Burger restaurant with casual table seating in the Montgomery restaurant corridor. Typically steady during lunch and dinner hours.",
+"Burger restaurant with table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch periods often bring consistent traffic.",
-"Dinner hours attract families and small groups.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
-name: "Toast & Berry",
+name: "Toast & Berry - Montgomery",
 city: "Montgomery",
 neighborhood: "Montgomery",
 state: "OH",
@@ -15369,24 +12587,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Breakfast and brunch restaurant with table seating and a bright dining room near downtown Montgomery. Typically busiest during morning and brunch hours.",
+"Breakfast restaurant with table seating in a bright dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours bring steady breakfast traffic.",
-"Late morning brunch periods often fill quickly.",
-"Afternoons usually feel calmer."
-]
+insights: []
 },
 
 {
@@ -15400,24 +12614,20 @@ parkingLevel: "Moderate",
 noiseLevel: "High",
 
 whatToExpect:
-"Latin-inspired restaurant with bar seating and multiple dining spaces in the Montgomery dining district. Typically steady during dinner hours with increased weekend activity.",
+"Restaurant and bar with multiple seating areas in a social layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Early evenings often feel relaxed.",
-"Dinner hours bring couples and groups.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -15431,24 +12641,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Restaurant with table seating and a social dining atmosphere along Montgomery Road. Typically steady during dinner hours with increased evening activity.",
+"Restaurant with table seating and a bar area in a casual layout.",
 
 environment: {
-parking: "Large shared parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours attract groups and families.",
-"Weekend evenings tend to be the busiest."
-]
+insights: []
 },
 
 {
@@ -15462,24 +12668,20 @@ parkingLevel: "Moderate",
 noiseLevel: "Moderate",
 
 whatToExpect:
-"Burger restaurant with bar seating and table dining in the Montgomery dining corridor. Typically steady during dinner hours with moderate evening activity.",
+"Burger restaurant with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits often move quickly.",
-"Dinner hours bring small groups and families.",
-"Weekend evenings usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -15488,25 +12690,25 @@ city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Sushi and Asian restaurant near Kenwood Towne Centre with a casual dining room and booth seating. Typically steady during lunch and busier during dinner hours and weekends.",
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Sushi restaurant with table seating and booth seating in a casual layout.",
+
 environment: {
-parking: "Large shared shopping center parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Rarely long waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Lunch visits often move quickly due to nearby offices and shopping.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings tend to see the most activity."
-]
+
+insights: []
 },
 
 {
@@ -15515,25 +12717,25 @@ city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Café-style restaurant located inside Nordstrom at Kenwood Towne Centre with table seating and a bright open layout. Typically busiest during lunch hours and weekend shopping periods.",
+
 parkingLevel: "Easy",
 noiseLevel: "Low",
+
+whatToExpect:
+"Café inside a retail space with table seating in an open layout.",
+
 environment: {
-parking: "Large Kenwood Towne Centre parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Mall restrooms available nearby",
-waits: "Rarely long waits",
-location: "Inside the store area"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Located inside Nordstrom with direct mall exits"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Multiple exits available."
 },
-insights: [
-"Lunch hours often bring shoppers and nearby workers.",
-"Visits are usually shorter compared to full restaurants.",
-"Weekend afternoons tend to bring the most activity."
-]
+
+insights: []
 },
 
 {
@@ -15542,25 +12744,25 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Neighborhood bar with a compact interior and bar seating. Typically quieter earlier in the day with increased activity during evening hours and weekends.",
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
+
+whatToExpect:
+"Neighborhood bar with a compact interior and bar seating.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Known as a long-standing local bar with a friendly crowd.",
-"Evenings bring the most consistent traffic.",
-"Weekend nights usually bring the highest activity."
-]
+
+insights: []
 },
 
 {
@@ -15569,52 +12771,25 @@ city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Casual pizza restaurant with table seating and an open kitchen layout. Typically steady throughout dinner hours with families and groups visiting evenings and weekends.",
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Pizza restaurant with table seating and an open dining layout.",
+
 environment: {
-parking: "Shared shopping center parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during peak dinner",
-location: "Inside near the dining area"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-insights: [
-"Families and groups commonly visit during dinner.",
-"Takeout and dine-in traffic remain steady throughout the evening.",
-"Weekend dinners bring the most activity."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "Don Rigo Taqueria",
-city: "Cincinnati",
-neighborhood: "",
-state: "OH",
-type: "full",
-whatToExpect:
-"Casual Mexican restaurant with table seating and counter ordering areas. Typically steady during lunch hours with continued dinner traffic and weekend visits.",
-parkingLevel: "Easy",
-noiseLevel: "Moderate",
-environment: {
-parking: "Shared shopping center parking lot.",
-restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
-},
-insights: [
-"Lunch hours often bring quick dine-in visits.",
-"Evenings bring families and small groups.",
-"Weekend dinners usually see the highest activity."
-]
+insights: []
 },
 
 {
@@ -15623,25 +12798,25 @@ city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Upscale steakhouse with multiple dining rooms and bar seating. Typically calmer earlier in the evening with steady dinner reservations and weekend dining.",
+
 parkingLevel: "Easy",
 noiseLevel: "Low",
+
+whatToExpect:
+"Steakhouse with multiple dining rooms and table seating in a structured layout.",
+
 environment: {
-parking: "Dedicated parking lot available.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor accessible restrooms",
-waits: "Rarely long waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Early dinner reservations often feel quieter.",
-"Evenings bring couples and small groups.",
-"Weekend nights tend to be the busiest."
-]
+
+insights: []
 },
 
 {
@@ -15650,79 +12825,79 @@ city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Breakfast and brunch restaurant with table seating and an open dining room layout. Typically busiest during morning and late morning hours with quieter afternoons.",
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Breakfast restaurant with table seating in an open dining layout.",
+
 environment: {
-parking: "Shared shopping center parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during peak brunch",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Morning breakfast hours bring the most traffic.",
-"Late morning brunch periods can fill quickly.",
-"Afternoons tend to feel quieter."
-]
+
+insights: []
 },
 
 {
 name: "Fratelli's Pizzeria",
-city: "Cincinnati",
-neighborhood: "Kenwood",
+city: "West Chester Township",
+neighborhood: "West Chester",
 state: "OH",
 type: "full",
-whatToExpect:
-"Neighborhood pizza restaurant with casual table seating and counter ordering. Typically steady during lunch and dinner hours with consistent takeout traffic.",
+
 parkingLevel: "Easy",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Pizza restaurant with counter ordering and table seating in a casual layout.",
+
 environment: {
-parking: "Shared shopping center parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Rarely long waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Lunch hours often involve quick visits.",
-"Evenings bring families and small groups.",
-"Weekend dinners typically see the most activity."
-]
+
+insights: []
 },
 
 {
-name: "Hoppin' Vines",
+name: "Hoppin' Vines - Kenwood",
 city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Wine bar and restaurant with bar seating and entertainment areas including duckpin bowling. Typically relaxed earlier in the day with busier evenings and weekend gatherings.",
+
 parkingLevel: "Easy",
 noiseLevel: "High",
+
+whatToExpect:
+"Restaurant and bar with seating areas and activity space in a social layout.",
+
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Groups often gather for drinks and games.",
-"Evenings tend to be the busiest period.",
-"Weekend nights usually bring the most activity."
-]
+
+insights: []
 },
 
 {
@@ -15731,52 +12906,52 @@ city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Neighborhood bar with a relaxed atmosphere and a mix of bar seating and small tables. Typically quieter earlier in the day with increased activity during evening hours.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Neighborhood bar with bar seating and small tables in a compact layout.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Afternoons often feel calmer.",
-"Evenings bring steady bar traffic.",
-"Weekend nights usually bring the most visitors."
-]
+
+insights: []
 },
 
 {
 name: "The Hannaford",
 city: "Covington",
-neighborhood: "MainStrasse",
+neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Neighborhood restaurant and bar with a casual dining room and bar seating along the MainStrasse corridor. Typically steady during dinner hours with weekend activity.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Restaurant and bar with table seating and a bar area in a casual layout.",
+
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Rarely long waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Early dinners tend to feel calmer.",
-"Evenings bring couples and small groups.",
-"Weekend nights usually see the most activity."
-]
+
+insights: []
 },
 
 {
@@ -15785,79 +12960,25 @@ city: "Ludlow",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Neighborhood bar with a compact interior and outdoor seating areas. Typically quieter during the day and busier during evening hours and weekends.",
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
+
+whatToExpect:
+"Bar with a compact interior and outdoor seating areas.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Indoor restroom available",
-waits: "Possible waits during peak nightlife hours",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Patio and street-level access available."
-},
-insights: [
-"Often described as bar-focused with evening activity.",
-"Traffic increases later in the evening.",
-"Weekend nights bring the highest crowd levels."
-]
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-{
-name: "The Mercer OTR",
-city: "Cincinnati",
-neighborhood: "Over-the-Rhine",
-state: "OH",
-type: "full",
-whatToExpect:
-"Upscale restaurant with a large open dining room and bar seating in the Over-the-Rhine dining district. Typically steady during dinner hours with busy weekend reservations.",
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-environment: {
-parking: "Street parking and nearby public garages.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Rarely long waits",
-location: "Inside near the back"
-},
-noise: "Moderate",
-exits: "Street-level entrance."
-},
-insights: [
-"Early dinners often feel calmer.",
-"Dinner service attracts couples and groups.",
-"Weekend evenings usually bring the most activity."
-]
-},
-
-{
-name: "Through the Garden",
-city: "Cincinnati",
-neighborhood: "Over-the-Rhine",
-state: "OH",
-type: "full",
-whatToExpect:
-"Wine bar and small plates restaurant with a cozy interior and intimate seating layout. Typically calmer earlier in the evening with steady late evening traffic.",
-parkingLevel: "Moderate",
-noiseLevel: "Low",
-environment: {
-parking: "Street parking and nearby garages.",
-restrooms: {
-capacity: "Single restroom",
-waits: "Rarely long waits",
-location: "Inside the venue"
-},
-noise: "Low to Moderate",
-exits: "Street-level entrance."
-},
-insights: [
-"Early evening visits often feel relaxed.",
-"Couples and small groups are common.",
-"Weekend nights tend to bring the most activity."
-]
+insights: []
 },
 
 {
@@ -15866,25 +12987,25 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Brewery with a large open taproom, bar seating, and casual table seating. Often hosts events and live music with increased activity during evenings and weekends.",
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
+
+whatToExpect:
+"Brewery with open seating and a large taproom layout.",
+
 environment: {
-parking: "Street parking and nearby lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during busy events",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Afternoons can feel quieter outside events.",
-"Evenings bring groups and social gatherings.",
-"Weekend nights and events bring the largest crowds."
-]
+
+insights: []
 },
 
 {
@@ -15893,133 +13014,52 @@ city: "Covington",
 neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
-whatToExpect:
-"German-style beer bar with bar seating, communal tables, and a lively social atmosphere in the MainStrasse district.",
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
+
+whatToExpect:
+"Bar with communal seating and bar seating in a social layout.",
+
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during busy nights",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Evenings bring steady bar traffic.",
-"Groups often gather for drinks and food.",
-"Weekend nights usually bring the highest activity."
-]
+
+insights: []
 },
-   
+
 {
 name: "Hotel Covington Lobby Bar",
 city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Hotel bar located inside the Hotel Covington lobby with lounge seating and a polished social atmosphere. Typically calmer earlier in the day with increased activity during evening cocktail hours.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
-environment: {
-parking: "Valet and nearby street parking.",
-restrooms: {
-capacity: "Hotel restrooms available",
-waits: "Rarely long waits",
-location: "Inside the hotel"
-},
-noise: "Low to Moderate",
-exits: "Hotel lobby entrance to the street"
-},
-insights: [
-"Afternoons tend to feel quieter.",
-"Evenings bring hotel guests and local visitors.",
-"Weekend nights often bring the most activity."
-]
-},
 
-{
-name: "La Torta Loca - Price Hill",
-city: "Cincinnati",
-neighborhood: "Price Hill",
-state: "OH",
-type: "full",
 whatToExpect:
-"Casual Mexican restaurant known for tortas, tacos, and quick counter service. The dining room is compact with simple table seating and steady takeout activity throughout the day.",
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-environment: {
-parking: "Small lot and street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Street-level entrance."
-},
-insights: [
-"Lunch visits are often quick dine-in or takeout stops.",
-"Evenings bring steady neighborhood traffic.",
-"Weekend afternoons tend to be the busiest."
-]
-},
+"Hotel bar with lounge seating in an open lobby layout.",
 
-{
-name: "Las Delicias Bakery",
-city: "Cincinnati",
-neighborhood: "Price Hill",
-state: "OH",
-type: "full",
-whatToExpect:
-"Neighborhood Latin bakery with counter service and limited seating. Known for pastries, breads, and quick takeaway visits.",
-parkingLevel: "Moderate",
-noiseLevel: "Low",
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside bakery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Street-level entrance."
-},
-insights: [
-"Morning visits often bring the most activity.",
-"Many visits involve quick bakery purchases.",
-"Afternoons typically feel calmer."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "La Torta Loca - Covington",
-city: "Covington",
-neighborhood: "",
-state: "KY",
-type: "full",
-whatToExpect:
-"Casual Mexican restaurant with counter ordering and table seating. Known for tortas and traditional street-style dishes with steady lunch and dinner traffic.",
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Single restroom",
-waits: "Rarely long waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Street-level entrance."
-},
-insights: [
-"Lunch visits often move quickly.",
-"Takeout orders are common throughout the evening.",
-"Weekend afternoons tend to see the most activity."
-]
+insights: []
 },
 
 {
@@ -16028,110 +13068,108 @@ city: "Covington",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Wine bar and bottle shop with bar seating and a relaxed social atmosphere. Guests can enjoy wine by the glass or purchase bottles to take home.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Wine bar with bar seating and small table seating in a relaxed layout.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Early evenings tend to feel relaxed.",
-"Small groups often gather for drinks.",
-"Weekend evenings bring the most activity."
-]
+
+insights: []
 },
 
 {
-name: "Legends Bar",
+name: "Legends Bar & Grill",
 city: "Covington",
 neighborhood: "Latonia",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar in the Latonia area of Covington with bar seating, TVs, and a casual social atmosphere. Evenings and weekends typically bring the most activity as locals gather for drinks and sports.",
+"Neighborhood bar with bar seating and TVs in a casual layout.",
 
 environment: {
-parking: "Street parking available along surrounding neighborhood streets.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with conversation, music, and sports on TV.",
-exits: "Main entrance opens directly to the sidewalk along the street."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically the busiest.",
-"Sports events often increase crowd activity.",
-"Most visitors are local regulars from the surrounding neighborhood."
-]
-},   
+insights: []
+},
 
 {
-name: "Logo's Sports Bar & Grill",
+name: "Logo's Sports Bar & Grill - Blue Ash",
 city: "Cincinnati",
-neighborhood: "White Oak",
+neighborhood: "Blue Ash",
 state: "OH",
 type: "full",
-whatToExpect:
-"Neighborhood sports bar with TVs throughout the space, bar seating, and casual dining tables. Known for game-day gatherings and a lively evening crowd.",
+
 parkingLevel: "Easy",
 noiseLevel: "High",
+
+whatToExpect:
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
+
 environment: {
-parking: "Dedicated parking lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during busy games",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Easy step outside to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Game nights often increase noise levels.",
-"Evenings bring the most consistent bar traffic.",
-"Weekend nights usually draw the largest crowds."
-]
+
+insights: []
 },
 
 {
-name: "Molly Malone's",
+name: "Molly Malone's - Covington",
 city: "Covington",
 neighborhood: "MainStrasse",
 state: "KY",
 type: "full",
-whatToExpect:
-"Irish pub with a large bar area, dining tables, and occasional live music. Typically steady throughout the evening with increased activity on weekends.",
+
+verified: true,
+
 parkingLevel: "Moderate",
 noiseLevel: "High",
+
+whatToExpect:
+"Irish pub with bar seating and table seating in a social layout.",
+
 environment: {
-parking: "Street parking and nearby public lots.",
+parking: "Street parking nearby; limited during peak hours.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Possible waits during busy nights",
-location: "Inside venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Street-level entrance."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Evenings bring steady pub traffic.",
-"Live music nights increase overall noise.",
-"Weekend nights are usually the busiest."
-]
+
+insights: []
 },
 
 {
@@ -16140,25 +13178,25 @@ city: "Newport",
 neighborhood: "",
 state: "KY",
 type: "full",
-whatToExpect:
-"Wine and bourbon bar offering tasting flights and small plates in a relaxed lounge setting. Typically calmer earlier in the evening with steady weekend traffic.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Moderate",
+
+whatToExpect:
+"Wine and bourbon bar with lounge seating and small tables.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rarely long waits",
-location: "Inside venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Street-level entrance."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
-insights: [
-"Early evenings often feel relaxed.",
-"Couples and small groups are common.",
-"Weekend nights bring the most activity."
-]
+
+insights: []
 },
 
 {
@@ -16168,59 +13206,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "street",
-noiseLevel: "moderate",
+parkingLevel: "Moderate",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Small market-style restaurant and bar with counter service and casual seating near the Roebling Bridge corridor. Typically steady during lunch hours with moderate evening activity.",
+"Market-style restaurant with counter service and casual seating.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the venue"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Lunch visits often move quickly.",
-"Afternoons tend to feel calmer.",
-"Evenings bring small groups stopping for drinks or quick meals."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "King Pigeon",
-city: "Cincinnati",
-neighborhood: "OTR",
-state: "OH",
-type: "full",
-
-parkingLevel: "street",
-noiseLevel: "moderate_high",
-
-whatToExpect:
-"Bar and restaurant with indoor seating and a casual social atmosphere along the Vine Street corridor in OTR. Typically calmer earlier in the evening with increased activity later at night.",
-
-environment: {
-parking: "Street parking nearby.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Short waits possible during busy hours",
-location: "Inside near the back"
-},
-noise: "Moderate to High",
-exits: "Easy step outside to sidewalk"
-},
-
-insights: [
-"Early evenings often feel relaxed.",
-"Later hours bring groups gathering for drinks.",
-"Weekend nights usually bring the most activity."
-]
+insights: []
 },
 
 {
@@ -16230,111 +13233,80 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "street",
-noiseLevel: "low",
+parkingLevel: "Moderate",
+noiseLevel: "Low",
 
 whatToExpect:
-"Bakery and café with counter service and limited indoor seating. Typically busiest during morning and midday hours.",
+"Bakery with counter service and limited seating for short visits.",
 
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the bakery"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Easy step outside to sidewalk"
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Morning hours bring steady coffee and pastry traffic.",
-"Lunch visits often move quickly.",
-"Afternoons usually feel quieter."
-]
+insights: []
 },
-   
+
 {
-name: "The Cheesecake Factory",
+name: "The Cheesecake Factory - Kenwood",
 city: "Cincinnati",
 neighborhood: "Kenwood",
 state: "OH",
 type: "full",
-whatToExpect:
-"Large chain restaurant located at Kenwood Towne Centre with an extensive menu, multiple dining sections, and a busy bar area.",
+
 parkingLevel: "Easy",
 noiseLevel: "High",
+
+whatToExpect:
+"Large restaurant with multiple dining areas and a bar in a busy layout.",
+
 environment: {
-parking: "Large Kenwood Towne Centre parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple indoor restrooms available",
-waits: "Possible waits during peak hours",
-location: "Inside near the dining area"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Located inside mall with exterior mall exits"
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
-insights: [
-"Dinner hours often bring long wait times.",
-"Families and large groups are common.",
-"Weekend evenings tend to be the busiest."
-]
+
+insights: []
 },
 
 {
-name: "The Coffee Exchange",
+name: "The Coffee Exchange - Pleasant Ridge",
 city: "Cincinnati",
 neighborhood: "Pleasant Ridge",
 state: "OH",
 type: "full",
-whatToExpect:
-"Neighborhood coffee shop with counter ordering and cozy seating areas. Known for a relaxed atmosphere and steady morning traffic.",
+
 parkingLevel: "Moderate",
 noiseLevel: "Low",
+
+whatToExpect:
+"Coffee shop with counter service and seating in a compact layout.",
+
 environment: {
 parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside cafe"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low",
-exits: "Street-level entrance."
-},
-insights: [
-"Morning hours bring steady coffee traffic.",
-"Many visits involve quick takeout orders.",
-"Afternoons usually feel calmer."
-]
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "The Davidson",
-city: "Cincinnati",
-neighborhood: "Mount Lookout",
-state: "OH",
-type: "full",
-whatToExpect:
-"Restaurant and bar with a modern dining room and patio seating in the Mount Lookout Square area. Typically steady during dinner hours with a social weekend crowd.",
-parkingLevel: "Moderate",
-noiseLevel: "Moderate",
-environment: {
-parking: "Street parking around Mount Lookout Square.",
-restrooms: {
-capacity: "Indoor restrooms available",
-waits: "Rarely long waits",
-location: "Inside near the back"
+insights: []
 },
-noise: "Moderate",
-exits: "Street-level entrance and patio access"
-},
-insights: [
-"Evenings bring couples and small groups.",
-"The patio tends to stay active during warmer months.",
-"Weekend nights usually bring the most activity."
-]
-},
-   
+
 {
 name: "Artemis Mediterranean Bistro",
 city: "Montgomery",
@@ -16346,29 +13318,21 @@ parkingLevel: "Moderate",
 noiseLevel: "Low",
 
 whatToExpect:
-"Mediterranean restaurant with table seating and a relaxed dining room along Montgomery Road. Typically calmer earlier in the evening with steady dinner traffic.",
+"Mediterranean restaurant with table seating in a structured dining layout.",
 
 environment: {
-parking: "Shared development parking lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Indoor restrooms available",
-waits: "No typical waits",
-location: "Inside near the back"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Easy step outside to parking lot"
-},
-
-insights: [
-"Early dinner visits often feel relaxed.",
-"Dinner hours bring couples and small groups.",
-"Weekend evenings tend to bring the most activity."
-]
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
-   /* =========================
-WEST CHESTER TOWNSHIP, OH
-========================= */
+insights: []
+},
 
 {
 name: "Matt the Miller's Tavern",
@@ -16377,60 +13341,52 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Large tavern-style restaurant with bar seating, booths, and multiple dining areas. Activity typically builds during dinner hours and weekend evenings.",
+"Tavern-style restaurant with bar seating and multiple dining areas.",
 
 environment: {
-parking: "Large parking lot surrounding the shopping center.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Front entrance leads directly to the parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours draw steady crowds.",
-"Bar area becomes livelier later in the evening.",
-"Early weekday dinners are usually calmer."
-]
+insights: []
 },
 
 {
 name: "Strato Artisanal European Delights",
-city: "West Chester Township",
-neighborhood: "West Chester",
+city: "Liberty Township",
+neighborhood: "Liberty Township",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"European-style café at Liberty Center offering coffee, pastries, macarons, chocolates, and light café items with casual seating in a bright shopping-center environment.",
+"Café with counter service and casual seating in a shopping center setting.",
 
 environment: {
-parking: "Large parking lots and garages available throughout Liberty Center.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café or nearby Liberty Center facilities"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical café conversation and nearby shopping activity.",
-exits: "Located along the Liberty Center shopping walkway with multiple exits leading to surrounding parking areas."
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Mornings and early afternoons bring the most coffee traffic.",
-"Visitors often stop in while shopping at Liberty Center.",
-"Most visits are short coffee or pastry stops."
-]
-},   
+insights: []
+},
 
 {
 name: "The Cone",
@@ -16439,28 +13395,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Iconic roadside ice cream stand shaped like a giant soft-serve cone. Most visitors order at walk-up windows and enjoy treats at outdoor tables or nearby seating areas. Activity increases significantly on warm evenings and summer weekends.",
+"Walk-up ice cream stand with outdoor seating and open space for visitors.",
 
 environment: {
-parking: "Large parking lot directly surrounding the stand.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy summer evenings",
-location: "Inside the building"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Open outdoor layout with easy movement between the ordering windows, seating area, and parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Warm weather evenings bring the largest crowds.",
-"Families and groups often visit after dinner.",
-"Lines move quickly even during busy periods."
-]
+insights: []
 },
    
 {
@@ -16470,28 +13422,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Casual barbecue restaurant with large dining rooms, TVs, and bar seating. Often lively during dinner hours and sports events.",
+"Barbecue restaurant with large dining areas, TVs, and bar seating in a casual layout.",
 
 environment: {
-parking: "Large dedicated parking lot around the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during peak dinner times",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Multiple doors leading directly to the parking lot"
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Dinner service is typically busiest.",
-"Sports games can increase noise levels.",
-"Afternoons are generally quieter."
-]
+insights: []
 },
 
 {
@@ -16501,28 +13449,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Colorful Latin restaurant and cantina with table seating and a lively atmosphere. Dinner hours and weekend evenings usually bring the most activity.",
+"Latin restaurant with table seating and a bar area in a lively layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding plaza.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Front entrance opens directly to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner and weekend nights are busiest.",
-"Groups and celebrations are common.",
-"Earlier visits tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -16532,28 +13476,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Vietnamese restaurant with casual table seating and a relaxed dining environment. Often steady during lunch and dinner but generally calm.",
+"Restaurant with table seating in a casual dining layout.",
 
 environment: {
-parking: "Shared plaza parking lot nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch hours bring steady traffic.",
-"Dinner visits are typically relaxed.",
-"Smaller groups and quick meals are common."
-]
+insights: []
 },
 
 {
@@ -16563,28 +13503,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large brewery taproom with indoor and outdoor seating, long tables, and an active social atmosphere. Activity builds in the evenings and on weekends.",
+"Brewery with open seating, long tables, and a large taproom layout.",
 
 environment: {
-parking: "Large parking lot surrounding the brewery.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the taproom"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Multiple exits leading directly to the parking lot and patio"
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-insights: [
-"Evenings and weekends are busiest.",
-"Large groups are common.",
-"Daytime visits are usually more relaxed."
-]
+insights: []
 },
 
 {
@@ -16594,28 +13530,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Upscale steakhouse with multiple dining rooms, bar seating, and a polished atmosphere. Typically busiest during dinner service and weekend evenings.",
+"Steakhouse with multiple dining rooms and bar seating in a structured layout.",
 
 environment: {
-parking: "Large dedicated parking lot around the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Main entrance opens directly to the parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring the most activity.",
-"Bar lounge can become livelier later in the evening.",
-"Early reservations tend to feel calmer."
-]
+insights: []
 },
 
 {
@@ -16625,28 +13557,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican grill with colorful décor and table seating. Activity usually increases during dinner hours and weekend evenings.",
+"Mexican restaurant with table seating in a casual layout.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Front entrance opens directly to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are the busiest.",
-"Families and small groups are common.",
-"Afternoon visits are typically quieter."
-]
+insights: []
 },
 
 {
@@ -16656,28 +13584,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Small wine bar with intimate seating and a relaxed atmosphere focused on wine tastings and conversation.",
+"Wine bar with small table seating in a compact and relaxed layout.",
 
 environment: {
-parking: "Parking available in the surrounding lot.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the wine bar"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings bring a steady crowd.",
-"Typically quieter than larger nearby restaurants.",
-"Often visited by couples and small groups."
-]
+insights: []
 },
 
 {
@@ -16687,59 +13611,51 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Irish-style pub with bar seating, TVs, and a lively neighborhood atmosphere. Activity often increases during evenings and weekend nights.",
+"Irish pub with bar seating and table seating in a social layout.",
 
 environment: {
-parking: "Parking lot located directly outside.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the pub"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Easy exit directly to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically busiest.",
-"Sports events can increase noise levels.",
-"Afternoons tend to be calmer."
-]
+insights: []
 },
 
 {
-name: "Yummy Bowl",
+name: "Yummy Bowl - West Chester",
 city: "West Chester Township",
 neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Mongolian-style grill restaurant where guests build their own bowls before cooking. Dining room activity increases during dinner hours.",
+"Restaurant with table seating and a self-serve grill area in a casual layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding shopping center.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate",
-exits: "Front entrance opens directly to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are the busiest.",
-"Guests move through the grill line during peak times.",
-"Lunch visits are usually quicker."
-]
+insights: []
 },
 
 {
@@ -16749,28 +13665,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large Tex-Mex restaurant with colorful decor, bar seating, and multiple dining areas. Typically busiest during dinner hours and weekend evenings.",
+"Large restaurant with multiple dining areas and a bar in a casual layout.",
 
 environment: {
-parking: "Large parking lot surrounding the restaurant in the shopping plaza.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during peak dinner hours",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Front entrance opens directly to the plaza parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours and weekends bring the largest crowds.",
-"Families and groups are common.",
-"Afternoons are usually calmer."
-]
+insights: []
 },
 
 {
@@ -16780,59 +13692,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Thai restaurant with casual table seating and a relaxed dining environment. Often steady during lunch and dinner but generally calm.",
+"Thai restaurant with table seating in a calm dining layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding plaza.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens directly to the parking lot"
-},
-
-insights: [
-"Lunch visits are typically quick.",
-"Dinner hours bring steady traffic.",
-"Usually quieter than nearby chain restaurants."
-]
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-{
-name: "WNB Factory",
-city: "West Chester Township",
-neighborhood: "West Chester",
-state: "OH",
-type: "full",
-
-parkingLevel: "easy",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Wings and burger restaurant focused on quick meals and casual dining. Activity typically builds during lunch and dinner hours.",
-
-environment: {
-parking: "Shared parking lot in the surrounding shopping plaza.",
-restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate",
-exits: "Front entrance opens directly to the parking lot"
-},
-
-insights: [
-"Lunch hours bring steady traffic.",
-"Takeout orders are common.",
-"Most visits are short."
-]
+insights: []
 },
 
 {
@@ -16842,28 +13719,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Indian restaurant with a calm dining environment and traditional menu offerings. Activity typically builds during dinner service.",
+"Indian restaurant with table seating in a calm dining layout.",
 
 environment: {
-parking: "Shared plaza parking lot nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance leads directly to the parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are the busiest.",
-"Often quieter earlier in the day.",
-"Small groups and couples are common."
-]
+insights: []
 },
 
 {
@@ -16873,28 +13746,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Thai and sushi restaurant with table seating and a relaxed dining environment. Typically steady during lunch and dinner.",
+"Thai and sushi restaurant with table seating in a relaxed dining layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding shopping area.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens directly to parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are typically quick.",
-"Dinner hours bring steady activity.",
-"Generally calmer than larger nearby restaurants."
-]
+insights: []
 },
 
 {
@@ -16904,28 +13773,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Coffee shop and ice cream spot with casual seating and a relaxed community feel. Often steady during mornings and early evenings.",
+"Coffee shop and ice cream spot with counter service and casual seating.",
 
 environment: {
-parking: "Easy parking in the nearby lot.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens directly to the parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are busiest for coffee.",
-"Evenings bring dessert and ice cream visitors.",
-"Often used as a casual meeting spot."
-]
+insights: []
 },
 
 {
@@ -16935,28 +13800,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Brewery taproom with indoor seating, bar service, and a social atmosphere. Activity typically increases during evenings and weekends.",
+"Brewery taproom with bar seating and table seating in a social layout.",
 
 environment: {
-parking: "Large shared parking lot in the surrounding plaza.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the brewery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High",
-exits: "Front entrance leads directly to parking lot"
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings and weekends are the busiest.",
-"Groups often gather for drinks and social visits.",
-"Afternoons tend to be calmer."
-]
+insights: []
 },
 
 {
@@ -16966,28 +13827,24 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Sushi restaurant with casual table seating and a relaxed dining environment. Typically steady during lunch and dinner hours.",
+"Sushi restaurant with table seating in a relaxed dining layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding plaza.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "No typical waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate",
-exits: "Front entrance opens directly to the parking lot"
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick.",
-"Dinner hours bring steady activity.",
-"Typically smaller groups and couples."
-]
+insights: []
 },
 
 {
@@ -16997,59 +13854,51 @@ neighborhood: "West Chester",
 state: "OH",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large entertainment venue with golf bays, restaurant service, and multiple levels of seating. Activity and noise levels increase significantly during evenings and weekends.",
+"Large entertainment venue with multiple levels, golf bays, and dining areas.",
 
 environment: {
-parking: "Large dedicated parking lot surrounding the venue.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy periods",
-location: "Inside the venue"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "High",
-exits: "Multiple exits throughout the venue leading to the parking lot"
-},
-
-insights: [
-"Evenings and weekends are the busiest times.",
-"Large groups and events are common.",
-"Weekday afternoons tend to be calmer."
-]
+noise: "Loud during busy times.",
+exits: "Multiple exits available."
 },
 
-   {
+insights: []
+},
+
+{
 name: "Knotty Pine on the Bayou",
 city: "Cold Spring",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Cajun-inspired restaurant and bar with a rustic interior and casual dining space. Activity typically builds during dinner hours and weekend evenings.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Dedicated parking lot directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with conversation and occasional bar activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically the busiest.",
-"Weekend evenings bring the most activity.",
-"Parking is usually easy directly outside."
-]
+insights: []
 },
 
 {
@@ -17059,28 +13908,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large sports bar and grill with table seating, bar seating, and multiple TVs throughout the space. Activity increases during evenings, weekends, and major sporting events.",
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Large shared parking lot surrounding the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy game nights",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Game days tend to be the busiest.",
-"Evenings draw steady crowds.",
-"Large groups are common."
-]
+insights: []
 },
 
 {
@@ -17090,28 +13935,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood sports bar and grill with TVs, bar seating, and casual dining tables. Evenings typically bring steady crowds gathering for drinks and food.",
+"Sports bar and grill with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared plaza parking lot nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sports events.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically the busiest.",
-"Sports events increase crowd activity.",
-"Groups often gather for games."
-]
+insights: []
 },
 
 {
@@ -17121,182 +13962,166 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with colorful décor and booth seating. Lunch and dinner hours usually bring steady traffic from nearby neighborhoods.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared parking lot in the surrounding shopping plaza.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and background music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick.",
-"Dinner hours bring families and groups.",
-"Parking is typically easy."
-]
+insights: []
 },
 
 {
 name: "Skyline Tavern",
-city: "Cold Spring",
+city: "Highland Heights",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "moderate",
-noiseLevel: "moderate_high",
+verified: true,
+
+parkingLevel: "Moderate",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with casual seating and a relaxed social atmosphere. Evenings usually bring the most activity as locals gather for drinks and conversation.",
+"Neighborhood bar with bar seating and small tables in a compact layout.",
 
 environment: {
-parking: "Street parking and nearby small lots available.",
+parking: "Multiple lots nearby.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Two restrooms",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the street."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically busiest.",
-"Local regulars are common.",
-"Weeknights tend to be calmer."
-]
+insights: []
 },
 
 {
-name: "Wing Snob",
-city: "Cold Spring",
+name: "Wing Snob - Highland Heights",
+city: "Highland Heights",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Wings-focused restaurant with counter ordering and casual seating. Activity typically increases during lunch and dinner hours with steady takeout traffic.",
+"Wings restaurant with counter ordering and a small seating area.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining and takeout activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch hours move quickly.",
-"Dinner hours bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
 {
 name: "Nittha Siam Kitchen",
-city: "Alexandria",
+city: "Highland Heights",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Thai restaurant with a calm dining space and casual table seating. Activity typically builds during dinner service with a relaxed overall atmosphere.",
+"Thai restaurant with table seating in a calm dining layout.",
 
 environment: {
-parking: "Dedicated parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical restaurant conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are the busiest.",
-"Smaller groups and couples are common.",
-"Generally quieter than nearby bars."
-]
+insights: []
 },
 
 {
-name: "Maki Asian Bowls",
-city: "Alexandria",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
-
-whatToExpect:
-"Fast-casual Asian restaurant specializing in sushi bowls and rice bowls with counter ordering and casual seating.",
-
-environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
-restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
-},
-noise: "Low to Moderate with steady lunch and dinner activity.",
-exits: "Front entrance opens directly to the parking lot."
-},
-
-insights: [
-"Lunch visits are typically quick.",
-"Takeout orders are common.",
-"Evenings bring steady traffic."
-]
-},
-
-{
-name: "City Barbeque",
+name: "Maki Asian Bowls - Cold Spring",
 city: "Cold Spring",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Counter-service barbecue restaurant with indoor seating and a casual dining atmosphere. Activity usually builds during lunch and dinner hours.",
+"Fast-casual restaurant with counter ordering and table seating.",
 
 environment: {
-parking: "Large shared parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining and takeout activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours move quickly.",
-"Takeout orders are common.",
-"Dinner hours bring steady crowds."
+"Takeout orders are common."
+]
+},
+
+{
+name: "City Barbeque - Highland Heights",
+city: "Highland Heights",
+neighborhood: "",
+state: "KY",
+type: "full",
+
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
+
+whatToExpect:
+"Barbecue restaurant with counter ordering and table seating in a casual layout.",
+
+environment: {
+parking: "Shared lot with nearby businesses.",
+restrooms: {
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
+},
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
+},
+
+insights: [
+"Takeout orders are common."
 ]
 },
 
@@ -17307,58 +14132,52 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with colorful décor and a large dining area. Lunch and dinner hours typically bring steady traffic.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Families and groups are common.",
-"Parking is usually easy."
-]
+insights: []
 },
 
 {
-name: "Chan's Asian Wok",
-city: "Alexandria",
+name: "Chan's Asian Wok - Cold Spring",
+city: "Cold Spring",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Asian restaurant offering Chinese and Asian-inspired dishes with counter service and casual seating. Activity typically builds during lunch and dinner hours with steady takeout traffic.",
+"Asian restaurant with counter ordering and limited seating.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical dining and takeout activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch visits are typically quick.",
-"Dinner hours bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -17369,27 +14188,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local barbecue restaurant with casual seating and counter ordering. Lunch and dinner hours typically bring steady crowds from surrounding neighborhoods.",
+"Barbecue restaurant with counter ordering and table seating in a casual layout.",
 
 environment: {
-parking: "Dedicated parking lot directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and dining activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours are typically busiest.",
-"Takeout orders are common.",
-"Parking is usually easy directly outside."
+"Takeout orders are common."
 ]
 },
 
@@ -17400,28 +14217,26 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+verified: true,
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating, tables, and TVs throughout the space. Evenings often bring steady crowds gathering for drinks, food, and sports.",
+"Inside of Alexandria Brewing Company. Bar and grill with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Parking lot directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings tend to be the busiest.",
-"Sports events increase crowd activity.",
-"Local regulars are common."
-]
+insights: []
 },
 
 {
@@ -17431,28 +14246,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual grill and bar with table seating and a relaxed neighborhood dining environment. Activity typically builds during dinner hours and weekend evenings.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Parking lot located directly outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining and bar activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring the most activity.",
-"Weekend evenings are typically busier.",
-"Parking is usually easy."
-]
+insights: []
 },
 
 {
@@ -17462,28 +14273,26 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+verified: true,
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with a casual atmosphere, bar seating, and TVs. Evenings often bring steady crowds gathering for drinks and socializing.",
+"Bar and grill with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Dedicated parking lot outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically busiest.",
-"Weekend nights draw larger crowds.",
-"Most visitors are local regulars."
-]
+insights: []
 },
 
 {
@@ -17493,27 +14302,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local pizzeria with counter ordering and casual seating. Lunch and dinner hours bring steady activity with a mix of dine-in and takeout orders.",
+"Pizzeria with counter ordering and a small seating area.",
 
 environment: {
-parking: "Shared plaza parking lot nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady dining and takeout activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch visits are typically quick.",
-"Dinner hours bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -17524,28 +14331,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Local bar with a casual neighborhood atmosphere, bar seating, and televisions. Evenings typically bring the most activity.",
+"Neighborhood bar with bar seating and TVs in a compact layout.",
 
 environment: {
-parking: "Parking lot located outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are usually the busiest.",
-"Sports events increase activity.",
-"Local regulars are common."
-]
+insights: []
 },
 
 {
@@ -17555,27 +14358,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low",
+parkingLevel: "Easy",
+noiseLevel: "Low",
 
 whatToExpect:
-"Small café-style shop focused on smoothies, teas, and light health-focused options. Visits are typically quick with a relaxed atmosphere.",
+"Small café with counter service and limited seating.",
 
 environment: {
-parking: "Shared plaza parking lot nearby.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the shop"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low with quiet conversation and short visits.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Generally quiet with a relaxed atmosphere.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Most visits are short.",
-"Mornings and afternoons bring steady traffic.",
-"Takeout drinks are common."
+"Visits are typically quick."
 ]
 },
 
@@ -17586,90 +14387,80 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+verified: true,   
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Local brewery taproom with bar seating, tables, and a social atmosphere centered around craft beer. Evenings and weekends typically bring the largest crowds.",
+"Brewery with bar seating and table seating in a social layout.",
 
 environment: {
-parking: "Parking lot located directly outside the brewery.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the brewery"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with conversation and music.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings and weekends are busiest.",
-"Groups often gather for drinks.",
-"Local events occasionally increase crowds."
-]
+insights: []
 },
 
 {
-name: "El Rio Bravo Mexican Restaurant",
+name: "El Rio Bravo Mexican Restaurant - Alexandria",
 city: "Alexandria",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with booth seating and a colorful dining room. Lunch and dinner hours bring steady traffic from nearby neighborhoods.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick.",
-"Dinner hours bring families and groups.",
-"Parking is typically easy."
-]
+insights: []
 },
 
 {
-name: "Veracruz Mexican Grill",
+name: "Veracruz Mexican Grill - Alexandria",
 city: "Alexandria",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with booth and table seating in a relaxed dining space. Lunch and dinner hours typically bring steady activity from nearby neighborhoods.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Shared parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and background music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Families and small groups are common.",
-"Parking is generally easy."
-]
+insights: []
 },
 
 {
@@ -17679,28 +14470,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local coffee shop with casual seating and a relaxed café atmosphere. Mornings typically bring steady traffic for coffee and quick visits.",
+"Coffee shop with counter service and casual seating in a compact layout.",
 
 environment: {
-parking: "Street parking and nearby small lots available.",
+parking: "Street parking nearby.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with quiet conversation and coffee shop activity.",
-exits: "Front entrance opens directly to the sidewalk."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings are typically the busiest.",
-"Visitors often stay briefly for coffee.",
-"Afternoons tend to be quieter."
-]
+insights: []
 },
 
 {
@@ -17710,28 +14497,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with bar seating, tables, and televisions throughout the space. Evenings typically bring steady crowds gathering for drinks and sports.",
+"Bar and grill with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Parking lot located directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings tend to be the busiest.",
-"Sports events increase activity levels.",
-"Local regulars are common."
-]
+insights: []
 },
 
 {
@@ -17741,59 +14524,51 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual restaurant and bar in the Silver Grove area with table seating and a relaxed neighborhood atmosphere.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Parking lot located directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining and bar activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring the most activity.",
-"Local visitors are common.",
-"Parking is usually easy."
-]
+insights: []
 },
 
 {
 name: "Camp Springs Tavern",
-city: "Camp Springs",
+city: "Melbourne",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Historic neighborhood tavern known for casual dining and a relaxed bar atmosphere. Evenings and weekends often bring steady crowds.",
+"Neighborhood tavern with bar seating and table seating in a casual layout.",
 
 environment: {
-parking: "Parking lot located outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the tavern"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and live entertainment.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically the busiest.",
-"Live music or events occasionally increase crowds.",
-"Visitors often come from surrounding rural areas."
-]
+insights: []
 },
 
 {
@@ -17803,27 +14578,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local pizza restaurant with casual seating and counter ordering. Activity typically increases during dinner hours with a mix of dine-in and takeout customers.",
+"Pizza restaurant with counter ordering and a small seating area.",
 
 environment: {
-parking: "Parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady dining and takeout activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Dinner hours bring the most traffic.",
-"Visits are usually short."
+"Takeout orders are common."
 ]
 },
 
@@ -17834,182 +14607,160 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and grill with casual seating, bar service, and televisions throughout the space. Evenings typically bring steady crowds gathering for drinks and food.",
+"Bar and grill with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Parking lot located directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings tend to be the busiest.",
-"Sports events increase activity levels.",
-"Local regulars are common."
-]
+insights: []
 },   
 
 {
-name: "Cattleman's Roadhouse",
-city: "Richwood",
+name: "Cattleman's Roadhouse - Richwood/Walton",
+city: "Walton",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Large steakhouse-style restaurant with multiple dining rooms, booth seating, and a casual family-friendly atmosphere. Activity typically builds during dinner hours and weekend evenings.",
+"Large restaurant with multiple dining rooms and table seating.",
 
 environment: {
-parking: "Large dedicated parking lot surrounding the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during peak dinner times",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity and conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring the most activity.",
-"Weekend evenings tend to be the busiest.",
-"Large groups and families are common."
-]
+insights: []
 },
 
 {
-name: "Longnecks Sports Grill - Richwood",
-city: "Richwood",
+name: "Longnecks Sports Grill - Richwood/Walton",
+city: "Walton",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large sports bar and grill with bar seating, dining tables, and multiple TVs throughout the space. Evenings and game days typically bring steady crowds.",
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Large shared parking lot surrounding the building.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy sporting events",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and major games.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Game days are typically the busiest.",
-"Evenings bring steady crowds.",
-"Large groups often gather to watch sports."
-]
+insights: []
 },
 
 {
-name: "The Hideout",
-city: "Richwood",
+name: "The Hideout - Walton",
+city: "Walton",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar with a casual atmosphere and bar seating. Evenings often bring steady activity as locals gather for drinks and conversation.",
+"Neighborhood bar with bar seating in a compact layout.",
 
 environment: {
-parking: "Parking lot located directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the bar"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings are typically the busiest.",
-"Local regulars are common.",
-"Weeknights tend to be calmer."
-]
+insights: []
 },
 
 {
-name: "Zenshi Handcrafted Sushi",
-city: "Richwood",
+name: "Zenshi Handcrafted Sushi - Walton",
+city: "Walton",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Sushi restaurant with a modern interior and casual table seating. Lunch and dinner hours typically bring steady activity with a relaxed dining atmosphere.",
+"Sushi restaurant with table seating in a relaxed dining layout.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical dining conversation.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick.",
-"Dinner hours bring steady traffic.",
-"Smaller groups and couples are common."
-]
+insights: []
 },
 
 {
-name: "Julias Tacos",
-city: "Richwood",
+name: "Julias Tacos - Mt Zion",
+city: "Florencec",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual taco restaurant with counter ordering and casual seating. Activity typically builds during lunch and dinner hours with steady takeout traffic.",
+"Mexican restaurant with counter ordering and a small dining area.",
 
 environment: {
-parking: "Shared parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant activity and conversation.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch visits are typically quick.",
-"Dinner hours bring steady crowds."
+"Takeout orders are common."
 ]
 },
 
@@ -18020,28 +14771,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large British-style pub and restaurant with bar seating, dining tables, and TVs throughout the space. Evenings and weekends typically bring steady crowds.",
+"Large restaurant and bar with table seating and TVs throughout the space.",
 
 environment: {
-parking: "Large shared parking lot at Crestview Hills Town Center.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy weekend evenings",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings with conversation and bar activity.",
-exits: "Front entrance opens directly to the shopping center walkway and parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings and weekends tend to be busiest.",
-"Bar seating often fills during sporting events.",
-"Groups and social gatherings are common."
-]
+insights: []
 },
 
 {
@@ -18051,28 +14798,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Thai and sushi restaurant with casual table seating and a relaxed dining atmosphere. Lunch and dinner hours typically bring steady activity.",
+"Thai and sushi restaurant with table seating in a relaxed dining layout.",
 
 environment: {
-parking: "Shared parking lot at Crestview Hills Town Center.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical dining conversation.",
-exits: "Front entrance opens to the shopping center walkway and parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick.",
-"Dinner hours bring steady crowds.",
-"Smaller groups and couples are common."
-]
+insights: []
 },
 
 {
@@ -18082,28 +14825,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Large restaurant serving pizza, burgers, and pub-style food with booth seating and bar seating. Activity typically increases during dinner hours and weekends.",
+"Large restaurant with table seating, booth seating, and a bar area.",
 
 environment: {
-parking: "Large shared parking lot surrounding the shopping center.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy evenings",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity and conversation.",
-exits: "Main entrance opens directly to the shopping center parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring the most activity.",
-"Families and groups are common.",
-"Weekend evenings are typically busier."
-]
+insights: []
 },
 
 {
@@ -18113,59 +14852,53 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Popular pizza restaurant with open kitchen views and casual table seating. Lunch and dinner hours typically bring steady crowds.",
+"Pizza restaurant with table seating and an open dining layout.",
 
 environment: {
-parking: "Shared parking lot at Crestview Hills Town Center.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with dining activity and conversation.",
-exits: "Front entrance opens to the shopping center walkway and parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Dinner hours tend to be the busiest.",
-"Families and groups are common.",
-"Takeout orders are frequent."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "Wings and Rings",
-city: "Erlanger",
+name: "Wings and Rings - Crestview Hills",
+city: "Crestview Hills",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Sports bar and restaurant with bar seating, dining tables, and TVs throughout the space. Evenings and sporting events typically bring the most activity.",
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Large shared parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy game nights",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during sporting events and busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Game days bring the largest crowds.",
-"Evenings are typically the busiest.",
-"Groups often gather to watch sports."
-]
+insights: []
 },
 
 {
@@ -18175,27 +14908,25 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Local pizzeria with casual seating and counter ordering. Lunch and dinner hours bring steady activity with a mix of dine-in and takeout customers.",
+"Pizzeria with counter ordering and a small seating area.",
 
 environment: {
-parking: "Parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady dining activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch visits are typically quick.",
-"Dinner hours bring steady crowds."
+"Takeout orders are common."
 ]
 },
 
@@ -18206,59 +14937,53 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Sandwich and deli-style restaurant focused on quick meals with casual seating and takeout options.",
+"Deli-style restaurant with counter ordering and limited seating.",
 
 environment: {
-parking: "Shared parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady lunch activity and conversation.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours are typically busiest.",
-"Takeout orders are common.",
-"Most visits are short."
+"Visits are typically quick."
 ]
 },
 
 {
-name: "Garzelli's Pub & Pizza",
-city: "Edgewood",
+name: "Garzelli's Pub & Pizza - Erlanger",
+city: "Erlanger",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood bar and pizzeria with bar seating, tables, and televisions throughout the space. Evenings typically bring steady crowds.",
+"Bar and pizzeria with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Parking lot located outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings tend to be the busiest.",
-"Sports events increase activity.",
-"Local regulars are common."
-]
+insights: []
 },
 
 {
@@ -18268,28 +14993,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Sushi restaurant with casual seating and a relaxed dining environment. Lunch and dinner hours typically bring steady traffic.",
+"Sushi restaurant with table seating in a relaxed dining layout.",
 
 environment: {
-parking: "Shared parking lot along Dixie Highway.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical dining conversation.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Lunch visits are often quick.",
-"Dinner hours bring steady crowds.",
-"Smaller groups and couples are common."
-]
+insights: []
 },
 
 {
@@ -18299,58 +15020,52 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with colorful décor and a large dining area. Lunch and dinner hours typically bring steady activity.",
+"Mexican restaurant with table seating in a casual dining layout.",
 
 environment: {
-parking: "Shared parking lot along Dixie Highway.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours bring the most activity.",
-"Families and groups are common.",
-"Parking is typically easy."
-]
+insights: []
 },
 
 {
-name: "1st Wok Chinese Restaurant",
+name: "1st Wok Chinese Restaurant - Erlanger",
 city: "Erlanger",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Chinese restaurant offering counter service with a small dining area and steady takeout traffic. Lunch and dinner hours typically bring the most activity.",
+"Chinese restaurant with counter ordering and a small dining area.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with quiet dining and takeout activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Takeout orders are common.",
-"Lunch visits are typically quick.",
-"Dinner hours bring steady traffic."
+"Takeout orders are common."
 ]
 },
 
@@ -18361,121 +15076,80 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Café-style restaurant serving coffee, breakfast, and casual meals with a relaxed dining space. Mornings and early afternoons typically bring the most visitors.",
+"Café with counter service and table seating in a relaxed layout.",
 
 environment: {
-parking: "Parking lot located directly outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the café"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with typical coffee shop conversation and dining activity.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Mornings tend to be the busiest.",
-"Visitors often stay for coffee or breakfast.",
-"Afternoons are usually calmer."
-]
+insights: []
 },
 
 {
-name: "Greek To Me",
+name: "Greek To Me - Erlanger",
 city: "Erlanger",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "low_moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mediterranean restaurant with counter ordering and table seating. Lunch and dinner hours bring steady activity with a mix of dine-in and takeout orders.",
+"Mediterranean restaurant with counter ordering and table seating.",
 
 environment: {
-parking: "Shared plaza parking lot surrounding the restaurant.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Single stall",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Low to Moderate with steady dining activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours are typically busiest.",
-"Takeout orders are common.",
-"Most visits are relatively quick."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "JB Barbecue LLC",
-city: "Erlanger",
-neighborhood: "",
-state: "KY",
-type: "full",
-
-parkingLevel: "easy",
-noiseLevel: "moderate",
-
-whatToExpect:
-"Local barbecue restaurant with casual seating and counter ordering. Lunch and dinner hours typically bring steady crowds from surrounding neighborhoods.",
-
-environment: {
-parking: "Parking lot located outside the building.",
-restrooms: {
-capacity: "Single restroom",
-waits: "Rare waits",
-location: "Inside the restaurant"
-},
-noise: "Moderate with steady dining activity and conversation.",
-exits: "Front entrance opens directly to the parking lot."
-},
-
-insights: [
-"Lunch hours are often busiest.",
-"Takeout orders are common.",
-"Parking is usually easy."
-]
-},
-
-{
-name: "Camporosso",
+name: "Camporosso - Ft Mitchell",
 city: "Fort Mitchell",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Wood-fired pizza restaurant with a large dining room, bar seating, and patio space. Dinner hours and weekends typically bring steady crowds.",
+"Pizza restaurant with table seating and a bar area in a large dining space.",
 
 environment: {
-parking: "Dedicated parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity and conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Groups and families are common.",
-"Weekend evenings bring the most activity."
-]
+insights: []
 },
 
 {
@@ -18485,28 +15159,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Historic restaurant known for traditional comfort food and classic dining rooms. Lunch and dinner hours typically bring steady crowds.",
+"Restaurant with multiple dining rooms and table seating in a traditional layout.",
 
 environment: {
-parking: "Large dedicated parking lot surrounding the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy dinner periods",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours tend to be the busiest.",
-"Families and long-time local visitors are common.",
-"Weekend evenings bring steady crowds."
-]
+insights: []
 },
 
 {
@@ -18516,28 +15186,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Neighborhood sports bar and grill with bar seating, dining tables, and multiple TVs throughout the space. Evenings and sporting events bring the most activity.",
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Large shared parking lot surrounding the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and sporting events.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Game days are typically the busiest.",
-"Evenings bring steady crowds.",
-"Groups often gather to watch sports."
-]
+insights: []
 },
 
 {
@@ -18547,28 +15213,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Neighborhood restaurant and bar with casual seating and a relaxed dining atmosphere. Lunch and dinner hours bring steady activity.",
+"Restaurant and bar with table seating in a casual dining layout.",
 
 environment: {
-parking: "Parking lot located outside the building.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Local regulars are common.",
-"Parking is generally easy."
-]
+insights: []
 },
 
 {
@@ -18578,90 +15240,82 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Longstanding barbecue restaurant with casual table seating and a relaxed neighborhood atmosphere. Lunch and dinner hours typically bring steady crowds.",
+"Barbecue restaurant with table seating in a casual dining layout.",
 
 environment: {
-parking: "Parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with steady dining activity.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
 insights: [
-"Lunch hours are typically busiest.",
-"Local visitors are common.",
-"Takeout orders are frequent."
+"Takeout orders are common."
 ]
 },
 
 {
-name: "Braxton Barrel House",
+name: "Braxton Barrel House - Ft Mitchell",
 city: "Fort Mitchell",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+verified: true,
+
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Brewery restaurant with bar seating, dining tables, and a casual social atmosphere centered around craft beer and pub-style food.",
+"Brewery restaurant with bar seating and table seating in a social layout.",
 
 environment: {
-parking: "Shared parking lot surrounding the shopping area.",
+parking: "Shared lot with nearby businesses.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate to High during busy evenings and weekends.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Evenings and weekends bring the most activity.",
-"Groups often gather for drinks and food.",
-"Happy hour periods are popular."
-]
+insights: []
 },
 
 {
-name: "Mi Tierra",
-city: "Fort Mitchell",
+name: "Mi Tierra - Ft Wright",
+city: "Fort Wright",
 neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Casual Mexican restaurant with colorful décor and booth seating. Lunch and dinner hours bring steady crowds.",
+"Mexican restaurant with booth seating and table seating in a casual layout.",
 
 environment: {
-parking: "Parking lot located outside the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Rare waits",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Rare",
+location: "Inside main area"
 },
-noise: "Moderate with typical restaurant conversation and music.",
-exits: "Front entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Families and groups are common.",
-"Parking is generally easy."
-]
+insights: []
 },
 
 {
@@ -18671,28 +15325,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate_high",
+parkingLevel: "Easy",
+noiseLevel: "High",
 
 whatToExpect:
-"Large sports bar and restaurant known for wings, outdoor seating, and multiple TVs. Evenings and sporting events bring steady crowds.",
+"Sports bar with bar seating, table seating, and TVs throughout the space.",
 
 environment: {
-parking: "Large parking lot surrounding the restaurant.",
+parking: "Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy game nights",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate to High during sporting events and busy evenings.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Loud during busy times.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Game days bring the largest crowds.",
-"Outdoor seating is popular in warm weather.",
-"Groups often gather to watch sports."
-]
+insights: []
 },
 
 {
@@ -18702,28 +15352,24 @@ neighborhood: "",
 state: "KY",
 type: "full",
 
-parkingLevel: "easy",
-noiseLevel: "moderate",
+parkingLevel: "Easy",
+noiseLevel: "Moderate",
 
 whatToExpect:
-"Historic steakhouse and barbecue restaurant with multiple dining rooms and a classic supper club atmosphere. Dinner service typically brings steady crowds.",
+"Restaurant with multiple dining rooms and table seating in a traditional layout.",
 
 environment: {
-parking: "Valet or Large dedicated parking lot surrounding the building.",
+parking: "Valet and Large dedicated parking lot available.",
 restrooms: {
-capacity: "Multiple restrooms",
-waits: "Short waits possible during busy dinner periods",
-location: "Inside the restaurant"
+capacity: "Multiple stalls",
+waits: "Possible",
+location: "Inside main area"
 },
-noise: "Moderate with typical dining conversation.",
-exits: "Main entrance opens directly to the parking lot."
+noise: "Moderate noise with steady conversation.",
+exits: "Front entrance; easy step outside."
 },
 
-insights: [
-"Dinner hours are typically busiest.",
-"Special occasion dinners are common.",
-"Weekend evenings bring steady crowds."
-]
+insights: []
 },
 
    
@@ -18799,7 +15445,7 @@ function showRandomPlace() {
       <!-- ✅ VERIFICATION (same as profile) -->
       <div class="verification">
 
-        <p class="verification-question">Was this accurate?</p>
+        <p class="verification-question">Did this match your experience?</p>
 
         <div class="verification-actions">
           <button class="verify-btn" data-action="up">👍 Yes, this matches</button>
@@ -18938,13 +15584,7 @@ function renderPlace(place) {
   const resultDiv = document.getElementById("result");
   resultDiv.innerHTML = "";
 
-  if (typeof gtag !== "undefined" && place) {
-    gtag('event', 'profile_view', {
-      venue_name: place.name || "",
-      neighborhood: place.neighborhood || "",
-      city: place.city || ""
-    });
-  }
+  if (!place) return;
 
   const patternsHTML =
     place.insights && place.insights.length
@@ -18979,22 +15619,22 @@ function renderPlace(place) {
 
           <div class="snapshot-item">
             <div class="snapshot-label">Parking</div>
-            <div class="snapshot-value">${place.environment.parking}</div>
+            <div class="snapshot-value">${place.environment?.parking || ""}</div>
           </div>
 
           <div class="snapshot-item">
             <div class="snapshot-label">Noise</div>
-            <div class="snapshot-value">${place.environment.noise}</div>
+            <div class="snapshot-value">${place.environment?.noise || ""}</div>
           </div>
 
           <div class="snapshot-item">
             <div class="snapshot-label">Restrooms</div>
-            <div class="snapshot-value">${place.environment.restrooms.capacity}</div>
+            <div class="snapshot-value">${place.environment?.restrooms?.capacity || ""}</div>
           </div>
 
           <div class="snapshot-item">
             <div class="snapshot-label">Exits</div>
-            <div class="snapshot-value">${place.environment.exits}</div>
+            <div class="snapshot-value">${place.environment?.exits || ""}</div>
           </div>
 
         </div>
@@ -19059,6 +15699,16 @@ function renderPlace(place) {
     </div>
   `;
 
+  // ✅ Fire AFTER render completes (accurate tracking)
+  if (typeof gtag !== "undefined") {
+    gtag('event', 'profile_view', {
+      venue_name: place.name || "",
+      neighborhood: place.neighborhood || "",
+      city: place.city || "",
+      source: "search"
+    });
+  }
+
   attachVerificationHandlers(place);
 }
 
@@ -19068,25 +15718,25 @@ function toggleVerifiedTooltip(event) {
   const badge = event.currentTarget;
   const tooltip = badge.querySelector(".verified-tooltip");
 
-  // close any other open tooltips
   document.querySelectorAll(".verified-tooltip.show").forEach(t => {
     if (t !== tooltip) t.classList.remove("show");
   });
 
-  // show this one
   tooltip.classList.add("show");
 
-  // auto-hide after 2 seconds
   setTimeout(() => {
     tooltip.classList.remove("show");
   }, 2000);
 }
 
-document.addEventListener("click", () => {
-  document.querySelectorAll(".verified-tooltip.show").forEach(t => {
-    t.classList.remove("show");
+if (!window._verifiedTooltipListenerAdded) {
+  document.addEventListener("click", () => {
+    document.querySelectorAll(".verified-tooltip.show").forEach(t => {
+      t.classList.remove("show");
+    });
   });
-});
+  window._verifiedTooltipListenerAdded = true;
+}
 
 function attachVerificationHandlers(place) {
 
@@ -19107,11 +15757,29 @@ function attachVerificationHandlers(place) {
 
       const action = btn.dataset.action;
 
+      // Hide buttons + question
+      verification.querySelector(".verification-actions").style.display = "none";
+      const question = verification.querySelector(".verification-question");
+      if (question) question.remove();
+
       if (action === "up") {
 
-        verification.querySelector(".verification-actions").style.display = "none";
+        // ✅ Show confirmation
         confirmation.classList.remove("hidden");
 
+        // 🔥 Send VERIFIED to Airtable
+        fetch("https://hook.us2.make.com/82lmf35fe4jgl0ums1poz3js98fs57g2", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            place_name: place.name,
+            type: "Verified"
+          })
+        });
+
+        // ✅ Analytics
         if (typeof gtag !== "undefined") {
           gtag("event", "place_verified", {
             place_name: place.name || ""
@@ -19120,7 +15788,7 @@ function attachVerificationHandlers(place) {
 
       } else {
 
-        verification.querySelector(".verification-actions").style.display = "none";
+        // Show correction UI
         correction.classList.remove("hidden");
 
         if (typeof gtag !== "undefined") {
@@ -19132,6 +15800,7 @@ function attachVerificationHandlers(place) {
     });
   });
 
+  // Handle selection buttons
   const groups = verification.querySelectorAll(".correction-group");
 
   groups.forEach(group => {
@@ -19147,6 +15816,7 @@ function attachVerificationHandlers(place) {
     });
   });
 
+  // Submit corrections
   const submitBtn = verification.querySelector(".submit-correction");
 
   submitBtn.addEventListener("click", () => {
@@ -19160,6 +15830,23 @@ function attachVerificationHandlers(place) {
       }
     }
 
+    // 🔥 Send CORRECTION to Airtable
+    fetch("https://hook.us2.make.com/82lmf35fe4jgl0ums1poz3js98fs57g2", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        place_name: place.name,
+        type: "Correction",
+        parking: selectedCorrections.parking,
+        noise: selectedCorrections.noise,
+        restrooms: selectedCorrections.restrooms,
+        exits: selectedCorrections.exits
+      })
+    });
+
+    // ✅ Analytics
     if (typeof gtag !== "undefined") {
       gtag("event", "place_correction_submitted", {
         place_name: place.name || "",
