@@ -1,187 +1,179 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Add a Place - CalmPath</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add a Place | CalmPath</title>
 
   <style>
     body {
-      font-family: Arial, sans-serif;
-      padding: 16px;
-      max-width: 500px;
-      margin: 0 auto;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      background: #f7f7f7;
+      color: #111;
     }
 
-    h2 {
+    .container {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 24px 16px;
+    }
+
+    h1 {
+      font-size: 22px;
       margin-bottom: 8px;
     }
 
-    p.sub {
-      color: #666;
-      font-size: 14px;
-      margin-bottom: 16px;
+    p {
+      color: #555;
+      margin-bottom: 24px;
     }
 
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 6px;
-      border-radius: 8px;
-      border: 1px solid #ddd;
-    }
-
-    .section {
-      margin-top: 16px;
-    }
-
-    .button-group {
-      display: flex;
-      gap: 8px;
-      margin-top: 6px;
-    }
-
-    .button-group button {
-      flex: 1;
-      padding: 10px;
-      border-radius: 8px;
-      border: 1px solid #ddd;
+    .card {
       background: #fff;
+      padding: 16px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    label {
+      font-size: 13px;
+      display: block;
+      margin-bottom: 6px;
+      color: #444;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 16px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      border: none;
+      border-radius: 10px;
+      background: #111;
+      color: #fff;
+      font-size: 15px;
       cursor: pointer;
     }
 
-    .button-group button.active {
-      background: #000;
-      color: #fff;
-      border-color: #000;
+    button:disabled {
+      opacity: 0.6;
     }
 
-    .submit-btn {
+    .success {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .back-btn {
       margin-top: 20px;
-      width: 100%;
-      padding: 12px;
-      border-radius: 10px;
-      border: none;
-      background: black;
-      color: white;
-      font-size: 16px;
+      background: #eee;
+      color: #111;
     }
   </style>
 </head>
 
 <body>
+  <div class="container" id="app">
+    <h1>Add a place</h1>
+    <p>We’ll add it to CalmPath so others know what to expect.</p>
 
-  <h2>Add a new place</h2>
-  <p class="sub">Takes about 30 seconds</p>
+    <div class="card">
+      <form id="place-form">
+        <label>Place name</label>
+        <input type="text" id="name" required />
 
-  <form id="addPlaceForm">
+        <label>City</label>
+        <input type="text" id="city" required />
 
-    <input type="text" name="name" placeholder="Place name" required>
-    <input type="text" name="city" placeholder="City" required>
-    <input type="text" name="neighborhood" placeholder="Neighborhood (optional)">
+        <label>State</label>
+        <input type="text" id="state" required />
 
-    <div class="section">
-      <p>Parking</p>
-      <div class="button-group" data-field="parking">
-        <button type="button">Easy</button>
-        <button type="button">Moderate</button>
-        <button type="button">Difficult</button>
-      </div>
+        <button type="submit" id="submit-btn">Submit</button>
+      </form>
     </div>
-
-    <div class="section">
-      <p>Noise</p>
-      <div class="button-group" data-field="noise">
-        <button type="button">Quiet</button>
-        <button type="button">Moderate</button>
-        <button type="button">Loud</button>
-      </div>
-    </div>
-
-    <div class="section">
-      <p>Restrooms</p>
-      <div class="button-group" data-field="restrooms">
-        <button type="button">Easy</button>
-        <button type="button">Moderate</button>
-        <button type="button">Limited</button>
-      </div>
-    </div>
-
-    <div class="section">
-      <p>Exits</p>
-      <div class="button-group" data-field="exits">
-        <button type="button">Easy</button>
-        <button type="button">Moderate</button>
-        <button type="button">Tight</button>
-      </div>
-    </div>
-
-    <textarea name="notes" placeholder="Optional notes"></textarea>
-
-    <button type="submit" class="submit-btn">Submit</button>
-
-  </form>
+  </div>
 
   <script>
-    const selections = {};
+    const WEBHOOK_URL = "PASTE_YOUR_MAKE_WEBHOOK_URL_HERE";
 
-    // Button selection logic
-    document.querySelectorAll(".button-group").forEach(group => {
-      const field = group.dataset.field;
+    const form = document.getElementById("place-form");
+    const submitBtn = document.getElementById("submit-btn");
 
-      group.querySelectorAll("button").forEach(btn => {
-        btn.addEventListener("click", () => {
-          group.querySelectorAll("button").forEach(b => b.classList.remove("active"));
-          btn.classList.add("active");
-          selections[field] = btn.innerText;
-        });
-      });
-    });
-
-    // Prefill name from search
+    // Prefill name from URL
     const params = new URLSearchParams(window.location.search);
-    const name = params.get("name");
-    if (name) {
-      document.querySelector('input[name="name"]').value = name;
+    const nameParam = params.get("name");
+
+    if (nameParam) {
+      document.getElementById("name").value = decodeURIComponent(nameParam);
     }
 
-    // Submit handler
-    document.getElementById("addPlaceForm").addEventListener("submit", async (e) => {
+    form.addEventListener("submit", async (e) => {
       e.preventDefault();
 
-      const form = e.target;
+      const name = document.getElementById("name").value.trim();
+      const city = document.getElementById("city").value.trim();
+      const state = document.getElementById("state").value.trim();
 
-      if (!selections.parking || !selections.noise || !selections.restrooms || !selections.exits) {
-        alert("Please complete all sections.");
+      if (!name || !city || !state) return;
+
+      submitBtn.disabled = true;
+      submitBtn.innerText = "Submitting...";
+
+      // Simple duplicate prevention (localStorage)
+      const key = `${name}-${city}-${state}`.toLowerCase();
+      if (localStorage.getItem(key)) {
+        alert("This place was already submitted.");
+        submitBtn.disabled = false;
+        submitBtn.innerText = "Submit";
         return;
       }
 
-      const data = {
-        name: form.name.value,
-        city: form.city.value,
-        neighborhood: form.neighborhood.value,
-        parking: selections.parking,
-        noise: selections.noise,
-        restrooms: selections.restrooms,
-        exits: selections.exits,
-        notes: form.notes.value
-      };
-
       try {
-        await fetch("PASTE_YOUR_WEBHOOK_URL_HERE", {
+        await fetch(WEBHOOK_URL, {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(data)
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            name,
+            city,
+            state,
+            source: "search_no_result"
+          })
         });
 
-        alert("Thanks! We’ll review and add it soon.");
-        form.reset();
-        document.querySelectorAll(".button-group button").forEach(btn => btn.classList.remove("active"));
+        localStorage.setItem(key, "submitted");
+
+        showSuccess();
 
       } catch (err) {
-        alert("Something went wrong.");
+        alert("Something went wrong. Try again.");
+        submitBtn.disabled = false;
+        submitBtn.innerText = "Submit";
       }
     });
-  </script>
 
+    function showSuccess() {
+      const app = document.getElementById("app");
+
+      app.innerHTML = `
+        <div class="success">
+          <h1>Thanks — we got it</h1>
+          <p>We’ll review and add it to CalmPath.</p>
+          <button class="back-btn" onclick="window.location.href='index.html'">
+            Back to search
+          </button>
+        </div>
+      `;
+    }
+  </script>
 </body>
 </html>
