@@ -15601,6 +15601,8 @@ if (matches.length === 0) {
   return;
 }
 
+}   
+
 function renderPlace(place) {
 
   const resultDiv = document.getElementById("result");
