@@ -15598,7 +15598,7 @@ function searchPlace() {
             cursor:pointer;
           "
         >
-          Add this place
+          Add this place to CalmPath
         </button>
       </div>
     `;
