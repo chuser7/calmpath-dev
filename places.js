@@ -15569,14 +15569,36 @@ function searchPlace() {
     });
   }
 
-  if (matches.length === 0) {
-    resultDiv.innerHTML = `
-      <p style="margin-top:16px;">
+if (matches.length === 0) {
+  resultDiv.innerHTML = `
+    <div style="margin-top:16px;">
+      <p style="margin-bottom:10px;">
         We don’t have a CalmPath profile for that place yet.
       </p>
-    `;
-    return;
-  }
+
+      <button 
+        id="addPlaceBtn"
+        style="
+          padding:10px 14px;
+          border-radius:10px;
+          border:1px solid #ddd;
+          background:#000;
+          color:#fff;
+          font-size:14px;
+          cursor:pointer;
+        "
+      >
+        Add this place
+      </button>
+    </div>
+  `;
+
+  document.getElementById("addPlaceBtn").addEventListener("click", () => {
+    const query = inputRaw || "";
+    window.location.href = `add-place.html?name=${encodeURIComponent(query)}`;
+  });
+
+  return;
 }
 
 function renderPlace(place) {
