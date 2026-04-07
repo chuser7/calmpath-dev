@@ -15525,19 +15525,21 @@ function selectPlace(placeName) {
 function searchPlace() {
 
   const inputRaw = document.getElementById("search").value;
-
   const input = normalize(inputRaw);
+
   const resultDiv = document.getElementById("result");
   const suggestionsDiv = document.getElementById("suggestions");
 
   resultDiv.innerHTML = "";
 
+  // Empty input → reset state
   if (input.length === 0) {
     suggestionsDiv.innerHTML = "";
     showRandomPlace();
     return;
   }
 
+  // 1 character → prompt to keep typing
   if (input.length === 1) {
     suggestionsDiv.innerHTML = "";
     resultDiv.innerHTML = `
@@ -15548,6 +15550,7 @@ function searchPlace() {
     return;
   }
 
+  // Find matches
   const matches = places
     .filter(place =>
       normalize(place.name).includes(input) ||
@@ -15556,12 +15559,14 @@ function searchPlace() {
     )
     .slice(0, 8);
 
+  // Render suggestions
   suggestionsDiv.innerHTML = matches.map(place => `
     <div class="suggestion-item" onclick="selectPlace(\`${place.name}\`)">
       ${place.name} — ${place.city}${place.neighborhood ? " • " + place.neighborhood : ""}
     </div>
   `).join("");
 
+  // Analytics
   if (typeof gtag !== "undefined") {
     gtag('event', 'search_performed', {
       search_term: inputRaw || "",
@@ -15569,39 +15574,47 @@ function searchPlace() {
     });
   }
 
-if (matches.length === 0) {
-  resultDiv.innerHTML = `
-    <div style="margin-top:16px;">
-      <p style="margin-bottom:10px;">
-        We don’t have a CalmPath profile for that place yet.
-      </p>
+  // No results → show CTA
+  if (matches.length === 0) {
 
-      <button 
-        id="addPlaceBtn"
-        style="
-          padding:10px 14px;
-          border-radius:10px;
-          border:1px solid #ddd;
-          background:#000;
-          color:#fff;
-          font-size:14px;
-          cursor:pointer;
-        "
-      >
-        Add this place
-      </button>
-    </div>
-  `;
+    const encodedQuery = encodeURIComponent(inputRaw || "");
 
-  document.getElementById("addPlaceBtn").addEventListener("click", () => {
-    const query = inputRaw || "";
-    window.location.href = `add-place.html?name=${encodeURIComponent(query)}`;
-  });
+    resultDiv.innerHTML = `
+      <div style="margin-top:16px;">
+        <p style="margin-bottom:12px; color:#444;">
+          We don’t have a CalmPath profile for that place yet.
+        </p>
 
-  return;
-}
+        <button 
+          id="addPlaceBtn"
+          style="
+            width:100%;
+            padding:12px;
+            border-radius:12px;
+            border:none;
+            background:#111;
+            color:#fff;
+            font-size:14px;
+            cursor:pointer;
+          "
+        >
+          Add this place
+        </button>
+      </div>
+    `;
 
-}   
+    const btn = document.getElementById("addPlaceBtn");
+
+    if (btn) {
+      btn.addEventListener("click", () => {
+        window.location.href = `add-place.html?name=${encodedQuery}`;
+      });
+    }
+
+    return;
+  }
+
+} 
 
 function renderPlace(place) {
 
