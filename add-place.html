@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add a Place - CalmPath</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 16px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin-bottom: 8px;
+    }
+
+    p.sub {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 16px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+    }
+
+    .section {
+      margin-top: 16px;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 8px;
+      margin-top: 6px;
+    }
+
+    .button-group button {
+      flex: 1;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      background: #fff;
+      cursor: pointer;
+    }
+
+    .button-group button.active {
+      background: #000;
+      color: #fff;
+      border-color: #000;
+    }
+
+    .submit-btn {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      border-radius: 10px;
+      border: none;
+      background: black;
+      color: white;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Add a new place</h2>
+  <p class="sub">Takes about 30 seconds</p>
+
+  <form id="addPlaceForm">
+
+    <input type="text" name="name" placeholder="Place name" required>
+    <input type="text" name="city" placeholder="City" required>
+    <input type="text" name="neighborhood" placeholder="Neighborhood (optional)">
+
+    <div class="section">
+      <p>Parking</p>
+      <div class="button-group" data-field="parking">
+        <button type="button">Easy</button>
+        <button type="button">Moderate</button>
+        <button type="button">Difficult</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <p>Noise</p>
+      <div class="button-group" data-field="noise">
+        <button type="button">Quiet</button>
+        <button type="button">Moderate</button>
+        <button type="button">Loud</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <p>Restrooms</p>
+      <div class="button-group" data-field="restrooms">
+        <button type="button">Easy</button>
+        <button type="button">Moderate</button>
+        <button type="button">Limited</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <p>Exits</p>
+      <div class="button-group" data-field="exits">
+        <button type="button">Easy</button>
+        <button type="button">Moderate</button>
+        <button type="button">Tight</button>
+      </div>
+    </div>
+
+    <textarea name="notes" placeholder="Optional notes"></textarea>
+
+    <button type="submit" class="submit-btn">Submit</button>
+
+  </form>
+
+  <script>
+    const selections = {};
+
+    // Button selection logic
+    document.querySelectorAll(".button-group").forEach(group => {
+      const field = group.dataset.field;
+
+      group.querySelectorAll("button").forEach(btn => {
+        btn.addEventListener("click", () => {
+          group.querySelectorAll("button").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          selections[field] = btn.innerText;
+        });
+      });
+    });
+
+    // Prefill name from search
+    const params = new URLSearchParams(window.location.search);
+    const name = params.get("name");
+    if (name) {
+      document.querySelector('input[name="name"]').value = name;
+    }
+
+    // Submit handler
+    document.getElementById("addPlaceForm").addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      const form = e.target;
+
+      if (!selections.parking || !selections.noise || !selections.restrooms || !selections.exits) {
+        alert("Please complete all sections.");
+        return;
+      }
+
+      const data = {
+        name: form.name.value,
+        city: form.city.value,
+        neighborhood: form.neighborhood.value,
+        parking: selections.parking,
+        noise: selections.noise,
+        restrooms: selections.restrooms,
+        exits: selections.exits,
+        notes: form.notes.value
+      };
+
+      try {
+        await fetch("PASTE_YOUR_WEBHOOK_URL_HERE", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data)
+        });
+
+        alert("Thanks! We’ll review and add it soon.");
+        form.reset();
+        document.querySelectorAll(".button-group button").forEach(btn => btn.classList.remove("active"));
+
+      } catch (err) {
+        alert("Something went wrong.");
+      }
+    });
+  </script>
+
+</body>
+</html>
